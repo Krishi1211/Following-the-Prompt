@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ripe-atlas:
+    image: jamesits/ripe-atlas:latest
+    container_name: ripe-atlas-probe
+    restart: unless-stopped
+    cap_add:
+      - SYS_ADMIN
+      - NET_RAW
+      - CHOWN
+      - SETUID
+      - SETGID
+      - DAC_OVERRIDE
+    environment:
+      # Optional: set a custom prefix for the container
+      - RXTX_RX_RING_SIZE=1024
+      - RXTX_TX_RING_SIZE=1024
+    volumes:
+      - ./atlas-data/etc:/var/atlas-probe/etc
+      - ./atlas-data/status:/var/atlas-probe/status
