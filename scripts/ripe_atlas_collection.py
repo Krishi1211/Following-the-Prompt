@@ -16,9 +16,12 @@ TARGETS = {
     "Claude": ["claude.ai", "api.anthropic.com"]
 }
 
+from dotenv import load_dotenv
+
 def get_api_key():
     # Try to get from environment first
-    api_key = "c9d40cfb-822e-405c-8e58-31d5255380df"
+    load_dotenv()
+    api_key = os.environ.get("RIPE_ATLAS_API_KEY")
     if not api_key:
         api_key = input("Please enter your RIPE Atlas API Key: ").strip()
     return api_key

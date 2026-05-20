@@ -22,7 +22,7 @@ sample = {
   ]
 }
 
-as_org_file = "../latest.as-org2info.txt"
+as_org_file = "latest.as-org2info.txt"
 org_id_to_name = {}
 asn_to_org_id = {}
 with open(as_org_file, 'r', encoding='utf-8') as f:

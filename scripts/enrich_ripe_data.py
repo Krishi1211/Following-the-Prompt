@@ -5,7 +5,7 @@ import concurrent.futures
 import os
 
 print("1. Parsing CAIDA AS2Org Dataset...")
-as_org_file = "../latest.as-org2info.txt"
+as_org_file = "latest.as-org2info.txt"
 
 org_id_to_name = {}
 asn_to_org_id = {}
@@ -46,7 +46,7 @@ def get_asn_for_ip(ip):
         return "Unknown"
 
 print("2. Finding unique IPs across all JSONs...")
-json_files = glob.glob("ripe_results_*.json")
+json_files = glob.glob("Krishi_Final_Dataset/ripe_results_*.json")
 unique_ips = set()
 
 for file in json_files:
@@ -93,7 +93,7 @@ for file in json_files:
                                 packet["org_name"] = ip_cache[ip]["org_name"]
                                 
     # Save enriched file
-    enriched_name = f"enriched_{file}"
+    enriched_name = file.replace("ripe_results_", "enriched_ripe_results_")
     with open(enriched_name, 'w') as f:
         json.dump(data, f, indent=4)
 

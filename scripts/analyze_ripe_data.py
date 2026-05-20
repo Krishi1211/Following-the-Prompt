@@ -4,7 +4,7 @@ import glob
 import numpy as np
 
 def analyze_ripe_results():
-    mapping_files = glob.glob("ripe_measurement_mapping_*.json")
+    mapping_files = glob.glob("Krishi_Final_Dataset/ripe_measurement_mapping_*.json")
     if not mapping_files:
         print("No measurement mapping file found.")
         return
@@ -20,7 +20,7 @@ def analyze_ripe_results():
         print(f" SERVICE: {service}")
         print(f"======================================")
         for domain, m_id in domains.items():
-            result_file = f"ripe_results_{m_id}.json"
+            result_file = f"Krishi_Final_Dataset/ripe_results_{m_id}.json"
             if not os.path.exists(result_file):
                 print(f"  [!] Missing data file for {domain} (ID: {m_id})")
                 continue
