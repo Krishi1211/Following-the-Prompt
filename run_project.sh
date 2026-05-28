@@ -41,7 +41,7 @@ echo "=========================================="
 echo ""
 echo "What would you like to run?"
 echo "1) Collect new global RIPE Atlas data"
-echo "2) Collect local top-sites data"
+echo "2) Collect local traceroute data"
 echo "3) Enrich RIPE data with CAIDA ASN mappings"
 echo "4) Analyze current dataset"
 echo "5) Generate traceroute graphs"
@@ -51,11 +51,11 @@ read -p "Select an option (1-5, or q): " choice
 echo ""
 
 case $choice in
-    1) python scripts/ripe_atlas_collection.py ;;
-    2) python scripts/collect_top_sites.py ;;
-    3) python scripts/enrich_ripe_data.py ;;
-    4) python scripts/analyze_ripe_data.py ;;
-    5) python scripts/generate_traceroute_graph.py ;;
+    1) python3 scripts/RipeAtlasCollection.py ;;
+    2) python3 scripts/LocalCollection.py ;;
+    3) python3 scripts/EnrichRipeData.py ;;
+    4) python3 scripts/AnalyzeRipeData.py ;;
+    5) python3 scripts/GenerateTracerouteGraph.py ;;
     q|Q) echo "Exiting..."; exit 0 ;;
     *) echo "Invalid option." ;;
 esac
