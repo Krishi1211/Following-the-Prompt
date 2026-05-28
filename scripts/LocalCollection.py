@@ -1,3 +1,4 @@
+import os
 import subprocess
 import socket
 import json
@@ -5,6 +6,9 @@ import time
 from datetime import datetime
 
 # ─── Configuration ────────────────────────────────────────────────────────────
+
+_ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_ROOT, "data")
 
 TARGETS = {
     "ChatGPT": ["chat.openai.com", "api.openai.com"],
@@ -54,7 +58,8 @@ def collectLocalData(networkName):
             }
             time.sleep(2)
 
-    filePath = f"data/local_collection_{networkName}_{timestamp}.json"
+    os.makedirs(DATA_DIR, exist_ok=True)
+    filePath = os.path.join(DATA_DIR, f"local_collection_{networkName}_{timestamp}.json")
     with open(filePath, "w") as f:
         json.dump(results, f, indent=4)
     print(f"\nCollection complete. Results saved → {filePath}")

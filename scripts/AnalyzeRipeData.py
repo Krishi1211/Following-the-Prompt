@@ -5,7 +5,8 @@ import numpy as np
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-DATA_DIR = "data"
+_ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_ROOT, "data")
 
 # ─── Data Loading ─────────────────────────────────────────────────────────────
 

@@ -46,8 +46,9 @@ COUNTRIES = {
 
 WAIT_TIME = 180   # seconds to wait for probes to execute before fetching
 
-DATA_DIR  = "data"
-INTL_DIR  = os.path.join(DATA_DIR, "international")
+_ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_ROOT, "data")
+INTL_DIR = os.path.join(DATA_DIR, "international")
 
 # ─── Auth ─────────────────────────────────────────────────────────────────────
 

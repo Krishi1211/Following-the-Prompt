@@ -29,8 +29,9 @@ except ImportError:
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-DATA_DIR  = "data"
-US_DIR    = os.path.join(DATA_DIR, "US")
+_ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_ROOT, "data")
+US_DIR   = os.path.join(DATA_DIR, "US")
 PLOTS_DIR = os.path.join(DATA_DIR, "plots")
 
 API_DOMAINS = {
