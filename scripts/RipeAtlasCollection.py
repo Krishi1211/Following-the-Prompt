@@ -13,9 +13,9 @@ from ripe.atlas.cousteau import (
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 TARGETS = {
-    "ChatGPT": ["chat.openai.com", "api.openai.com"],
-    "Gemini":  ["gemini.google.com", "generativelanguage.googleapis.com"],
-    "Claude":  ["claude.ai", "api.anthropic.com"],
+    "ChatGPT": ["api.openai.com"],
+    "Gemini":  ["generativelanguage.googleapis.com"],
+    "Claude":  ["api.anthropic.com"],
 }
 
 MEMBER_REGIONS = {
@@ -30,6 +30,70 @@ MEMBER_NAMES = {
     "2": "Ashay  (South / Midwest — 13 states / 39 Probes)",
     "3": "Krishi (North / Mid-Atlantic — 12 states / 36 Probes)",
     "4": "Urmil  (East Coast / New England — 12 states / 36 Probes)",
+}
+
+# Probe ID → US State mapping, derived from generate_state_probes.py
+# Each member's probes were assigned 3 per state in the order listed below.
+PROBE_STATE_MAP = {
+    "1": {  # Aryan — West / Central
+        "3588":  "Alaska",      "51310": "Alaska",      "60259": "Alaska",
+        "28":    "Nevada",      "7363":  "Nevada",      "7449":  "Nevada",
+        "3328":  "Utah",        "7549":  "Utah",        "17218": "Utah",
+        "32":    "California",  "125":   "California",  "307":   "California",
+        "1058":  "Washington",  "4160":  "Washington",  "4851":  "Washington",
+        "3483":  "Oregon",      "3671":  "Oregon",      "12721": "Oregon",
+        "6408":  "Arizona",     "7159":  "Arizona",     "10456": "Arizona",
+        "202":   "Colorado",    "6835":  "Colorado",    "7523":  "Colorado",
+        "34313": "Oklahoma",    "54871": "Oklahoma",    "60255": "Oklahoma",
+        "10507": "Kansas",      "25206": "Kansas",      "52650": "Kansas",
+        "15038": "Nebraska",    "27310": "Nebraska",    "55734": "Nebraska",
+        "50128": "Iowa",        "55078": "Iowa",        "61588": "Iowa",
+        "6373":  "Missouri",    "6884":  "Missouri",    "6925":  "Missouri",
+    },
+    "2": {  # Ashay — South / Midwest
+        "14720":   "Hawaii",       "19053":   "Hawaii",       "61465":   "Hawaii",
+        "22803":   "New Mexico",   "55484":   "New Mexico",   "63081":   "New Mexico",
+        "12159":   "Wyoming",      "35140":   "Wyoming",      "1004380": "Wyoming",
+        "1121":    "Texas",        "6437":    "Texas",        "6692":    "Texas",
+        "4085":    "Illinois",     "6565":    "Illinois",     "6597":    "Illinois",
+        "7087":    "Arkansas",     "50084":   "Arkansas",     "50168":   "Arkansas",
+        "13397":   "Louisiana",    "29049":   "Louisiana",    "55630":   "Louisiana",
+        "1001471": "Mississippi",  "1012465": "Mississippi",  "1012466": "Mississippi",
+        "54785":   "Alabama",      "55260":   "Alabama",      "60888":   "Alabama",
+        "12180":   "Tennessee",    "60886":   "Tennessee",    "61246":   "Tennessee",
+        "7256":    "Kentucky",     "23087":   "Kentucky",     "52645":   "Kentucky",
+        "1184":    "Indiana",      "7719":    "Indiana",      "10286":   "Indiana",
+        "6389":    "Michigan",     "7105":    "Michigan",     "7691":    "Michigan",
+    },
+    "3": {  # Krishi — North / Mid-Atlantic
+        "20756":  "Montana",       "21031":  "Montana",       "1008859": "Montana",
+        "4325":   "North Dakota",  "50344":  "North Dakota",  "52196":   "North Dakota",
+        "54286":  "South Dakota",  "54939":  "South Dakota",  "62023":   "South Dakota",
+        "6783":   "New York",      "6946":   "New York",      "6972":    "New York",
+        "1113":   "Virginia",      "1160":   "Virginia",      "4958":    "Virginia",
+        "801":    "Minnesota",     "6634":   "Minnesota",     "7374":    "Minnesota",
+        "16896":  "Wisconsin",     "19551":  "Wisconsin",     "21791":   "Wisconsin",
+        "1127":   "Ohio",          "7368":   "Ohio",          "11529":   "Ohio",
+        "1142":   "Pennsylvania",  "3756":   "Pennsylvania",  "4069":    "Pennsylvania",
+        "21087":  "West Virginia", "24836":  "West Virginia", "51343":   "West Virginia",
+        "1169":   "Maryland",      "3715":   "Maryland",      "7014":    "Maryland",
+        "10357":  "Delaware",      "20683":  "Delaware",      "54280":   "Delaware",
+    },
+    "4": {  # Urmil — East Coast / New England
+        # 34 probes across 12 states; Rhode Island and Massachusetts have 2 probes each
+        "7643":  "Idaho",           "10342": "Idaho",           "15979": "Idaho",
+        "12334": "Maine",           "33081": "Maine",           "53308": "Maine",
+        "4405":  "Vermont",         "10443": "Vermont",         "10473": "Vermont",
+        "6452":  "Florida",         "6590":  "Florida",         "6643":  "Florida",
+        "6436":  "New Jersey",      "6574":  "New Jersey",      "6644":  "New Jersey",
+        "3660":  "Georgia",         "4894":  "Georgia",         "6454":  "Georgia",
+        "23714": "South Carolina",  "51354": "South Carolina",  "51440": "South Carolina",
+        "4969":  "North Carolina",  "6379":  "North Carolina",  "7692":  "North Carolina",
+        "7224":  "Connecticut",     "7728":  "Connecticut",     "10553": "Connecticut",
+        "51140": "Rhode Island",    "4551":  "Rhode Island",
+        "6875":  "Massachusetts",   "10146": "Massachusetts",
+        "7672":  "New Hampshire",   "13159": "New Hampshire",   "13288": "New Hampshire",
+    },
 }
 
 WAIT_TIME = 180  # seconds to wait for probes to complete
@@ -68,26 +132,54 @@ def triggerTraceroute(targetDomain, apiKey, sources):
     print(f"  Failed: {response}")
     return None
 
-def fetchResults(measurementId):
+def fetchResults(measurementId, probeStateMap):
+    """
+    Fetches results for a measurement and saves them split by US state under
+    data/US/<state>/ripe_results_<measurementId>.json
+    """
     print(f"  Fetching results for ID {measurementId}...")
     isSuccess, response = AtlasResultsRequest(msm_id=measurementId).create()
+
     if not isSuccess:
         print(f"  Failed to fetch results for {measurementId}.")
         return False, None
     if not response:
         print(f"  No results yet for {measurementId}.")
         return False, None
-    filePath = f"data/ripe_results_{measurementId}.json"
-    with open(filePath, "w") as f:
-        json.dump(response, f, indent=4)
-    print(f"  Saved → {filePath}")
+
+    # Group probe results by state using prb_id
+    stateResults = {}
+    unknownResults = []
+
+    for probeResult in response:
+        probeId = str(probeResult.get("prb_id", ""))
+        state   = probeStateMap.get(probeId)
+        if state:
+            stateResults.setdefault(state, []).append(probeResult)
+        else:
+            unknownResults.append(probeResult)
+
+    if unknownResults:
+        print(f"  [!] {len(unknownResults)} probe(s) had no state mapping — saved to Unknown/")
+        stateResults["Unknown"] = unknownResults
+
+    # Write one file per state: data/US/<state>/ripe_results_<id>.json
+    for state, results in stateResults.items():
+        stateDir = os.path.join("data", "US", state)
+        os.makedirs(stateDir, exist_ok=True)
+        filePath = os.path.join(stateDir, f"ripe_results_{measurementId}.json")
+        with open(filePath, "w") as f:
+            json.dump(results, f, indent=4)
+        print(f"  [{state}] {len(results)} probe result(s) → {filePath}")
+
     return True, response
 
 # ─── Persistence ──────────────────────────────────────────────────────────────
 
 def saveMeasurementMapping(measurementIds):
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    mappingFile = f"data/ripe_measurement_mapping_{timestamp}.json"
+    os.makedirs("data", exist_ok=True)
+    timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
+    mappingFile  = f"data/ripe_measurement_mapping_{timestamp}.json"
     with open(mappingFile, "w") as f:
         json.dump(measurementIds, f, indent=4)
     print(f"Measurement mapping saved → {mappingFile}")
@@ -112,6 +204,8 @@ def runCollection():
         print("[!] Invalid choice. Exiting.")
         return
 
+    probeStateMap = PROBE_STATE_MAP.get(choice, {})
+
     # Phase 1: Trigger all measurements
     print("\n--- Phase 1: Triggering Measurements ---")
     measurementIds = {}
@@ -130,19 +224,21 @@ def runCollection():
     print(f"\nMeasurement IDs:\n{json.dumps(measurementIds, indent=4)}")
     saveMeasurementMapping(measurementIds)
 
-    # Phase 2: Wait then fetch results
+    # Phase 2: Wait for probes to execute
     print(f"\n--- Phase 2: Waiting {WAIT_TIME}s for probes to complete ---")
     time.sleep(WAIT_TIME)
 
+    # Phase 3: Fetch and split results by state
     print("\n--- Phase 3: Fetching Results ---")
     for service, domains in measurementIds.items():
         for domain, mId in domains.items():
-            success, _ = fetchResults(mId)
+            print(f"\n[{service}] {domain}")
+            success, _ = fetchResults(mId, probeStateMap)
             if not success:
                 print(f"  [!] Could not fetch results for {domain} (ID: {mId}).")
             time.sleep(1)
 
-    print("\nGlobal data collection complete!")
+    print("\nCollection complete. Results saved under: data/US/<state>/")
 
 
 if __name__ == "__main__":
