@@ -7,8 +7,9 @@ import os
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-CAIDA_FILE = "latest.as-org2info.txt"
-DATA_DIR   = "data"
+_ROOT      = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CAIDA_FILE = os.path.join(_ROOT, "latest.as-org2info.txt")
+DATA_DIR   = os.path.join(_ROOT, "data")
 
 # ─── CAIDA Dataset ────────────────────────────────────────────────────────────
 

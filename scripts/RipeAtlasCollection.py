@@ -98,6 +98,9 @@ PROBE_STATE_MAP = {
 
 WAIT_TIME = 180  # seconds to wait for probes to complete
 
+_ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_ROOT, "data")
+
 # ─── Auth ─────────────────────────────────────────────────────────────────────
 
 def getApiKey():
@@ -165,7 +168,7 @@ def fetchResults(measurementId, probeStateMap):
 
     # Write one file per state: data/US/<state>/ripe_results_<id>.json
     for state, results in stateResults.items():
-        stateDir = os.path.join("data", "US", state)
+        stateDir = os.path.join(DATA_DIR, "US", state)
         os.makedirs(stateDir, exist_ok=True)
         filePath = os.path.join(stateDir, f"ripe_results_{measurementId}.json")
         with open(filePath, "w") as f:
@@ -177,9 +180,9 @@ def fetchResults(measurementId, probeStateMap):
 # ─── Persistence ──────────────────────────────────────────────────────────────
 
 def saveMeasurementMapping(measurementIds):
-    os.makedirs("data", exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
-    mappingFile  = f"data/ripe_measurement_mapping_{timestamp}.json"
+    mappingFile  = os.path.join(DATA_DIR, f"ripe_measurement_mapping_{timestamp}.json")
     with open(mappingFile, "w") as f:
         json.dump(measurementIds, f, indent=4)
     print(f"Measurement mapping saved → {mappingFile}")
