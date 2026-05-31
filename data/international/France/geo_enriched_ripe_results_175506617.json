@@ -1,0 +1,2390 @@
+[
+    {
+        "fw": 4790,
+        "lts": 11,
+        "endtime": 1780161660,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.40.72.101",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.40.72.254",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 9.6,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.72.254",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 3.706,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.72.254",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 3.161,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.40.255.17",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.09,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.255.17",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.524,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.255.17",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.6,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.40.255.22",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.969,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.255.22",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.914,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.40.255.22",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.911,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "80.74.64.201",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.541,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    },
+                    {
+                        "from": "80.74.64.201",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.474,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    },
+                    {
+                        "from": "80.74.64.201",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.168,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "80.74.64.245",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.48,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    },
+                    {
+                        "from": "80.74.64.245",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.388,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    },
+                    {
+                        "from": "80.74.64.245",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.451,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Herblain",
+                        "isp": "Pulsation / Oceanet Technology"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "83.142.144.12",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 3.299,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Celeste SAS"
+                    },
+                    {
+                        "from": "83.142.144.12",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 3.12,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Celeste SAS"
+                    },
+                    {
+                        "from": "83.142.144.12",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 2.931,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Celeste SAS"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "185.5.110.173",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 9.833,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.110.173",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 9.172,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.110.173",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 9.202,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "185.5.110.189",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 10.851,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.110.189",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 11.328,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.110.189",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 11.561,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "185.5.109.124",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 10.866,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.109.124",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 10.929,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.109.124",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 11.8,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "185.5.109.228",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 11.341,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.109.228",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 11.548,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    },
+                    {
+                        "from": "185.5.109.228",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 11.969,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Champs-sur-Marne",
+                        "isp": "CELESTE Network"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "212.106.96.207",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 10.799,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Akhter Computers Ltd."
+                    },
+                    {
+                        "from": "212.106.96.207",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 11.769,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Akhter Computers Ltd."
+                    },
+                    {
+                        "from": "212.106.96.207",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 10.927,
+                        "asn": "34177",
+                        "org_name": "Celeste SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Akhter Computers Ltd."
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "80.249.211.140",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 21.407,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.211.140",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 20.865,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.211.140",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 21.691,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 21.548,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 29.427,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 21.735,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "141.101.65.14",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 31.716,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.65.14",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 21.105,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.65.14",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 25.564,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 21.205,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 21.059,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 21.113,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 1252,
+        "timestamp": 1780161659,
+        "msm_name": "Traceroute",
+        "from": "80.74.64.187",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161662
+    },
+    {
+        "fw": 4790,
+        "lts": 36,
+        "endtime": 1780161686,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.0.185",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.848,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.45,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.286,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "62.34.3.51",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 4.293,
+                        "ittl": 0,
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    },
+                    {
+                        "from": "62.34.3.51",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 4.967,
+                        "ittl": 0,
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    },
+                    {
+                        "from": "62.34.3.51",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 3.147,
+                        "ittl": 0,
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "62.34.2.76",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 6.082,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    },
+                    {
+                        "from": "62.34.2.76",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 6.96,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    },
+                    {
+                        "from": "62.34.2.76",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 6.94,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "62.34.3.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 5.866,
+                        "ittl": 2,
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    },
+                    {
+                        "from": "62.34.3.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.238,
+                        "ittl": 2,
+                        "asn": "5410",
+                        "org_name": "Bouygues Telecom SA",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Cr\u00e9cy-la-Chapelle",
+                        "isp": "Bouygues Telecom ISP"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.158.20.55",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 6.904,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.20.55",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 7.066,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.20.55",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.222,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 6.948,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 5.505,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 5.517,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 3351,
+        "timestamp": 1780161657,
+        "msm_name": "Traceroute",
+        "from": "31.35.49.77",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161699
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 31,
+        "endtime": 1780161663,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "185.233.100.99",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "185.233.100.124",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.948,
+                        "asn": "198985",
+                        "org_name": "AQUILENET",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "AQUILENET"
+                    },
+                    {
+                        "from": "185.233.100.124",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.154,
+                        "asn": "198985",
+                        "org_name": "AQUILENET",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "AQUILENET"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "149.6.44.17",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 5.266,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "149.6.44.17",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.007,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "149.6.44.17",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 12.292,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "Cogent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "154.25.0.69",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 4.696,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "Ireland",
+                        "country_code": "IE",
+                        "city": "Dublin",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "154.25.0.69",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.469,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "Ireland",
+                        "country_code": "IE",
+                        "city": "Dublin",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "154.25.0.69",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.349,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "Ireland",
+                        "country_code": "IE",
+                        "city": "Dublin",
+                        "isp": "Cogent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "130.117.3.53",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.896,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "130.117.3.53",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 12.864,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "130.117.3.53",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 13.818,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "154.54.60.126",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 13.382,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "154.54.60.126",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 14.832,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "154.54.60.126",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 16.026,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cogent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "149.11.0.126",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.428,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "149.11.0.126",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.381,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "Cogent Communications"
+                    },
+                    {
+                        "from": "149.11.0.126",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.961,
+                        "itos": 72,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "Cogent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.67.75",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 23.141,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.75",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 23.847,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.75",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 24.009,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.589,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 10.566,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.718,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 6320,
+        "timestamp": 1780161658,
+        "msm_name": "Traceroute",
+        "from": "185.233.100.99",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161703
+    },
+    {
+        "fw": 4790,
+        "lts": 56,
+        "endtime": 1780161673,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.10",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.563,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.372,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.865,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "80.10.255.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.917,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Lyon",
+                        "isp": "France Telecom"
+                    },
+                    {
+                        "from": "80.10.255.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.771,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Lyon",
+                        "isp": "France Telecom"
+                    },
+                    {
+                        "from": "80.10.255.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.057,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Lyon",
+                        "isp": "France Telecom"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "80.12.192.54",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.678,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "AKAMAI-FT-US"
+                    },
+                    {
+                        "from": "80.12.192.54",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.98,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "AKAMAI-FT-US"
+                    },
+                    {
+                        "from": "80.12.192.54",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.223,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Bordeaux",
+                        "isp": "AKAMAI-FT-US"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "193.252.103.241",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 5.782,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Rennes",
+                        "isp": "RBCI"
+                    },
+                    {
+                        "from": "193.252.103.241",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 5.91,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Rennes",
+                        "isp": "RBCI"
+                    },
+                    {
+                        "from": "193.252.103.241",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 5.828,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Rennes",
+                        "isp": "RBCI"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "193.251.150.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.953,
+                        "asn": "5511",
+                        "org_name": "Orange S.A.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "France Telecom"
+                    },
+                    {
+                        "from": "193.251.150.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.078,
+                        "asn": "5511",
+                        "org_name": "Orange S.A.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "France Telecom"
+                    },
+                    {
+                        "from": "193.251.150.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 6.946,
+                        "asn": "5511",
+                        "org_name": "Orange S.A.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "France Telecom"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.158.20.53",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 6.458,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.20.53",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.576,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.20.53",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.443,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Marseille",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 7.583,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 6.469,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 6.371,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 197,
+        "timestamp": 1780161660,
+        "msm_name": "Traceroute",
+        "from": "90.5.97.186",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161678
+    },
+    {
+        "fw": 4790,
+        "lts": 33,
+        "endtime": 1780161673,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.0.100",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.467,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.172,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.109,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "194.149.174.96",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 9.875,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Toulouse",
+                        "isp": "Free"
+                    },
+                    {
+                        "from": "194.149.174.96",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 9.391,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Toulouse",
+                        "isp": "Free"
+                    },
+                    {
+                        "from": "194.149.174.96",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.73,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Toulouse",
+                        "isp": "Free"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "212.27.35.6",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.75,
+                        "asn": "12322",
+                        "org_name": "Free SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Free SAS"
+                    },
+                    {
+                        "from": "212.27.35.6",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.378,
+                        "asn": "12322",
+                        "org_name": "Free SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Free SAS"
+                    },
+                    {
+                        "from": "212.27.35.6",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.966,
+                        "asn": "12322",
+                        "org_name": "Free SAS",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Free SAS"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "62.115.44.208",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.096,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.44.208",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.046,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.44.208",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.382,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "62.115.137.90",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 9.834,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 403890,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "TELIANET"
+                    },
+                    {
+                        "from": "62.115.137.90",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 9.335,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 403890,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "TELIANET"
+                    },
+                    {
+                        "from": "62.115.137.90",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 10.005,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 403890,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "TELIANET"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "62.115.125.167",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.418,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "TELIANET"
+                    },
+                    {
+                        "from": "62.115.125.167",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.019,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "TELIANET"
+                    },
+                    {
+                        "from": "62.115.125.167",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.245,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Saint-Denis",
+                        "isp": "TELIANET"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "213.248.73.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 24.593,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "Sweden",
+                        "country_code": "SE",
+                        "city": "Solna",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "213.248.73.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.028,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "Sweden",
+                        "country_code": "SE",
+                        "city": "Solna",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "213.248.73.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.9,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "Sweden",
+                        "country_code": "SE",
+                        "city": "Solna",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.67.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.285,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.609,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.185,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 10.33,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 9.761,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 9.914,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 45,
+        "timestamp": 1780161660,
+        "msm_name": "Traceroute",
+        "from": "82.65.164.206",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161673
+    },
+    {
+        "fw": 4790,
+        "lts": 1,
+        "endtime": 1780161660,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "193.43.214.31",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "193.43.214.62",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 9.908,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    },
+                    {
+                        "from": "193.43.214.62",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.603,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    },
+                    {
+                        "from": "193.43.214.62",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.62,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "193.43.214.117",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.414,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    },
+                    {
+                        "from": "193.43.214.117",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.014,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    },
+                    {
+                        "from": "193.43.214.117",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.076,
+                        "asn": "44097",
+                        "org_name": "CLEMENT CAVADORE",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Clement Cavadore"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "37.49.237.49",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.866,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "FranceIX Services"
+                    },
+                    {
+                        "from": "37.49.237.49",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.113,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "FranceIX Services"
+                    },
+                    {
+                        "from": "37.49.237.49",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.968,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "FranceIX Services"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "141.101.67.135",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 6.333,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.135",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.388,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.67.135",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.553,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 4.262,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 6.485,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 3.517,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506617,
+        "prb_id": 898,
+        "timestamp": 1780161660,
+        "msm_name": "Traceroute",
+        "from": "193.43.214.31",
+        "type": "traceroute",
+        "group_id": 175506617,
+        "stored_timestamp": 1780161660
+    }
+]

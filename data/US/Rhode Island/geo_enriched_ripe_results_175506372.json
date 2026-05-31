@@ -1,0 +1,717 @@
+[
+    {
+        "fw": 4790,
+        "lts": 17,
+        "endtime": 1780161305,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.2",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.84,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.508,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.996,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 4.501,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.786,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.923,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.27.245.35",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.565,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.245.35",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.886,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.245.35",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.287,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.86.230.97",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 15.865,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Exeter",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.230.97",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.127,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Exeter",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.230.97",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 14.035,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Exeter",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.151.150.229",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.737,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.229",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.25,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.229",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.181,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.151.150.73",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 12.793,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.73",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 14.146,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.73",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 10.955,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 16.632,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 18.186,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 15.184,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 19.92,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 21.05,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 14.632,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.742,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 19.045,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 13.666,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 16.06,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 16.538,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 4551,
+        "timestamp": 1780161288,
+        "msm_name": "Traceroute",
+        "from": "73.4.185.114",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161323
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 32,
+        "endtime": 1780161297,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.225.5.204",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.225.0.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.478,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.225.0.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.824,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.225.0.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.713,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "135.84.59.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.286,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    },
+                    {
+                        "from": "135.84.59.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.111,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    },
+                    {
+                        "from": "135.84.59.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.153,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "135.84.59.35",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.129,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    },
+                    {
+                        "from": "135.84.59.35",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.263,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    },
+                    {
+                        "from": "135.84.59.35",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.205,
+                        "asn": "15038",
+                        "org_name": "The Cambridge Incubator, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Providence",
+                        "isp": "The Cambridge Incubator, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "63.118.26.25",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 4.181,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Verizon Business"
+                    },
+                    {
+                        "from": "63.118.26.25",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 3.888,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Verizon Business"
+                    },
+                    {
+                        "from": "63.118.26.25",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.903,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Verizon Business"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "152.193.179.74",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.412,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Verizon Business"
+                    },
+                    {
+                        "from": "152.193.179.74",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.284,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Verizon Business"
+                    },
+                    {
+                        "from": "152.193.179.74",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 4.849,
+                        "asn": "701",
+                        "org_name": "Verizon Business",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Verizon Business"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 4.545,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 5.262,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 4.508,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 4.611,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 4.448,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 4.372,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 51140,
+        "timestamp": 1780161285,
+        "msm_name": "Traceroute",
+        "from": "135.84.59.41",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161321
+    }
+]

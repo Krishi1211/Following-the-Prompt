@@ -19,11 +19,18 @@ def loadLatestMapping():
         return latestPath, json.load(f)
 
 def loadResultFile(measurementId):
-    resultPath = f"{DATA_DIR}/ripe_results_{measurementId}.json"
-    if not os.path.exists(resultPath):
+    matches = glob.glob(f"{DATA_DIR}/**/ripe_results_{measurementId}.json", recursive=True)
+    if not matches:
         return None
-    with open(resultPath, "r") as f:
-        return json.load(f)
+    merged_data = []
+    for match in matches:
+        with open(match, "r") as f:
+            file_data = json.load(f)
+            if isinstance(file_data, list):
+                merged_data.extend(file_data)
+            else:
+                merged_data.append(file_data)
+    return merged_data
 
 # ─── Metrics Computation ──────────────────────────────────────────────────────
 

@@ -1,0 +1,958 @@
+[
+    {
+        "fw": 4790,
+        "lts": 12,
+        "endtime": 1780161010,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "10.5.10.118",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.165,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.932,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.891,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.927,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.371,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.536,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 13.514,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 13.845,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 21.012,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.124.13.118",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 18.437,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tonganoxie",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.13.118",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.212,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tonganoxie",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.13.118",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 18.024,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tonganoxie",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.55,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.786,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 28.293,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 22.423,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 22.665,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 30.057,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 22.082,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 21.146,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 20.214,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 4325,
+        "timestamp": 1780161009,
+        "msm_name": "Traceroute",
+        "from": "96.3.52.169",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161014
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 7,
+        "endtime": 1780161021,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "10.1.20.2",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.606,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.166,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.509,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.706,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.742,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.747,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.672,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    },
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.716,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    },
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.635,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.858,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.472,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.716,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.075,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.535,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.215,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "108.163.96.241",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 7.009,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stanley",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "108.163.96.241",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 6.485,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stanley",
+                        "isp": "Dakota Carrier Network"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.98,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.812,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.719,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "62.115.146.43",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 35.125,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.32.26",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 46.892,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.26",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 40.872,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.26",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 37.575,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 52,
+                        "size": 48,
+                        "rtt": 35.292,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 52,
+                        "size": 48,
+                        "rtt": 35.564,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 52,
+                        "size": 48,
+                        "rtt": 35.748,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 50344,
+        "timestamp": 1780161009,
+        "msm_name": "Traceroute",
+        "from": "65.23.162.18",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161029
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 4,
+        "endtime": 1780161009,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.21.15",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.367,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.643,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.585,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.331,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.582,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.092,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.906,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 7.255,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.983,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.439,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.422,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 26.136,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 36.004,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.776,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.008,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 25.557,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 24.776,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 25.056,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 25.818,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 25.372,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 24.703,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 52196,
+        "timestamp": 1780161009,
+        "msm_name": "Traceroute",
+        "from": "184.99.136.103",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161011
+    }
+]

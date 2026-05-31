@@ -1,0 +1,1083 @@
+[
+    {
+        "fw": 4790,
+        "lts": 3,
+        "endtime": 1780161285,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.248",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 9.223,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.777,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.75,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "162.198.200.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.561,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "162.198.200.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.696,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "162.198.200.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.542,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "99.173.76.192",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 3.679,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Raleigh",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "99.173.76.192",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 3.057,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Raleigh",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "99.173.76.192",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 3.203,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Raleigh",
+                        "isp": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "32.130.25.178",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 11.853,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 202627,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.25.178",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 12.052,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 202627,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.25.178",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 12.213,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 202627,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "32.130.20.54",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 12.606,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 193359,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.20.54",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 12.222,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 193359,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.20.54",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 12.258,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 193359,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "32.130.17.17",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.518,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.17.17",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.53,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.17.17",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.524,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.235.87",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 13.955,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.87",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 12.464,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.87",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 13.168,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 12.591,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 12.65,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 12.442,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 4969,
+        "timestamp": 1780161285,
+        "msm_name": "Traceroute",
+        "from": "99.150.228.34",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161288
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 16,
+        "endtime": 1780161334,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "104.225.3.74",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "104.225.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.031,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    },
+                    {
+                        "from": "104.225.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.875,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    },
+                    {
+                        "from": "104.225.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.258,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "104.225.2.188",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.682,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    },
+                    {
+                        "from": "104.225.2.188",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.538,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    },
+                    {
+                        "from": "104.225.2.188",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.407,
+                        "asn": "36236",
+                        "org_name": "NetActuate, Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Durham",
+                        "isp": "NetActuate, Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 23.592,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 8.86,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.251,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 6.9,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 6.681,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 6.804,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "173.245.63.114",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.279,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.114",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.636,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.114",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.895,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 7.225,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 6.997,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 7.053,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 6379,
+        "timestamp": 1780161286,
+        "msm_name": "Traceroute",
+        "from": "104.225.3.74",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161335
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 46,
+        "endtime": 1780161310,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "72.27.242.133",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.250.233.47",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 5.917,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    },
+                    {
+                        "from": "72.250.233.47",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 5.955,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    },
+                    {
+                        "from": "72.250.233.47",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 5.766,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "72.250.226.228",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 5.626,
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    },
+                    {
+                        "from": "72.250.226.228",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 5.571,
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    },
+                    {
+                        "from": "72.250.226.228",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 5.843,
+                        "asn": "27446",
+                        "org_name": "ERC Broadband",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Asheville",
+                        "isp": "ERC Broadband"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "62.115.188.164",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 5.864,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.188.164",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 5.84,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.188.164",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 5.763,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.235.121",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 12.505,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.121",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.873,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.121",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.971,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 5.555,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 5.709,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 5.636,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 7692,
+        "timestamp": 1780161286,
+        "msm_name": "Traceroute",
+        "from": "72.27.242.133",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161311
+    }
+]

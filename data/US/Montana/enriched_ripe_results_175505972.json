@@ -1,0 +1,1013 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 18,
+        "endtime": 1780161038,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "206.127.64.139",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.088,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.44,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.442,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.555,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.672,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.621,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.647,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.743,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.606,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.995,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.975,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.957,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.125.22.22",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 21.903,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 995160,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "64.125.22.22",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 21.895,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 995160,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "208.184.88.166",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 22.397,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 22.116,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 22.746,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 22.91,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 22.068,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 21.958,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 22.0,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 1008859,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "206.127.64.139",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161039
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 60,
+        "endtime": 1780161022,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.123.152",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.664,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.5,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.448,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 21.433,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 26.747,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 28.853,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.313,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.893,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 29.539,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 29.543,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 28.429,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 27.969,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 32.466,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.052,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 19.839,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 86.854,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 22.189,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 19.983,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 61.174,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 54.624,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 54.612,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 37.48,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 32.679,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 36.735,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "206.81.81.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 47.554,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 42.849,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 38.782,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 37.544,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 55.317,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 55.827,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 58.502,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 20756,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "47.5.21.128",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161027
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 46,
+        "endtime": 1780161023,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.86.49",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.203,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.517,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.455,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 9.426,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.028,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.025,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.015,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.115,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.098,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.068,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 6.975,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.269,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 8.586,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.919,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 8.285,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.056,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.675,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.799,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 33.588,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 32.982,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 32.684,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 27.46,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 28.166,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 29.945,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "206.81.81.10",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 33.295,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 27.672,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 27.803,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 31.684,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 28.55,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 25.71,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 26.82,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 21031,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "174.45.137.45",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161026
+    }
+]

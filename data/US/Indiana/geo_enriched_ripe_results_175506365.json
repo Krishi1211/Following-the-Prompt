@@ -1,0 +1,740 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 27,
+        "endtime": 1780161301,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.126",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.247,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.562,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.572,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "96.120.112.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 15.96,
+                        "ittl": 0,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Indianapolis",
+                        "isp": "Comcast Cable Communications"
+                    },
+                    {
+                        "from": "96.120.112.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 15.052,
+                        "ittl": 0,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Indianapolis",
+                        "isp": "Comcast Cable Communications"
+                    },
+                    {
+                        "from": "96.120.112.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 15.184,
+                        "ittl": 0,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Indianapolis",
+                        "isp": "Comcast Cable Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.110.168.49",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.027,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bloomington",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.168.49",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.73,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bloomington",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.168.49",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.356,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bloomington",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.108.120.145",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 18.453,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.108.120.145",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 22.189,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.108.120.145",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 20.245,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.175.1",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 30.249,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.175.1",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 26.37,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.175.1",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 26.371,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oak Park",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "96.110.40.61",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 25.861,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Marietta",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.33.206",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 28.071,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.206",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 30.31,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.206",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 26.399,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 24.635,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 25.749,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 24.258,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 24.489,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 24.171,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 26.65,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 10286,
+        "timestamp": 1780161280,
+        "msm_name": "Traceroute",
+        "from": "68.50.31.139",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161304
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 32,
+        "endtime": 1780161305,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "209.132.160.20",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "209.132.160.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.494,
+                        "asn": "19751",
+                        "org_name": "Endeavor Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cloverdale",
+                        "isp": "Endeavor Communications"
+                    },
+                    {
+                        "from": "209.132.160.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.327,
+                        "asn": "19751",
+                        "org_name": "Endeavor Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cloverdale",
+                        "isp": "Endeavor Communications"
+                    },
+                    {
+                        "from": "209.132.160.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.288,
+                        "asn": "19751",
+                        "org_name": "Endeavor Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cloverdale",
+                        "isp": "Endeavor Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "208.184.12.5",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.392,
+                        "ittl": 0,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.12.5",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.377,
+                        "ittl": 0,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.12.5",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.273,
+                        "ittl": 0,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "208.184.12.4",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.091,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.12.4",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.125,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.12.4",
+                        "ttl": 198,
+                        "size": 76,
+                        "rtt": 6.108,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Washington",
+                        "isp": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "208.184.122.49",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 35.956,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.122.49",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 15.42,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "208.184.122.49",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 18.319,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 6.22,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 6.189,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 6.189,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 17.422,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 8.1,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 198,
+                        "size": 28,
+                        "rtt": 7.75,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 198,
+                        "size": 48,
+                        "rtt": 7.075,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 198,
+                        "size": 48,
+                        "rtt": 7.029,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 198,
+                        "size": 48,
+                        "rtt": 6.999,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 7719,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "209.132.160.20",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161337
+    }
+]

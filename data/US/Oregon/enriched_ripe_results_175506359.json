@@ -1,0 +1,2079 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 52,
+        "endtime": 1780161293,
+        "dst_name": "142.251.142.202",
+        "dst_addr": "142.251.142.202",
+        "src_addr": "10.0.2.10",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.228,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.51,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.486,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "100.93.174.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 8.596,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "100.93.174.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.547,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "100.93.174.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.257,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.108.64.181",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.552,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.108.64.181",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.945,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.108.64.181",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.795,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.124.129.106",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.323,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.129.106",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.98,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.129.106",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.601,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.60.165",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.92,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.60.165",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.099,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.60.165",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.216,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "68.85.243.197",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.283,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.243.197",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.025,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.243.197",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.705,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "68.86.93.57",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 13.468,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.93.57",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 13.311,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.93.57",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.044,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.110.34.138",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.309,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.34.138",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.85,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.34.138",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.177,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 12.942,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 12.738,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 13.942,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "192.178.105.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 14.79,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 13.98,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 12.722,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "192.178.45.141",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 19.778,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 996858,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.45.141",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 18.878,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 996858,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.45.141",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 20.425,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 996858,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "142.251.226.163",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 60.883,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 609379,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.226.163",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 63.696,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 609379,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.226.163",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 65.663,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 609379,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 79.747,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 511959,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 77.646,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 511959,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 77.371,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 511959,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 146.729,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 109132,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 149.047,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 109132,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 152.864,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 109132,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 151.415,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 753561,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 154.242,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 753561,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 153.078,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 753561,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 17,
+                "result": [
+                    {
+                        "from": "209.85.255.231",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 153.602,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.255.231",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 150.397,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.255.231",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 153.692,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 18,
+                "result": [
+                    {
+                        "from": "209.85.143.113",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 152.505,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.143.113",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 150.315,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.143.113",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 150.299,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 19,
+                "result": [
+                    {
+                        "from": "142.251.66.239",
+                        "ttl": 49,
+                        "size": 76,
+                        "rtt": 153.186,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.66.239",
+                        "ttl": 49,
+                        "size": 76,
+                        "rtt": 153.589,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.66.239",
+                        "ttl": 49,
+                        "size": 76,
+                        "rtt": 151.18,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 20,
+                "result": [
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 151.756,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 151.746,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 151.251,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506359,
+        "prb_id": 12721,
+        "timestamp": 1780161277,
+        "msm_name": "Traceroute",
+        "from": "73.67.247.224",
+        "type": "traceroute",
+        "group_id": 175506359,
+        "stored_timestamp": 1780161294
+    },
+    {
+        "fw": 4790,
+        "lts": 111,
+        "endtime": 1780161294,
+        "dst_name": "142.251.142.202",
+        "dst_addr": "142.251.142.202",
+        "src_addr": "128.223.51.77",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "128.223.51.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.582,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "128.223.51.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 7.907,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "128.223.51.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 7.195,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.252.20.140",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.662,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.20.140",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.821,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.20.140",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.699,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.252.10.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.748,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.686,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.912,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.252.10.178",
+                        "ttl": 251,
+                        "size": 76,
+                        "rtt": 2.815,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.178",
+                        "ttl": 251,
+                        "size": 76,
+                        "rtt": 2.829,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.178",
+                        "ttl": 251,
+                        "size": 76,
+                        "rtt": 2.823,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "128.223.182.77",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.888,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "128.223.182.77",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.996,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "128.223.182.77",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.913,
+                        "asn": "3582",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "10.252.10.250",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 3.365,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.250",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 3.196,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.252.10.250",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 3.03,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "207.98.127.238",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 3.511,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.127.238",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 3.263,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.127.238",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 5.566,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "207.98.126.13",
+                        "ttl": 244,
+                        "size": 144,
+                        "rtt": 5.016,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.13",
+                        "ttl": 244,
+                        "size": 144,
+                        "rtt": 4.821,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.13",
+                        "ttl": 244,
+                        "size": 144,
+                        "rtt": 4.919,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "207.98.126.76",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 4.974,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.76",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 4.946,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.76",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 4.78,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "207.98.126.15",
+                        "ttl": 246,
+                        "size": 144,
+                        "rtt": 5.156,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.15",
+                        "ttl": 246,
+                        "size": 144,
+                        "rtt": 5.023,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.126.15",
+                        "ttl": 246,
+                        "size": 144,
+                        "rtt": 4.944,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900247,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132771,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "207.98.127.247",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 4.792,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.127.247",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 4.834,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    },
+                    {
+                        "from": "207.98.127.247",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 4.818,
+                        "asn": "3701",
+                        "org_name": "University of Oregon"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 8.072,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 8.045,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.41",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 8.025,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 12.617,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 22.429,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 8.37,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "216.239.42.199",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 13.303,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253796,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.42.199",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 13.121,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253796,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.42.199",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 13.887,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253796,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 55.729,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 740622,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 55.811,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 740622,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 55.588,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 740622,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 17,
+                "result": [
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 71.645,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 602719,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 71.318,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 602719,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 71.407,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 602719,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 18,
+                "result": [
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 140.62,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 306361,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 140.436,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 306361,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 140.561,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 306361,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 19,
+                "result": [
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 143.989,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 567102,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 143.891,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 567102,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 144.755,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 567102,
+                                            "exp": 4,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 20,
+                "result": [
+                    {
+                        "from": "142.251.236.91",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 144.6,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.236.91",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 144.316,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.236.91",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 144.375,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 21,
+                "result": [
+                    {
+                        "from": "74.125.242.129",
+                        "ttl": 239,
+                        "size": 68,
+                        "rtt": 145.227,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.242.129",
+                        "ttl": 239,
+                        "size": 68,
+                        "rtt": 144.421,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.242.129",
+                        "ttl": 239,
+                        "size": 68,
+                        "rtt": 145.276,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 22,
+                "result": [
+                    {
+                        "from": "142.251.66.241",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 143.101,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.66.241",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 143.175,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.66.241",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 143.923,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 23,
+                "result": [
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 108,
+                        "size": 48,
+                        "rtt": 144.175,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 108,
+                        "size": 48,
+                        "rtt": 144.148,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.142.202",
+                        "ttl": 108,
+                        "size": 48,
+                        "rtt": 144.054,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506359,
+        "prb_id": 3483,
+        "timestamp": 1780161278,
+        "msm_name": "Traceroute",
+        "from": "128.223.51.77",
+        "type": "traceroute",
+        "group_id": 175506359,
+        "stored_timestamp": 1780161296
+    }
+]

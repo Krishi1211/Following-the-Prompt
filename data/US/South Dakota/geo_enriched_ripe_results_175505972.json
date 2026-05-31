@@ -1,0 +1,648 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 32,
+        "endtime": 1780161016,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.5.21",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.228,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.619,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.661,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 12.757,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.494,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.515,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 10.428,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 13.498,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.52,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 12.487,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.563,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.115,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 27.43,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 18.26,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 16.372,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 16.386,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 15.529,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 14.89,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 54286,
+        "timestamp": 1780161016,
+        "msm_name": "Traceroute",
+        "from": "184.83.41.193",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161018
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 40,
+        "endtime": 1780161014,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.251.29",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 1.12,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 0.8,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 0.707,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.099,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.817,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.879,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 2.285,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 2.094,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 1.7,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 1.268,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 0.788,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 0.89,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.691,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.62,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    },
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.718,
+                        "asn": "54578",
+                        "org_name": "ImOn Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 30.941,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.806,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 9.072,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.708,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.748,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.01,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 8.924,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 8.739,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 8.643,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 62023,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "96.63.190.66",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161031
+    }
+]

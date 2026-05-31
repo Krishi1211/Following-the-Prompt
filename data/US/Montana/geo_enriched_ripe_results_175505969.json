@@ -1,0 +1,1505 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 43,
+        "endtime": 1780161011,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "206.127.64.139",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.984,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.416,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.395,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.127.109.180",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.029,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.109.180",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.591,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    },
+                    {
+                        "from": "206.127.109.180",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.394,
+                        "asn": "4043",
+                        "org_name": "Montana Internet Corporation",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "209.133.55.242",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.612,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "209.133.55.242",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.581,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Zayo Bandwidth"
+                    },
+                    {
+                        "from": "209.133.55.242",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.555,
+                        "asn": "6461",
+                        "org_name": "Zayo Bandwidth",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Zayo Bandwidth"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "72.14.209.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.599,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "72.14.209.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.544,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "72.14.209.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.7,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "142.251.49.27",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 16.857,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.49.27",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 16.473,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.49.27",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 17.854,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 15.585,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 15.516,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 15.618,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 15.521,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 15.486,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 15.528,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 1008859,
+        "timestamp": 1780161011,
+        "msm_name": "Traceroute",
+        "from": "206.127.64.139",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161039
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 49,
+        "endtime": 1780161011,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "192.168.123.152",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.576,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.419,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.39,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 15.45,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 27.538,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 16.745,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.144.122.16",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.593,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.122.16",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 20.046,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.122.16",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.586,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "72.175.111.98",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 16.074,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kalispell",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.111.98",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.987,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kalispell",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.111.98",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.749,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kalispell",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.145.105.38",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 20.513,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.38",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 27.165,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.105.38",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 17.135,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.146.123.14",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 39.439,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71668,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.14",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 43.312,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71668,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.14",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 40.743,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71668,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.146.239.132",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 41.079,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Junction",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.239.132",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 37.333,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Junction",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.239.132",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 43.042,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Junction",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 74.991,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 72.032,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 69.018,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 51.467,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 50.664,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 52.955,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 242,
+                        "size": 68,
+                        "rtt": 72.898,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 242,
+                        "size": 68,
+                        "rtt": 71.597,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 242,
+                        "size": 68,
+                        "rtt": 71.483,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "142.251.229.139",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 52.215,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.229.139",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 54.861,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.229.139",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 50.255,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "142.251.55.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 70.127,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.55.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 71.723,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.55.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 67.159,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 113,
+                        "size": 48,
+                        "rtt": 71.246,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 113,
+                        "size": 48,
+                        "rtt": 73.155,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 113,
+                        "size": 48,
+                        "rtt": 70.2,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 20756,
+        "timestamp": 1780161009,
+        "msm_name": "Traceroute",
+        "from": "47.5.21.128",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161017
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 35,
+        "endtime": 1780161012,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "192.168.86.49",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.234,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.629,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.488,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.426,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.205,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 11.633,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.145.94.162",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 10.941,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.94.162",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.006,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.145.94.162",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.054,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "72.175.110.236",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.306,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cheyenne",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.110.236",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.76,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cheyenne",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.110.236",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 8.159,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cheyenne",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.144.192.204",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.414,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.192.204",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.393,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.192.204",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.356,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.175.110.126",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 9.586,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 413223,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.110.126",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 11.34,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 413223,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "72.175.110.126",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 10.194,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 413223,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.886,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.464,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.927,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 33.048,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 37.247,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 33.519,
+                        "asn": "33588",
+                        "org_name": "Charter Communications LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.555,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.856,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.554,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 28.335,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 24.766,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.174.30",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 28.422,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "142.251.229.137",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 26.547,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.229.137",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 28.019,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.229.137",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 23.299,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "72.14.232.193",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 28.745,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stockton",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "72.14.232.193",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 28.595,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stockton",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "72.14.232.193",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 28.75,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stockton",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 27.802,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 28.96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 28.509,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 21031,
+        "timestamp": 1780161011,
+        "msm_name": "Traceroute",
+        "from": "174.45.137.45",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161026
+    }
+]

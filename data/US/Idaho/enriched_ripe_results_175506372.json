@@ -1,0 +1,488 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 29,
+        "endtime": 1780161286,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "96.19.243.32",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 8.499,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 9.731,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 11.216,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 10.855,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 8.167,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 9.976,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 24.392,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 21.972,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 20.745,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.35.245.193",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 19.267,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    },
+                    {
+                        "from": "4.35.245.193",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 19.219,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    },
+                    {
+                        "from": "4.35.245.193",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 19.536,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.154.188.14",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 71.449,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    },
+                    {
+                        "from": "64.154.188.14",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 21.202,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    },
+                    {
+                        "from": "64.154.188.14",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 18.197,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 18.402,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 16.611,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 18.527,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 17.771,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 18.739,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 18.049,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 15979,
+        "timestamp": 1780161285,
+        "msm_name": "Traceroute",
+        "from": "96.19.243.32",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161289
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 31,
+        "endtime": 1780161286,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "23.176.224.18",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.204,
+                        "asn": "397376",
+                        "org_name": "IFN"
+                    },
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.334,
+                        "asn": "397376",
+                        "org_name": "IFN"
+                    },
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.214,
+                        "asn": "397376",
+                        "org_name": "IFN"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.858,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.846,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.69,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.104.196.89",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.741,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.196.89",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.282,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.196.89",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.864,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 12.771,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 10.749,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.404,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "198.32.134.61",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 11.639,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "198.32.134.61",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 10.71,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "198.32.134.61",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 13.966,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.243.1",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 12.459,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.1",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 10.947,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.1",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 11.595,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 11.463,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 10.783,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 14.238,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 10.682,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 10.482,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 10.533,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 7643,
+        "timestamp": 1780161286,
+        "msm_name": "Traceroute",
+        "from": "23.176.224.18",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161294
+    }
+]

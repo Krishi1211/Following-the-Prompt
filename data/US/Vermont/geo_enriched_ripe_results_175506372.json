@@ -1,0 +1,887 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 28,
+        "endtime": 1780161358,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.20",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 255,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": false,
+        "msm_id": 175506372,
+        "prb_id": 10443,
+        "timestamp": 1780161285,
+        "msm_name": "Traceroute",
+        "from": "70.20.54.168",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161359
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 21,
+        "endtime": 1780161292,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.3.150",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.366,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.9,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.829,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.513,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.119,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.665,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.189,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 1.653,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 1.12,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.877,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.175,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.217,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.729,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.754,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc."
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.634,
+                        "asn": "13977",
+                        "org_name": "Fidium",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 12.669,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 12.706,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.863,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.111,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.941,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 11.871,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 11.783,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 11.969,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 10473,
+        "timestamp": 1780161288,
+        "msm_name": "Traceroute",
+        "from": "163.252.145.227",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161310
+    },
+    {
+        "fw": 4790,
+        "lts": 42,
+        "endtime": 1780161298,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.53",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.885,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.563,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.424,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 189.274,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 230.918,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 32.04,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 26.719,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 28.105,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 38.319,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 36.857,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 34.264,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 26.888,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 27.954,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 38.277,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 28.025,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 37.88,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    },
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 34.954,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    },
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 37.908,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 29.053,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    },
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 27.514,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    },
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 38.165,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 26.6,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    },
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 27.157,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    },
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 34.638,
+                        "ittl": 0,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 38.084,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    },
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 31.763,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    },
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 40.868,
+                        "asn": "17356",
+                        "org_name": "Vermont Telephone Company, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 48.714,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 34.239,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 30.35,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 40.287,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 42.472,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 39.464,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 38.344,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 4405,
+        "timestamp": 1780161288,
+        "msm_name": "Traceroute",
+        "from": "216.66.102.83",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161302
+    }
+]

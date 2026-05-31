@@ -1,0 +1,36 @@
+{
+    "timestamp": "2026-05-30T10:08:43.204671",
+    "network": "home_wifi",
+    "targets": {
+        "ChatGPT": {
+            "chat.openai.com": {
+                "resolved_ip": "104.18.37.228",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  5.128 ms\n 2  169.237.242.249 (169.237.242.249)  5.196 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  5.682 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  3.435 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  5.022 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  5.588 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  6.956 ms\n 8  *\n 9  172.68.188.115 (172.68.188.115)  20.630 ms\n10  104.18.37.228 (104.18.37.228)  8.840 ms\n"
+            },
+            "api.openai.com": {
+                "resolved_ip": "162.159.140.245",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  5.776 ms\n 2  169.237.242.249 (169.237.242.249)  4.332 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  5.696 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  4.747 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  11.022 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  5.799 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  6.716 ms\n 8  *\n 9  172.68.188.22 (172.68.188.22)  11.733 ms\n10  162.159.140.245 (162.159.140.245)  7.591 ms\n"
+            }
+        },
+        "Gemini": {
+            "gemini.google.com": {
+                "resolved_ip": "142.251.152.2",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  4.818 ms\n 2  169.237.242.249 (169.237.242.249)  4.636 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  14.987 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  12.955 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  3.358 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  5.087 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  7.154 ms\n 8  142.250.175.184 (142.250.175.184)  7.187 ms\n 9  142.251.156.2 (142.251.156.2)  6.888 ms\n"
+            },
+            "generativelanguage.googleapis.com": {
+                "resolved_ip": "216.239.36.223",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  4.969 ms\n 2  169.237.242.249 (169.237.242.249)  6.939 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  5.985 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  5.603 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  4.505 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  7.493 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  6.556 ms\n 8  142.250.175.184 (142.250.175.184)  7.429 ms\n 9  *\n10  216.239.34.223 (216.239.34.223)  10.853 ms\n"
+            }
+        },
+        "Claude": {
+            "claude.ai": {
+                "resolved_ip": "160.79.104.10",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  3.783 ms\n 2  169.237.242.249 (169.237.242.249)  5.492 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  4.916 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  3.588 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  3.565 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  5.351 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  7.789 ms\n 8  *\n 9  172.68.188.80 (172.68.188.80)  7.498 ms\n10  160.79.104.10 (160.79.104.10)  7.168 ms\n"
+            },
+            "api.anthropic.com": {
+                "resolved_ip": "160.79.104.10",
+                "traceroute": " 1  100.127.255.254 (100.127.255.254)  5.855 ms\n 2  169.237.242.249 (169.237.242.249)  4.586 ms\n 3  cdf1-l10.ucdavis.edu (169.237.0.254)  5.194 ms\n 4  net4-cdf1--transit1.ucdavis.edu (128.120.0.33)  3.288 ms\n 5  transit1--border-dav.ucdavis.edu (192.82.111.29)  5.457 ms\n 6  emvl1-agg-01--ucdavis--20g--01.cenic.net (137.164.3.200)  5.584 ms\n 7  svl-agg10--emvl1-agg-01--400g--01.cenic.net (137.164.11.94)  7.585 ms\n 8  198.32.251.193 (198.32.251.193)  18.678 ms\n 9  172.68.188.94 (172.68.188.94)  8.457 ms\n10  160.79.104.10 (160.79.104.10)  7.212 ms\n"
+            }
+        }
+    }
+}

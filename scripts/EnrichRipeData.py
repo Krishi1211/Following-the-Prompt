@@ -147,7 +147,7 @@ def main():
     orgIdToName, asnToOrgId = loadCaidaDataset(CAIDA_FILE)
 
     print("2. Collecting unique IPs from result files...")
-    jsonFiles = glob.glob(f"{DATA_DIR}/ripe_results_*.json")
+    jsonFiles = glob.glob(f"{DATA_DIR}/**/ripe_results_*.json", recursive=True)
     if not jsonFiles:
         print(f"[!] No raw RIPE result files found in {DATA_DIR}/")
         return

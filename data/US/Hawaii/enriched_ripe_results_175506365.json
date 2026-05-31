@@ -1,0 +1,538 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 16,
+        "endtime": 1780161282,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "128.171.6.63",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "128.171.6.5",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.347,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "128.171.6.5",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.502,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "128.171.6.5",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.693,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "128.171.213.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.377,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "128.171.213.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.424,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "128.171.213.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.47,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "205.166.205.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.209,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "205.166.205.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.098,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "205.166.205.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.19,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "205.166.205.3",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.355,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "205.166.205.3",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.19,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    },
+                    {
+                        "from": "205.166.205.3",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.147,
+                        "asn": "6360",
+                        "org_name": "University of Hawaii"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.289,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    },
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.192,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    },
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.218,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.815,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.597,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.713,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 14720,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "128.171.6.63",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161287
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 9,
+        "endtime": 1780161294,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.4.0.181",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.4.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.458,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.4.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.37,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.4.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.296,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.234.64.3",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.97,
+                        "asn": "36149",
+                        "org_name": "Hawaiian Telcom Services Company, Inc."
+                    },
+                    {
+                        "from": "72.234.64.3",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.933,
+                        "asn": "36149",
+                        "org_name": "Hawaiian Telcom Services Company, Inc."
+                    },
+                    {
+                        "from": "72.234.64.3",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.549,
+                        "asn": "36149",
+                        "org_name": "Hawaiian Telcom Services Company, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.66,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    },
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.705,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    },
+                    {
+                        "from": "206.197.210.54",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 8.173,
+                        "asn": "40300",
+                        "org_name": "DR Fortress, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 7.271,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 7.253,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 7.225,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 19053,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "147.81.99.220",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161301
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 19,
+        "endtime": 1780161342,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.12.101",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.338,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.923,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.148,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 254,
+                        "size": 76,
+                        "rtt": 7.423,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 254,
+                        "size": 76,
+                        "rtt": 7.272,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 254,
+                        "size": 76,
+                        "rtt": 7.174,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 255,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 48,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 76.418,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 48,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 89.486,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 48,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 79.635,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 61465,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "172.59.58.2",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161343
+    }
+]

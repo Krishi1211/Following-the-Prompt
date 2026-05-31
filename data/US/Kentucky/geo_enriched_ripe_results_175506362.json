@@ -1,0 +1,2524 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 20,
+        "endtime": 1780161299,
+        "dst_name": "142.251.209.234",
+        "dst_addr": "142.251.209.234",
+        "src_addr": "10.30.69.130",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.30.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.331,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.30.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.547,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.30.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.5,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "142.254.147.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 11.378,
+                        "ittl": 0,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barbourville",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "142.254.147.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 9.187,
+                        "ittl": 0,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barbourville",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "142.254.147.149",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 9.386,
+                        "ittl": 0,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barbourville",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.95.86.148",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 28.637,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eaton",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.95.86.148",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 24.885,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eaton",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.95.86.148",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 30.503,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eaton",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "65.29.28.162",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 18.332,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Richmond",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "65.29.28.162",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 13.701,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Richmond",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "65.29.28.162",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 13.607,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Richmond",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "65.189.140.168",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.725,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Troy",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "65.189.140.168",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.918,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Troy",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "65.189.140.168",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.444,
+                        "asn": "10796",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Troy",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "71.74.44.32",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 27.036,
+                        "asn": "14065",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "71.74.44.32",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 28.567,
+                        "asn": "14065",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.109.0.228",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 28.095,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "66.109.0.228",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 28.694,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "66.109.0.228",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 26.626,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "24.30.201.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 26.315,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.30.201.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 25.817,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.30.201.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 26.376,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "192.178.249.225",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 26.555,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.249.225",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 26.999,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.249.225",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 26.235,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "74.125.252.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 33.638,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.252.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 38.152,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.252.62",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.655,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "216.239.40.189",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 28.61,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.40.189",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 30.082,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.40.189",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 29.478,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 110.711,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 111.752,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 118.778,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 118.559,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 117.424,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 117.153,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 459.557,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 115.002,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 115.655,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 115.268,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 115.275,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 240,
+                        "size": 68,
+                        "rtt": 115.331,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 17,
+                "result": [
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 115.458,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 115.127,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 47,
+                        "size": 76,
+                        "rtt": 115.06,
+                        "itos": 128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 18,
+                "result": [
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 110,
+                        "size": 48,
+                        "rtt": 114.064,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 110,
+                        "size": 48,
+                        "rtt": 115.131,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 110,
+                        "size": 48,
+                        "rtt": 114.62,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506362,
+        "prb_id": 23087,
+        "timestamp": 1780161280,
+        "msm_name": "Traceroute",
+        "from": "76.92.50.149",
+        "type": "traceroute",
+        "group_id": 175506362,
+        "stored_timestamp": 1780161300
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 26,
+        "endtime": 1780161283,
+        "dst_name": "142.251.209.234",
+        "dst_addr": "142.251.209.234",
+        "src_addr": "192.168.1.131",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.793,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.126,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.037,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "38.64.225.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.164,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    },
+                    {
+                        "from": "38.64.225.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.058,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    },
+                    {
+                        "from": "38.64.225.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.222,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 19.393,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.426,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.49,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 8.953,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 8.976,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.518,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.952,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.428,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.958,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 15.155,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 15.337,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 15.168,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.251.64.201",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 14.464,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.64.201",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 14.605,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.64.201",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 14.386,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "192.178.105.216",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.695,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.216",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.677,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.105.216",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.899,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "216.239.59.163",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 14.972,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 34434,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.59.163",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 15.002,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 34434,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.59.163",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 15.252,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 34434,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 32.332,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 36255,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 32.34,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 36255,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.57.137",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 32.005,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 36255,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 101.786,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 227190,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 102.13,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 227190,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.96",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 102.696,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 227190,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 107.364,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 883022,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 115.692,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 883022,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.234.118",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 107.311,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 883022,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "209.85.254.156",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 105.501,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.254.156",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 106.009,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.254.156",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 105.532,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 104.698,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 104.986,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 105.075,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 106.747,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 106.439,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 106.681,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 107.128,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 106.63,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "rtt": 106.672,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506362,
+        "prb_id": 52645,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "216.206.128.134",
+        "type": "traceroute",
+        "group_id": 175506362,
+        "stored_timestamp": 1780161296
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 163,
+        "endtime": 1780161283,
+        "dst_name": "142.251.209.234",
+        "dst_addr": "142.251.209.234",
+        "src_addr": "66.255.252.225",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "50.30.119.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.664,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    },
+                    {
+                        "from": "50.30.119.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.456,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    },
+                    {
+                        "from": "50.30.119.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.452,
+                        "asn": "13781",
+                        "org_name": "Hopkinsville Electric System",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hopkinsville",
+                        "isp": "Hopkinsville Electric System"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.749,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.055,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.26.255.4",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.829,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 6.445,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 6.858,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "64.154.101.129",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 6.417,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cincinnati",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.869,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 16.827,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.69.206.242",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.354,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.601,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.733,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.127.114",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.664,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "209.85.142.117",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.781,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.117",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 14.129,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.117",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.787,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "192.178.249.234",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.684,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.249.234",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.989,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.249.234",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.238,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "108.170.226.255",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 13.017,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.226.255",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 12.894,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.226.255",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 12.993,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "216.239.58.255",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 30.206,
+                        "ittl": 2,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.58.255",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 29.796,
+                        "ittl": 2,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.58.255",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 30.346,
+                        "ittl": 2,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 98.926,
+                        "ittl": 3,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 99.01,
+                        "ittl": 3,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "172.253.72.146",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 187.516,
+                        "ittl": 3,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 102.47,
+                        "ittl": 4,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 102.482,
+                        "ittl": 4,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.166",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 102.079,
+                        "ittl": 4,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 102.178,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 102.239,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.41.48",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 102.296,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 102.482,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 102.571,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.243.117",
+                        "ttl": 243,
+                        "size": 68,
+                        "rtt": 102.807,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 103.485,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 103.634,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.48.181",
+                        "ttl": 52,
+                        "size": 76,
+                        "rtt": 103.424,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 101.496,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 101.523,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 114,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 101.447,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506362,
+        "prb_id": 7256,
+        "timestamp": 1780161280,
+        "msm_name": "Traceroute",
+        "from": "66.255.252.225",
+        "type": "traceroute",
+        "group_id": 175506362,
+        "stored_timestamp": 1780161295
+    }
+]

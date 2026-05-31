@@ -1,0 +1,1188 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 49,
+        "endtime": 1780161015,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "89.7.1.130",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.408,
+                        "asn": "12430",
+                        "org_name": "VODAFONE ESPANA S.A.U.",
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U."
+                    },
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.318,
+                        "asn": "12430",
+                        "org_name": "VODAFONE ESPANA S.A.U.",
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U."
+                    },
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.272,
+                        "asn": "12430",
+                        "org_name": "VODAFONE ESPANA S.A.U.",
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U."
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.534,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.695,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 9.944,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.31,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.449,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.061,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 14.798,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 15.839,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 13.583,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.903,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 21.535,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 25.27,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.808,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.749,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.851,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.585,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 17.501,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.811,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.378,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.869,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 16.435,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 21087,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "204.111.31.118",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161017
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 9,
+        "endtime": 1780161014,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.11",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.189,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.444,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.404,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.402,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 7.776,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.949,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.966,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 7.802,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.948,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 8.97,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 10.151,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 10.062,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 11.346,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.106,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.248,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 8.887,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America"
+                    },
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.188,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America"
+                    },
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.179,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.159,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.179,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 10.161,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 10.159,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 11.387,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 10.156,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 11.41,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 10.195,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 10.213,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 24836,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "184.15.47.215",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161017
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 37,
+        "endtime": 1780161015,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.4.191",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.363,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.644,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.581,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.263,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.143,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.22,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.664,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.005,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.446,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 15.365,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 15.35,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 15.219,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 24.445,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.782,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    },
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.366,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 70.592,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 30.808,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 25.777,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.087,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.827,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.671,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.066,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 15.371,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.056,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.048,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.016,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 16.057,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505972,
+        "prb_id": 51343,
+        "timestamp": 1780161014,
+        "msm_name": "Traceroute",
+        "from": "74.33.164.17",
+        "type": "traceroute",
+        "group_id": 175505972,
+        "stored_timestamp": 1780161017
+    }
+]

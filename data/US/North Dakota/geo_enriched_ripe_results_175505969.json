@@ -1,0 +1,1123 @@
+[
+    {
+        "fw": 4790,
+        "lts": 15,
+        "endtime": 1780161013,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "10.5.10.118",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.213,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.889,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.5.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.845,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.755,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.85.0.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.698,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 13.276,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 14.15,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.56.144.146",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 14.303,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.220.182.188",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 30.85,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux Falls",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.220.182.188",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 29.52,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux Falls",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.220.182.188",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 31.704,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux Falls",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "24.124.14.35",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 29.546,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrence",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.14.35",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 31.349,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrence",
+                        "isp": "Midcontinent Communications"
+                    },
+                    {
+                        "from": "24.124.14.35",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 33.615,
+                        "asn": "11232",
+                        "org_name": "Midcontinent Communications",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrence",
+                        "isp": "Midcontinent Communications"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "142.251.64.199",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 26.903,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.64.199",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 30.375,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.64.199",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 27.627,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.251.60.15",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 30.7,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.60.15",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 29.43,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.60.15",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 31.528,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 26.921,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 29.417,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 39.001,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 4325,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "96.3.52.169",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161017
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 56,
+        "endtime": 1780161013,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "10.1.20.2",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 8.794,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.764,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.20.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.212,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.681,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.614,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.1.0.34",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.92,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.763,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    },
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.529,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    },
+                    {
+                        "from": "65.23.162.254",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.595,
+                        "asn": "32809",
+                        "org_name": "Dickey Rural Networks",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Oakes",
+                        "isp": "Dickey Rural Networks"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.976,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.696,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.98.0.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.454,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 7.074,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.77,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "216.147.180.194",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 6.419,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Grand Forks",
+                        "isp": "Dakota Carrier Network"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.163.96.241",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 6.454,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stanley",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "108.163.96.241",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 6.719,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stanley",
+                        "isp": "Dakota Carrier Network"
+                    },
+                    {
+                        "from": "108.163.96.241",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 6.711,
+                        "asn": "26794",
+                        "org_name": "Dakota Carrier Network",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Stanley",
+                        "isp": "Dakota Carrier Network"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.758,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.562,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    },
+                    {
+                        "from": "62.115.179.8",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.757,
+                        "asn": "1299",
+                        "org_name": "Arelion Sweden AB",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Arelion Sweden AB"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "74.125.32.86",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 25.255,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.32.86",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 25.512,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.32.86",
+                        "ttl": 244,
+                        "size": 68,
+                        "rtt": 25.682,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "216.239.47.245",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 26.178,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.47.245",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 26.18,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.47.245",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 26.084,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 24.957,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 24.335,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "108.170.250.237",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 24.63,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 24.693,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 24.637,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 24.541,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 50344,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "65.23.162.18",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161029
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 8,
+        "endtime": 1780161013,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "192.168.21.15",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.088,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.61,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.20.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.626,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.741,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.356,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.208.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.225,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.213,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.636,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "75.160.209.97",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.398,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wake Forest",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.876,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 26.399,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.233",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 25.674,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "4.68.110.134",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 25.394,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.110.134",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 25.261,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.110.134",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 25.924,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "216.239.47.247",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 25.852,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.47.247",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 26.122,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.47.247",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 26.057,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "209.85.142.171",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 25.189,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.171",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 24.47,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "209.85.142.171",
+                        "ttl": 55,
+                        "size": 76,
+                        "rtt": 25.037,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 117,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 25.794,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 117,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 24.279,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 117,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 24.291,
+                        "asn": "15169",
+                        "org_name": "Google LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 52196,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "184.99.136.103",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161015
+    }
+]

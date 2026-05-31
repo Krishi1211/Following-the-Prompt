@@ -1,0 +1,853 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 3,
+        "endtime": 1780161033,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "10.50.25.183",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.50.25.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.634,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.50.25.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.589,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.50.25.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.552,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "173.49.245.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.399,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    },
+                    {
+                        "from": "173.49.245.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 9.572,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    },
+                    {
+                        "from": "173.49.245.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.757,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 13.245,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 13.954,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 13.432,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "142.251.249.125",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 14.217,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.249.125",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.623,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.249.125",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.94,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.250.46.195",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 12.878,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.46.195",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.677,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.250.46.195",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 13.825,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 13.93,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 13.634,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 118,
+                        "size": 48,
+                        "rtt": 13.918,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 10357,
+        "timestamp": 1780161009,
+        "msm_name": "Traceroute",
+        "from": "108.2.223.139",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161043
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 34,
+        "endtime": 1780161025,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "192.168.101.113",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.101.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.511,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.101.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.376,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.101.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.376,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.27.194.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.903,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.194.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 13.692,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.194.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 13.568,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "68.85.81.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 21.92,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.81.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.55,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.81.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.99,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.216.190.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.549,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.190.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.603,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.190.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.115,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.190.221",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.542,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.190.221",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.636,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.190.221",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.805,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.216.131.253",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 18.683,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.131.253",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.58,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.131.253",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.482,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.40.25",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 23.25,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.40.25",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 24.186,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.40.25",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 24.306,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.110.37.106",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 19.548,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.37.106",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 21.385,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.37.106",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 21.767,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "192.178.44.209",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 19.245,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.44.209",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 21.275,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "192.178.44.209",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 21.723,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "142.251.53.3",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 21.512,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.53.3",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 20.787,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.53.3",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 21.624,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 22.996,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 20.606,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 115,
+                        "size": 48,
+                        "rtt": 18.887,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 20683,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "69.138.227.159",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161033
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 44,
+        "endtime": 1780161036,
+        "dst_name": "216.239.32.223",
+        "dst_addr": "216.239.32.223",
+        "src_addr": "192.168.1.152",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.227,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.734,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.692,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "100.11.71.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.369,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    },
+                    {
+                        "from": "100.11.71.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.546,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    },
+                    {
+                        "from": "100.11.71.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.589,
+                        "asn": "701",
+                        "org_name": "Verizon Business"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 13.329,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 9.773,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "74.125.48.132",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 9.122,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "142.251.249.121",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 11.396,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.249.121",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 9.151,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.249.121",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.322,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.251.60.237",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 9.63,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.60.237",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 9.029,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "142.251.60.237",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 8.876,
+                        "itos": 96,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 119,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 7.448,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 119,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 9.28,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    },
+                    {
+                        "from": "216.239.32.223",
+                        "ttl": 119,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 7.321,
+                        "asn": "15169",
+                        "org_name": "Google LLC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505969,
+        "prb_id": 54280,
+        "timestamp": 1780161012,
+        "msm_name": "Traceroute",
+        "from": "72.94.155.30",
+        "type": "traceroute",
+        "group_id": 175505969,
+        "stored_timestamp": 1780161039
+    }
+]

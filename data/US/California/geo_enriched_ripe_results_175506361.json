@@ -1,0 +1,1387 @@
+[
+    {
+        "fw": 4790,
+        "lts": 105,
+        "endtime": 1780161286,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.137",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 12.194,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 11.666,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 14.487,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 26.633,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 23.958,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 24.738,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 28.077,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 30.797,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 24.947,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 23.823,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 24.799,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 28.764,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 29.271,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.32,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 18.074,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 26.147,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 30.479,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 30.071,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.109.6.202",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.847,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tustin",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "66.109.6.202",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 36.028,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tustin",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 27.214,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 17.554,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 37.544,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 44.327,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 41.18,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 33.241,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 34.392,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 37.201,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.289,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 31.466,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 24.771,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 29.181,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 125,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "70.95.176.45",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161286
+    },
+    {
+        "fw": 4790,
+        "lts": 294,
+        "endtime": 1780161294,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.0.0.153",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.718,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.133,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.055,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.112.235.50",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.651,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.112.235.50",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.042,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.112.235.50",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.068,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "68.85.217.85",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 14.842,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pittsburg",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.217.85",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.583,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pittsburg",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.217.85",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.715,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pittsburg",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.85.155.37",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.648,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pinole",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.155.37",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.764,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pinole",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.85.155.37",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.213,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Pinole",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "68.87.192.162",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.107,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.192.162",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.773,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.192.162",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.373,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "68.87.193.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.754,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Clara",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.193.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 15.176,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Clara",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.193.177",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 18.837,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Clara",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "68.86.143.89",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 15.534,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hayward",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.143.89",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.435,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hayward",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.143.89",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.54,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Hayward",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "68.86.93.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 16.345,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.93.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 14.407,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.93.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.438,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.110.32.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 14.048,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.32.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 15.405,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.32.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 16.686,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "172.68.188.72",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 43.84,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Jose",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.188.72",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.07,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Jose",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.188.72",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 17.778,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Jose",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 13.84,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 22.207,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 13.737,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 307,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "76.132.61.228",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161294
+    },
+    {
+        "fw": 4790,
+        "lts": 480,
+        "endtime": 1780161282,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.182",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.704,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.965,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.768,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 13.54,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 14.726,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 11.123,
+                        "ittl": 0,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 37.157,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 28.745,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 30.106,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 13.341,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 15.246,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 14.493,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.864,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.768,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.94,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.727,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.425,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.864,
+                        "asn": "20001",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 19.894,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 31.031,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 21.555,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.766,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 20.433,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc"
+                    },
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 30.649,
+                        "asn": "7843",
+                        "org_name": "Charter Communications Inc",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 20.379,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 36.864,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 39.933,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 20.228,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 42.095,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 35.724,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 18.676,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.896,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.071,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 32,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "76.82.155.9",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161284
+    }
+]

@@ -145,7 +145,10 @@ def enrichFile(filePath, geoCache):
                     packet["asn"] = geo["as"].split()[0]
                 annotated += 1
 
-    outPath = filePath.replace("ripe_results_", "geo_enriched_ripe_results_")
+    if "enriched_ripe_results_" in filePath:
+        outPath = filePath.replace("enriched_ripe_results_", "geo_enriched_ripe_results_")
+    else:
+        outPath = filePath.replace("ripe_results_", "geo_enriched_ripe_results_")
     with open(outPath, "w") as f:
         json.dump(data, f, indent=4)
 
@@ -187,9 +190,14 @@ def main():
         if not os.path.isdir(scanDir):
             continue
         found = glob.glob(
-            os.path.join(scanDir, "**", "ripe_results_*.json"),
+            os.path.join(scanDir, "**", "enriched_ripe_results_*.json"),
             recursive=True,
         )
+        if not found:
+            found = glob.glob(
+                os.path.join(scanDir, "**", "ripe_results_*.json"),
+                recursive=True,
+            )
         jsonFiles.extend(found)
         label = os.path.relpath(scanDir)
         print(f"  {label:<30} {len(found):>4} file(s)")

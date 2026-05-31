@@ -1,0 +1,998 @@
+[
+    {
+        "fw": 4790,
+        "lts": 44,
+        "endtime": 1780161283,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.0.16.54",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.16.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.517,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.16.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.183,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.16.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.134,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "108.91.40.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.656,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "108.91.40.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.333,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "108.91.40.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.665,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "71.151.17.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.844,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "71.151.17.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 2.17,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "71.151.17.42",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.64,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "32.130.88.4",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 3.84,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 246646,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.88.4",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 3.368,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 246646,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.88.4",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 4.949,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 246646,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "32.130.24.203",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 3.663,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.24.203",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 4.891,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.24.203",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 4.499,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "141.101.73.169",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 6.746,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.169",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 6.625,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.169",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 5.135,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 5.203,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 5.776,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 4.891,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 4085,
+        "timestamp": 1780161283,
+        "msm_name": "Traceroute",
+        "from": "99.150.154.183",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161285
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 24,
+        "endtime": 1780161282,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.5.203.212",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.5.203.209",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.482,
+                        "asn": "63056",
+                        "org_name": "Hoopeston Area Schools"
+                    },
+                    {
+                        "from": "192.5.203.209",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.278,
+                        "asn": "63056",
+                        "org_name": "Hoopeston Area Schools"
+                    },
+                    {
+                        "from": "192.5.203.209",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.313,
+                        "asn": "63056",
+                        "org_name": "Hoopeston Area Schools"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "50.44.13.161",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.543,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "50.44.13.161",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.461,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "50.44.13.161",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.258,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "74.40.1.133",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 7.066,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 257410,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.40.1.133",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 6.921,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 257410,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.40.1.133",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 7.173,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 257410,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.41.143.20",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 3.787,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253858,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.41.143.20",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 3.801,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253858,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.41.143.20",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 3.835,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 253858,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.41.143.18",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 7.068,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 868352,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.41.143.18",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 7.323,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 868352,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "74.41.143.18",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 7.099,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 868352,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "45.52.201.97",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.223,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "45.52.201.97",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.033,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    },
+                    {
+                        "from": "45.52.201.97",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 7.182,
+                        "asn": "5650",
+                        "org_name": "Frontier Communications of America, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.73.84",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 7.675,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.84",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.327,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.84",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 8.678,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.73.111",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 7.037,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.111",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 6.792,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.111",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 6.852,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.73.127",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 8.488,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.127",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 7.783,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.127",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 8.276,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 7.71,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 7.607,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 7.654,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 6565,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "192.5.203.212",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161283
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 14,
+        "endtime": 1780161318,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "66.42.119.57",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.67.0.233",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.958,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.0.233",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.072,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.0.233",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.963,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "10.67.5.13",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.219,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.5.13",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.579,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.5.13",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.561,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "10.67.3.5",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.927,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.3.5",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.132,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.67.3.5",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.389,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.322,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.205,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.289,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.73.117",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 2.123,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.117",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 2.207,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.73.117",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 2.295,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.105,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.082,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.076,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506365,
+        "prb_id": 6597,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "66.42.119.57",
+        "type": "traceroute",
+        "group_id": 175506365,
+        "stored_timestamp": 1780161322
+    }
+]

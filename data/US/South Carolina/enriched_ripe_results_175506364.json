@@ -1,0 +1,791 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 30,
+        "endtime": 1780161287,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.68.52",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 5.324,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.58,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.482,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.918,
+                        "asn": "22646",
+                        "org_name": "Hargray Communications Group, Inc."
+                    },
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.605,
+                        "asn": "22646",
+                        "org_name": "Hargray Communications Group, Inc."
+                    },
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 8.117,
+                        "asn": "22646",
+                        "org_name": "Hargray Communications Group, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.949,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.737,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.731,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.126.110.136",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 27.453,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 28.538,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.616,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 18.473,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 14.048,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 14.856,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 15.169,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506364,
+        "prb_id": 23714,
+        "timestamp": 1780161279,
+        "msm_name": "Traceroute",
+        "from": "207.182.67.5",
+        "type": "traceroute",
+        "group_id": 175506364,
+        "stored_timestamp": 1780161299
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 54,
+        "endtime": 1780161295,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "172.16.100.70",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 4.606,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.028,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.729,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.258,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.256,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.351,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 10.925,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 10.357,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    },
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.989,
+                        "asn": "20115",
+                        "org_name": "Charter Communications LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 14.612,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.81,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 18.925,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 18.613,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 21.298,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 18.867,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 23.233,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 19.675,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 18.142,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 30.45,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 31.015,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 31.622,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 27.345,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 30.101,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 26.592,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "206.126.237.66",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 50.8,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "206.126.237.66",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 33.511,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "206.126.237.66",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 39.306,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 29.391,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 27.658,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 31.845,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "173.245.63.209",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 49.194,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.209",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 35.112,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.209",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 27.976,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 30.647,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 27.3,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 26.675,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506364,
+        "prb_id": 51354,
+        "timestamp": 1780161282,
+        "msm_name": "Traceroute",
+        "from": "24.159.139.235",
+        "type": "traceroute",
+        "group_id": 175506364,
+        "stored_timestamp": 1780161300
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 36,
+        "endtime": 1780161294,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "10.0.1.129",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.419,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.765,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.623,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.44,
+                        "asn": "10279",
+                        "org_name": "West Carolina Communications, LLC"
+                    },
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.917,
+                        "asn": "10279",
+                        "org_name": "West Carolina Communications, LLC"
+                    },
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.865,
+                        "asn": "10279",
+                        "org_name": "West Carolina Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 6.972,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.494,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 6.962,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.73,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 20.813,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 27.827,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 9.224,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 9.287,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 9.736,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 74.814,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 69.045,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 69.93,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506364,
+        "prb_id": 51440,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "152.44.28.27",
+        "type": "traceroute",
+        "group_id": 175506364,
+        "stored_timestamp": 1780161299
+    }
+]

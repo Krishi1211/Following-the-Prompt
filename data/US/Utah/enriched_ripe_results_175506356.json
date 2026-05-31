@@ -1,0 +1,908 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 44,
+        "endtime": 1780161287,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "10.10.5.169",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.10.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.793,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.10.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.541,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.10.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.608,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.22.233.227",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 11.777,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.22.233.227",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.735,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.22.233.227",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.629,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.216.77.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.653,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.77.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 14.724,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.77.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 8.865,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "162.151.49.105",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 14.622,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.49.105",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.903,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.49.105",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 14.601,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.180.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.523,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.180.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.621,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.180.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.298,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.216.180.185",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.966,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.180.185",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 14.207,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.180.185",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 13.525,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.43.237",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 24.253,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.43.237",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 26.492,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.43.237",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 21.014,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.110.33.142",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 22.937,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.142",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 20.967,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.142",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 25.735,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 22.972,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 25.234,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 26.224,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 22.118,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 21.019,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 26.069,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506356,
+        "prb_id": 17218,
+        "timestamp": 1780161274,
+        "msm_name": "Traceroute",
+        "from": "67.186.196.28",
+        "type": "traceroute",
+        "group_id": 175506356,
+        "stored_timestamp": 1780161294
+    },
+    {
+        "fw": 4790,
+        "lts": 7,
+        "endtime": 1780161286,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.1.243",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.465,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.182,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.143,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "96.120.96.201",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 8.568,
+                        "ittl": 0,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.120.96.201",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 8.284,
+                        "ittl": 0,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.120.96.201",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 13.501,
+                        "ittl": 0,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.153.94.69",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 8.656,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.153.94.69",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 8.136,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.153.94.69",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.547,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.124.175.53",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.572,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.175.53",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 8.494,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.175.53",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.264,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "24.153.95.9",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 8.91,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.153.95.9",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 8.308,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.153.95.9",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 8.029,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "24.124.175.41",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 10.211,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.175.41",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 10.644,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "24.124.175.41",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 9.839,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.43.229",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 23.834,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.43.229",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 21.991,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.43.229",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.115,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.110.33.118",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 24.279,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.118",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 20.805,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.118",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 21.673,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.393,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 22.589,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.066,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 25.031,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 24.963,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 23.804,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506356,
+        "prb_id": 3328,
+        "timestamp": 1780161273,
+        "msm_name": "Traceroute",
+        "from": "24.10.142.223",
+        "type": "traceroute",
+        "group_id": 175506356,
+        "stored_timestamp": 1780161294
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 45,
+        "endtime": 1780161275,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "136.0.251.253",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "136.0.251.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.443,
+                        "asn": "397032",
+                        "org_name": "SPARKED HOST LLC"
+                    },
+                    {
+                        "from": "136.0.251.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.487,
+                        "asn": "397032",
+                        "org_name": "SPARKED HOST LLC"
+                    },
+                    {
+                        "from": "136.0.251.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.379,
+                        "asn": "397032",
+                        "org_name": "SPARKED HOST LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.90.0.253",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.684,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.90.0.253",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.954,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.90.0.253",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.826,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "38.92.26.250",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 13.877,
+                        "asn": "26042",
+                        "org_name": "FiberState, LLC"
+                    },
+                    {
+                        "from": "38.92.26.250",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.005,
+                        "asn": "26042",
+                        "org_name": "FiberState, LLC"
+                    },
+                    {
+                        "from": "38.92.26.250",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.021,
+                        "asn": "26042",
+                        "org_name": "FiberState, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "141.101.72.108",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.649,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.108",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.598,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.108",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.286,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "141.101.72.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.91,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.862,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.928,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "141.101.72.117",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 16.964,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.117",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 14.583,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.72.117",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 15.031,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.492,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.547,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.423,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506356,
+        "prb_id": 7549,
+        "timestamp": 1780161274,
+        "msm_name": "Traceroute",
+        "from": "136.0.251.253",
+        "type": "traceroute",
+        "group_id": 175506356,
+        "stored_timestamp": 1780161275
+    }
+]

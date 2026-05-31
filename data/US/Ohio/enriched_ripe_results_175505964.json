@@ -1,0 +1,1064 @@
+[
+    {
+        "fw": 4790,
+        "lts": 23,
+        "endtime": 1780161012,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "172.16.249.11",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.249.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 38.543,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.249.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.956,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.249.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.947,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.49.225.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.743,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "72.49.225.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.634,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "72.49.225.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.736,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "216.68.14.193",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 3.203,
+                        "ittl": 0,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.193",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 2.85,
+                        "ittl": 0,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.193",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 4.098,
+                        "ittl": 0,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "216.68.14.192",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.911,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.192",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.749,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.192",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.37,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "216.68.14.153",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.037,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.153",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.382,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    },
+                    {
+                        "from": "216.68.14.153",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.269,
+                        "asn": "6181",
+                        "org_name": "Cincinnati Bell Telephone Company LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "206.126.110.136",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 56.105,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.126.110.136",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 26.636,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 14.332,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 15.077,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 14.652,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.231,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 13.554,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.76,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 1127,
+        "timestamp": 1780161008,
+        "msm_name": "Traceroute",
+        "from": "66.42.191.76",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161017
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 28,
+        "endtime": 1780161033,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.1.152",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.708,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.313,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.27,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.192.202.188",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 33.856,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 128207,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.202.188",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 33.541,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 128207,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.202.188",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 33.731,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 128207,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.192.192.58",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 34.335,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 309642,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.192.58",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 33.742,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 309642,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.192.58",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 32.918,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 309642,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "10.192.192.22",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 33.333,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.192.22",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 34.235,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.192.192.22",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 34.424,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 36.378,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 39.52,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 39.222,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 28.486,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 28.874,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 29.649,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 11529,
+        "timestamp": 1780161008,
+        "msm_name": "Traceroute",
+        "from": "217.180.211.136",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161034
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 20,
+        "endtime": 1780161009,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "23.173.128.6",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "23.173.128.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.272,
+                        "asn": "396279",
+                        "org_name": "WASHINGTON ELECTRIC COOPERATIVE, INC."
+                    },
+                    {
+                        "from": "23.173.128.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.381,
+                        "asn": "396279",
+                        "org_name": "WASHINGTON ELECTRIC COOPERATIVE, INC."
+                    },
+                    {
+                        "from": "23.173.128.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.204,
+                        "asn": "396279",
+                        "org_name": "WASHINGTON ELECTRIC COOPERATIVE, INC."
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "66.76.193.61",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.171,
+                        "asn": "19108",
+                        "org_name": "Optimum"
+                    },
+                    {
+                        "from": "66.76.193.61",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.084,
+                        "asn": "19108",
+                        "org_name": "Optimum"
+                    },
+                    {
+                        "from": "66.76.193.61",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 1.532,
+                        "asn": "19108",
+                        "org_name": "Optimum"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "173.219.218.78",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 14.251,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.78",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 14.1,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.78",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 14.252,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "173.219.218.146",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 14.214,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.146",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 14.067,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.146",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 14.157,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "173.219.232.137",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 13.973,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.232.137",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 14.364,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.232.137",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 14.273,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "173.219.232.187",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 14.407,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.232.187",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 13.925,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.232.187",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 14.256,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.219.218.202",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.615,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.202",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.836,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.218.202",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.746,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.219.211.67",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.259,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.211.67",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 11.844,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "173.219.211.67",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 14.037,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.058,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.035,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.053,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "173.245.63.191",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 13.089,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.191",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 13.268,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "173.245.63.191",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 13.264,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 13.843,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 14.003,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 13.73,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175505964,
+        "prb_id": 7368,
+        "timestamp": 1780161008,
+        "msm_name": "Traceroute",
+        "from": "23.173.128.6",
+        "type": "traceroute",
+        "group_id": 175505964,
+        "stored_timestamp": 1780161010
+    }
+]

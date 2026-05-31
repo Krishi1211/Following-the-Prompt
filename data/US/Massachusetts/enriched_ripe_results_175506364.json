@@ -1,0 +1,614 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 46,
+        "endtime": 1780161294,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.1.123",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.45,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.309,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.271,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.138.242.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.698,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.138.242.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.735,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.138.242.130",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 16.447,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "68.87.155.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.326,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.155.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.07,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.155.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 16.537,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 16.256,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.095,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.696,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.058,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 14.702,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.403,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 20.382,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 21.439,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 20.935,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 17.853,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 20.745,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.295,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 16.271,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 15.861,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 17.216,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506364,
+        "prb_id": 10146,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "73.218.113.55",
+        "type": "traceroute",
+        "group_id": 175506364,
+        "stored_timestamp": 1780161309
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 0,
+        "endtime": 1780161281,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.1.110.32",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.249,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.184,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.225,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.875,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.87,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.989,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "32.122.43.114",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 7.701,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 154577,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.122.43.114",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 7.643,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 154577,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.122.43.114",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 7.746,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 154577,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "32.130.21.85",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 7.703,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 291342,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.21.85",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 7.611,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 291342,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.21.85",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 7.612,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 291342,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "32.130.88.249",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 7.979,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.88.249",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 7.958,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    },
+                    {
+                        "from": "32.130.88.249",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 8.312,
+                        "asn": "7018",
+                        "org_name": "AT&T Enterprises, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 17.056,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 17.084,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 17.099,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506364,
+        "prb_id": 6875,
+        "timestamp": 1780161281,
+        "msm_name": "Traceroute",
+        "from": "192.1.110.32",
+        "type": "traceroute",
+        "group_id": 175506364,
+        "stored_timestamp": 1780161282
+    }
+]

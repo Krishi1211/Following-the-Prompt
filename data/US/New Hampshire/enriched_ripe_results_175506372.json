@@ -1,0 +1,757 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 31,
+        "endtime": 1780161302,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.42.42.136",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.835,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.389,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.352,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.27.247.107",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 7.591,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.247.107",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.91,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.27.247.107",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.709,
+                        "itos": 32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.217.74.29",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 17.604,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.217.74.29",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 14.112,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.217.74.29",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 17.384,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.86.224.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.862,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.224.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.303,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.224.229",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 16.896,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.203,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 8.373,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.824,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 14.347,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.48,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.518,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 17.323,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.90.66",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 17.709,
+                        "itos": 32,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.992,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 25.182,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.844,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.148,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 11.329,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 17.61,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 13159,
+        "timestamp": 1780161286,
+        "msm_name": "Traceroute",
+        "from": "24.60.9.221",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161310
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 21,
+        "endtime": 1780161285,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "69.161.78.5",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.826,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.033,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 7.404,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.461,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 9.837,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 9.351,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 16.323,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 11.662,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 11.81,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 15.396,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 12.071,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    },
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 14.281,
+                        "asn": "11776",
+                        "org_name": "Breezeline"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 20.96,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.628,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.774,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 14.719,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 10.573,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 11.947,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 13288,
+        "timestamp": 1780161284,
+        "msm_name": "Traceroute",
+        "from": "69.161.78.5",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161292
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 1,
+        "endtime": 1780161295,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "140.235.236.25",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.751,
+                        "asn": "400848",
+                        "org_name": "DHI TECHNICAL SERVICES LLC"
+                    },
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.706,
+                        "asn": "400848",
+                        "org_name": "DHI TECHNICAL SERVICES LLC"
+                    },
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.785,
+                        "asn": "400848",
+                        "org_name": "DHI TECHNICAL SERVICES LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.438,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.435,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.32,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.646,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.737,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.664,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "64.222.213.187",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.583,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.213.187",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.435,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.213.187",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.659,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 11.822,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 11.766,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 11.816,
+                        "asn": "13977",
+                        "org_name": "Fidium"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 30.819,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.527,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.83,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.52.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.504,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.542,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.271,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.49,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506372,
+        "prb_id": 7672,
+        "timestamp": 1780161287,
+        "msm_name": "Traceroute",
+        "from": "140.235.236.25",
+        "type": "traceroute",
+        "group_id": 175506372,
+        "stored_timestamp": 1780161299
+    }
+]

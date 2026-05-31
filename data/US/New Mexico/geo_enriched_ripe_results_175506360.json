@@ -1,0 +1,993 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 0,
+        "endtime": 1780161301,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.12.105",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.239,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.452,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.423,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.025,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.79,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.84,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 10.607,
+                        "asn": "400371",
+                        "org_name": "PUEBLO OF LAGUNA UTILITY AUTHORITY",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority"
+                    },
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.909,
+                        "asn": "400371",
+                        "org_name": "PUEBLO OF LAGUNA UTILITY AUTHORITY",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority"
+                    },
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 16.962,
+                        "asn": "400371",
+                        "org_name": "PUEBLO OF LAGUNA UTILITY AUTHORITY",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 17.36,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 20.749,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 19.673,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.74.61",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 45.619,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.74.61",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 29.58,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "141.101.74.61",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 27.359,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 37.967,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 67.717,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 28.619,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506360,
+        "prb_id": 22803,
+        "timestamp": 1780161277,
+        "msm_name": "Traceroute",
+        "from": "137.118.82.45",
+        "type": "traceroute",
+        "group_id": 175506360,
+        "stored_timestamp": 1780161304
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 47,
+        "endtime": 1780161281,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.88.7",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.554,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.089,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.019,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.267,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.512,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.727,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.0.51.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.247,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.51.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.672,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.51.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.209,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.827,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.555,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.616,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 9.494,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    },
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 9.639,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    },
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 9.625,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 22.416,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    },
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 24.636,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    },
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 25.374,
+                        "asn": "393460",
+                        "org_name": "NMSURF",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "216.218.216.253",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 25.387,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Hurricane Electric LLC"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "216.218.216.253",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 25.198,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 28.612,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 29.633,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.952,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 32.296,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 34.598,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC"
+                    },
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 34.441,
+                        "asn": "6939",
+                        "org_name": "Hurricane Electric LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 32.073,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    },
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 28.371,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    },
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 32.163,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 31.883,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 29.822,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 29.438,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506360,
+        "prb_id": 55484,
+        "timestamp": 1780161276,
+        "msm_name": "Traceroute",
+        "from": "104.255.19.7",
+        "type": "traceroute",
+        "group_id": 175506360,
+        "stored_timestamp": 1780161290
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 5,
+        "endtime": 1780161277,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.0.76",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.468,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.495,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.647,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.148,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.787,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.949,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.348,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.48,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    },
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.391,
+                        "asn": "209",
+                        "org_name": "CenturyLink Communications, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.404,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.758,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.259,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.365,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.353,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    },
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.676,
+                        "asn": "3356",
+                        "org_name": "Level 3 Parent, LLC",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.485,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.281,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 16.503,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.131,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.416,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.568,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc.",
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc."
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506360,
+        "prb_id": 63081,
+        "timestamp": 1780161276,
+        "msm_name": "Traceroute",
+        "from": "67.0.210.79",
+        "type": "traceroute",
+        "group_id": 175506360,
+        "stored_timestamp": 1780161277
+    }
+]

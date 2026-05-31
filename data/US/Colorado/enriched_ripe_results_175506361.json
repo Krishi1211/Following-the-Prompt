@@ -1,0 +1,709 @@
+[
+    {
+        "fw": 4790,
+        "lts": 93,
+        "endtime": 1780161301,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.86.9",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.388,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 4.72,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.556,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.048,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.236,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 14.412,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.913,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.908,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.565,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 15.17,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.196,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.878,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 13.682,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 15.448,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.110.43.253",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 13.994,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "96.110.43.253",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 15.956,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.33.122",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 16.848,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.122",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.833,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    },
+                    {
+                        "from": "96.110.33.122",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 13.3,
+                        "asn": "7922",
+                        "org_name": "Comcast Cable Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 16.746,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 48.429,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 15.276,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 13.261,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 15.105,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 13.017,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 202,
+        "timestamp": 1780161280,
+        "msm_name": "Traceroute",
+        "from": "24.128.98.241",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161303
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 33,
+        "endtime": 1780161327,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "173.248.145.27",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.816,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.033,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.1,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "late": 5,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "late": 4,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.326,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.294,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.372,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "154.54.30.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 3.221,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "from": "154.54.30.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 3.065,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.512,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.302,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.305,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "late": 16,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "asn": "30475",
+                        "org_name": "Handy Networks, LLC"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "38.140.187.58",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 1.698,
+                        "itos": 40,
+                        "asn": "174",
+                        "org_name": "Cogent Communications, LLC"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 3.771,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 5.52,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 8.981,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.544,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.508,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.59,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 6835,
+        "timestamp": 1780161279,
+        "msm_name": "Traceroute",
+        "from": "173.248.145.27",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161328
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 9,
+        "endtime": 1780161283,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "199.192.70.17",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.914,
+                        "asn": "32281",
+                        "org_name": "CCT LLC"
+                    },
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.907,
+                        "asn": "32281",
+                        "org_name": "CCT LLC"
+                    },
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.981,
+                        "asn": "32281",
+                        "org_name": "CCT LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.53.175.20",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.508,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "from": "206.53.175.20",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.548,
+                        "asn": "Unknown",
+                        "org_name": "Unknown Org"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.641,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.837,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.345,
+                        "asn": "13335",
+                        "org_name": "Cloudflare, Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.499,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.343,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.372,
+                        "asn": "399358",
+                        "org_name": "Anthropic, PBC"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175506361,
+        "prb_id": 7523,
+        "timestamp": 1780161279,
+        "msm_name": "Traceroute",
+        "from": "199.192.70.17",
+        "type": "traceroute",
+        "group_id": 175506361,
+        "stored_timestamp": 1780161284
+    }
+]
