@@ -89,10 +89,11 @@ def plot_rtt_per_isp(df, output_dir):
     top_regions_heat = df["source_region"].value_counts().head(25).index.tolist()
     df_heat_filtered = df[df["starting_isp"].isin(top_isps_heat) & df["source_region"].isin(top_regions_heat)]
 
-    fig_heat = go.Figure()
     llms = ["ChatGPT", "Gemini", "Claude"]
-    trace_indices = {}
-    counter = 0
+    heatmaps_html = []
+    
+    # Load plotly script once
+    plotly_script_included = False
 
     for llm in llms:
         df_llm = df_heat_filtered[df_heat_filtered["llm"] == llm]
@@ -110,69 +111,116 @@ def plot_rtt_per_isp(df, output_dir):
 
         z_values = pivot.replace({np.nan: None}).values.tolist()
 
-        fig_heat.add_trace(go.Heatmap(
+        fig_single = go.Figure(go.Heatmap(
             x=top_isps_heat,
             y=top_regions_heat,
             z=z_values,
             colorscale="Viridis",
             colorbar=dict(title=dict(text="RTT (ms)", font=dict(color="white")), tickfont=dict(color="white")),
-            hoverongaps=False,
-            visible=(llm == "ChatGPT")
-        ))
-        trace_indices[llm] = counter
-        counter += 1
-
-    # Dropdown menu to switch between LLM heatmaps in Heatmap tab
-    buttons = []
-    for llm in llms:
-        visibility = [False] * len(llms)
-        visibility[trace_indices[llm]] = True
-        buttons.append(dict(
-            args=[{"visible": visibility}, {"title.text": f"Regional End-to-End Latency to {llm}"}],
-            label=f"{llm} Heatmap",
-            method="update"
+            hoverongaps=False
         ))
 
-    fig_heat.update_layout(
-        title=dict(
-            text="Regional End-to-End Latency to ChatGPT",
-            font=dict(size=18, color="white"),
-            x=0.5,
-            y=0.95
-        ),
-        xaxis=dict(
-            title=dict(text="Starting ISP/Organization", font=dict(color="white")),
-            tickfont=dict(color="white"),
-            tickangle=35,
-            gridcolor="rgba(255, 255, 255, 0.05)"
-        ),
-        yaxis=dict(
-            title=dict(text="Source Region (State/Country)", font=dict(color="white")),
-            tickfont=dict(color="white"),
-            gridcolor="rgba(255, 255, 255, 0.05)"
-        ),
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(color="white"),
-        margin=dict(l=100, r=40, t=100, b=100),
-        updatemenus=[
-            dict(
-                buttons=buttons,
-                direction="down",
-                pad={"r": 10, "t": 10},
-                showactive=True,
-                x=0.5,
-                y=1.12,
-                xanchor="center",
-                yanchor="top",
-                font=dict(color="black")
-            )
-        ]
-    )
+        fig_single.update_layout(
+            xaxis=dict(
+                title=dict(text="Starting ISP/Organization", font=dict(color="white")),
+                tickfont=dict(color="white"),
+                tickangle=35,
+                gridcolor="rgba(255, 255, 255, 0.05)"
+            ),
+            yaxis=dict(
+                title=dict(text="Source Region (State/Country)", font=dict(color="white")),
+                tickfont=dict(color="white"),
+                gridcolor="rgba(255, 255, 255, 0.05)"
+            ),
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="white"),
+            margin=dict(l=100, r=40, t=20, b=100)
+        )
+
+        include_js = "cdn" if not plotly_script_included else False
+        plotly_script_included = True
+
+        div_str = fig_single.to_html(include_plotlyjs=include_js, full_html=False)
+        is_visible_style = "" if llm == "ChatGPT" else "display: none;"
+        heatmaps_html.append(f"""
+        <div id="heatmap-{llm}" class="heatmap-div" style="{is_visible_style}">
+            {div_str}
+        </div>
+        """)
 
     # Render Plotly snippets
     div_bar = fig_bar.to_html(include_plotlyjs="cdn", full_html=False)
-    div_heat = fig_heat.to_html(include_plotlyjs="cdn", full_html=False)
+
+    heatmap_controls = """
+    <div class="heatmap-controls-container" style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem;">
+        <h3 id="heatmap-title" style="font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 1.3rem; color: #ffffff;">Regional End-to-End Latency to ChatGPT</h3>
+        
+        <div class="dropdown-wrapper">
+            <label for="heatmap-llm-select" class="dropdown-label">Select Target Service:</label>
+            <select id="heatmap-llm-select" class="custom-select" onchange="switchHeatmap(this.value)">
+                <option value="ChatGPT">ChatGPT (api.openai.com)</option>
+                <option value="Gemini">Gemini (generativelanguage.googleapis.com)</option>
+                <option value="Claude">Claude (api.anthropic.com)</option>
+            </select>
+        </div>
+    </div>
+    
+    <style>
+        .dropdown-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            width: fit-content;
+        }
+        .dropdown-label {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-primary);
+        }
+        .custom-select {
+            background: #111118;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 6px;
+            padding: 0.4rem 2rem 0.4rem 0.8rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.2s ease;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 0.6rem center;
+            background-size: 0.9rem;
+        }
+        .custom-select:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+        }
+    </style>
+    
+    <script>
+        function switchHeatmap(llm) {
+            document.querySelectorAll('.heatmap-div').forEach(el => el.style.display = 'none');
+            const selectedDiv = document.getElementById('heatmap-' + llm);
+            if (selectedDiv) {
+                selectedDiv.style.display = 'block';
+            }
+            const titleEl = document.getElementById('heatmap-title');
+            if (titleEl) {
+                titleEl.innerText = 'Regional End-to-End Latency to ' + llm;
+            }
+            window.dispatchEvent(new Event('resize'));
+        }
+    </script>
+    """
 
     # Embed inside CSS/JS tabs structure
     tabbed_div_content = f"""
@@ -185,7 +233,8 @@ def plot_rtt_per_isp(df, output_dir):
             {div_bar}
         </div>
         <div id="view-heatmap" class="tab-content">
-            {div_heat}
+            {heatmap_controls}
+            {"".join(heatmaps_html)}
         </div>
     </div>
     """
