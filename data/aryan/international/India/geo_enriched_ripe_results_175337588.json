@@ -1,0 +1,2365 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 60,
+        "endtime": 1780001808,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.2",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.251
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.482
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.433
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.240.9.252",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.044
+                    },
+                    {
+                        "from": "10.240.9.252",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.599
+                    },
+                    {
+                        "from": "10.240.9.252",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.159
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "125.22.216.121",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.078,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "125.22.216.121",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.644,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "125.22.216.121",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.564,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "182.79.223.13",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.633,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.223.13",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.135,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.223.13",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.621,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.158.226.91",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 26.535,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.91",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 5.173,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.91",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 4.592,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 5.226,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 4.606,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 4.302,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 11978,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "106.222.204.206",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001826
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 40,
+        "endtime": 1780001794,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.26",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.158
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.409
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.364
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.0.200.237",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.879
+                    },
+                    {
+                        "from": "10.0.200.237",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.633
+                    },
+                    {
+                        "from": "10.0.200.237",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.218
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.10.11.13",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 40.451
+                    },
+                    {
+                        "from": "10.10.11.13",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.114
+                    },
+                    {
+                        "from": "10.10.11.13",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 11.926
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "45.120.248.27",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.411,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Kotla Mahigiran",
+                        "isp": "Extreme Labs India Pvt. Ltd"
+                    },
+                    {
+                        "from": "45.120.248.27",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 8.703,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Kotla Mahigiran",
+                        "isp": "Extreme Labs India Pvt. Ltd"
+                    },
+                    {
+                        "from": "45.120.248.27",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.373,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Kotla Mahigiran",
+                        "isp": "Extreme Labs India Pvt. Ltd"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "104.23.231.5",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 15.649,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "104.23.231.5",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 8.312,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "104.23.231.5",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 9.422,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 9.185,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 8.658,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 7.267,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 13785,
+        "timestamp": 1780001794,
+        "msm_name": "Traceroute",
+        "from": "103.78.46.1",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001805
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 41,
+        "endtime": 1780001804,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "156.154.184.254",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "156.154.184.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.397,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.184.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.216,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.184.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.476,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "125.18.173.101",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.466,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "BHARTI",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "125.18.173.101",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.128,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "BHARTI",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "125.18.173.101",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.779,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "BHARTI",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "116.119.73.221",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.457,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "116.119.73.221",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.694,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "116.119.73.221",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.564,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "182.79.223.5",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.076,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.223.5",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.286,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.223.5",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.309,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "104.23.231.7",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.104,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 1.42,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 1.38,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 1.416,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 6953,
+        "timestamp": 1780001795,
+        "msm_name": "Traceroute",
+        "from": "156.154.184.254",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001819
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 25,
+        "endtime": 1780001796,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "159.65.150.114",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "5.101.108.8",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.308,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    },
+                    {
+                        "from": "5.101.108.8",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.295,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    },
+                    {
+                        "from": "5.101.108.8",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.279,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "143.244.192.14",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.367,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.192.14",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.288,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.192.14",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.212,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "143.244.224.244",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 0.469,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20043,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.224.244",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 0.619,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20043,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.224.244",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 0.467,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20043,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "143.244.224.243",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.331,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.224.243",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.51,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.224.243",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.356,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "38.10.0.47",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.821,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cogent Communications",
+                        "asn": "AS45820"
+                    },
+                    {
+                        "from": "38.10.0.47",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.77,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cogent Communications",
+                        "asn": "AS45820"
+                    },
+                    {
+                        "from": "38.10.0.47",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.652,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Cogent Communications",
+                        "asn": "AS45820"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.862,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.886,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.824,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 6968,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "159.65.150.114",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001804
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 26,
+        "endtime": 1780001796,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "116.206.155.229",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "116.206.155.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 13.438,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Rajkot",
+                        "isp": "INPL's",
+                        "asn": "AS45117"
+                    },
+                    {
+                        "from": "116.206.155.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 9.036,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Rajkot",
+                        "isp": "INPL's",
+                        "asn": "AS45117"
+                    },
+                    {
+                        "from": "116.206.155.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.01,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Rajkot",
+                        "isp": "INPL's",
+                        "asn": "AS45117"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.50.165.121",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 8.451
+                    },
+                    {
+                        "from": "10.50.165.121",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 8.382
+                    },
+                    {
+                        "from": "10.50.165.121",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 8.361
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "162.158.226.150",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.985,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.150",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.949,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.150",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.174,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "162.158.226.71",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.222,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.71",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.046,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.71",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.301,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 8.735,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 8.721,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 8.73,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7269,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "116.206.155.229",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001807
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 706,
+        "endtime": 1780001892,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "117.250.113.140",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "117.250.113.138",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.96,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Shillong",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "117.250.113.138",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.667,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Shillong",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "117.250.113.138",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.779,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Shillong",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "117.216.207.109",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 16.964,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "BSNL Internet",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "117.216.207.109",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 16.936,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "BSNL Internet",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "117.216.207.109",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 16.894,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "BSNL Internet",
+                        "asn": "AS9829"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 42.27
+                    },
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 42.298
+                    },
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 42.514
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "162.158.52.4",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 43.316,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.4",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 43.29,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.4",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 43.267,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 42.536,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 42.578,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 43.653,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 41.541,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 41.534,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 41.535,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7277,
+        "timestamp": 1780001795,
+        "msm_name": "Traceroute",
+        "from": "117.250.113.140",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001918
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 106,
+        "endtime": 1780001796,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "103.136.36.102",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "103.136.36.97",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.352,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Srinagar",
+                        "isp": "Peer Networks Private Limited",
+                        "asn": "AS138800"
+                    },
+                    {
+                        "from": "103.136.36.97",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.283,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Srinagar",
+                        "isp": "Peer Networks Private Limited",
+                        "asn": "AS138800"
+                    },
+                    {
+                        "from": "103.136.36.97",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.273,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Srinagar",
+                        "isp": "Peer Networks Private Limited",
+                        "asn": "AS138800"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "122.187.37.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.225,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Ghaziabad",
+                        "isp": "Bharti Airtel",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "122.187.37.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.153,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Ghaziabad",
+                        "isp": "Bharti Airtel",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "122.187.37.13",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.16,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Ghaziabad",
+                        "isp": "Bharti Airtel",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "116.119.109.39",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 13.991,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "116.119.109.39",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.068,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "116.119.109.39",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.044,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Gurugram",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "182.79.161.213",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 16.745,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.161.213",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 17.091,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    },
+                    {
+                        "from": "182.79.161.213",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 16.72,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "New Delhi",
+                        "isp": "Bharti Airtel Limited",
+                        "asn": "AS9498"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 16.259,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 16.042,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 16.029,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7375,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "103.136.36.102",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001804
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 25,
+        "endtime": 1780001804,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "160.20.123.10",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "160.20.123.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.339,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Surathkal",
+                        "isp": "National Institute of Technology Karnataka",
+                        "asn": "AS152533"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "103.225.13.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.279,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "103.225.13.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.216,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    },
+                    {
+                        "from": "103.225.13.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.293,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Bengaluru",
+                        "isp": "Bharat Sanchar Nigam Ltd",
+                        "asn": "AS9829"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.671
+                    },
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.798
+                    },
+                    {
+                        "from": "10.200.45.45",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.657
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "162.158.52.2",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 18.386,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.2",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.471,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.2",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.56,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.169,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.291,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.52.39",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.523,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Chennai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 16.574,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 16.384,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 16.358,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7405,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "160.20.123.10",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001805
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 39,
+        "endtime": 1780001796,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "103.179.107.33",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "103.179.107.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.069,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Froze Communications Private Limited",
+                        "asn": "AS149251"
+                    },
+                    {
+                        "from": "103.179.107.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.638,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Froze Communications Private Limited",
+                        "asn": "AS149251"
+                    },
+                    {
+                        "from": "103.179.107.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.674,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Froze Communications Private Limited",
+                        "asn": "AS149251"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "103.27.170.48",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.277,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Navi Mumbai",
+                        "isp": "INTERWIRE"
+                    },
+                    {
+                        "from": "103.27.170.48",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.168,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Navi Mumbai",
+                        "isp": "INTERWIRE"
+                    },
+                    {
+                        "from": "103.27.170.48",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.186,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Navi Mumbai",
+                        "isp": "INTERWIRE"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "162.158.226.83",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.101,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.83",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.544,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.83",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.058,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.734,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.78,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 2.015,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7674,
+        "timestamp": 1780001796,
+        "msm_name": "Traceroute",
+        "from": "103.179.107.33",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001804
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 28,
+        "endtime": 1780001808,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "103.141.112.250",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "103.141.112.249",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.392,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Internet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "103.141.112.249",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 3.086,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Internet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "103.141.112.249",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 3.599,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Internet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "161.248.22.225",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.4,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "161.248.22.225",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.266,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "161.248.22.225",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.248,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "161.248.22.118",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 22.988,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "161.248.22.118",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 15.312,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    },
+                    {
+                        "from": "161.248.22.118",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 13.934,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mangaluru",
+                        "isp": "Deenet Services Pvt Ltd",
+                        "asn": "AS136308"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.158.226.87",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.292,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.87",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.38,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.226.87",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.654,
+                        "country": "India",
+                        "country_code": "IN",
+                        "city": "Mumbai",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 20.375,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 20.333,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 20.306,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337588,
+        "prb_id": 7752,
+        "timestamp": 1780001795,
+        "msm_name": "Traceroute",
+        "from": "103.141.112.250",
+        "type": "traceroute",
+        "group_id": 175337588,
+        "stored_timestamp": 1780001809
+    }
+]

@@ -1,0 +1,715 @@
+[
+    {
+        "fw": 5120,
+        "mver": "2.6.4",
+        "lts": 47,
+        "endtime": 1779931943,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.42.0.250",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.42.0.73",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.102
+                    },
+                    {
+                        "from": "10.42.0.73",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.077
+                    },
+                    {
+                        "from": "10.42.0.73",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.076
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "66.245.184.165",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 0.69,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.165",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 0.716,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.165",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 0.721,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "66.245.184.206",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 11.902,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.206",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 11.784,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.206",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 11.84,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "66.245.184.230",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.904,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.230",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.86,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    },
+                    {
+                        "from": "66.245.184.230",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.78,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belzoni",
+                        "isp": "Belzoni Cable",
+                        "asn": "AS33218"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.71.12.60",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.049,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austin",
+                        "isp": "Community IX Holdings"
+                    },
+                    {
+                        "from": "206.71.12.60",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.899,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austin",
+                        "isp": "Community IX Holdings"
+                    },
+                    {
+                        "from": "206.71.12.60",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.15,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austin",
+                        "isp": "Community IX Holdings"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.235.108",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.518,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.108",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.564,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.108",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.475,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.235.125",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 17.131,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.125",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.861,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.125",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 77.004,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 14.797,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 14.761,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 14.739,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 1012465,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "66.245.184.166",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931953
+    },
+    {
+        "fw": 5120,
+        "mver": "2.6.4",
+        "lts": 4,
+        "endtime": 1779931952,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.42.0.233",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.42.0.188",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.097
+                    },
+                    {
+                        "from": "10.42.0.188",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.057
+                    },
+                    {
+                        "from": "10.42.0.188",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.064
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "152.36.128.30",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.186,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Poplarville",
+                        "isp": "CoastConnect LLC",
+                        "asn": "AS398754"
+                    },
+                    {
+                        "from": "152.36.128.30",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.16,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Poplarville",
+                        "isp": "CoastConnect LLC",
+                        "asn": "AS398754"
+                    },
+                    {
+                        "from": "152.36.128.30",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.275,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Poplarville",
+                        "isp": "CoastConnect LLC",
+                        "asn": "AS398754"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "142.190.5.17",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.551,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "142.190.5.17",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.763,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "142.190.5.17",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.887,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "170.249.185.38",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 3.281,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "170.249.185.38",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 3.227,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "170.249.185.38",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 3.221,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "170.249.185.212",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 7.519,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "170.249.185.212",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 7.488,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "170.249.185.212",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 7.606,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mobile",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.85.197.118",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 20.2,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "69.85.197.118",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 19.955,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "69.85.197.118",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 20.155,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.85.197.190",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 20.62,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "69.85.197.190",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 19.394,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "from": "69.85.197.190",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 21.188,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "142.190.26.134",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 23.788,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Rosa Beach",
+                        "isp": "Uniti Fiber Holdings Inc.",
+                        "asn": "AS13760"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.74.199",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 19.668,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.199",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 20.294,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.199",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 19.451,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.5,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.365,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.538,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 1012466,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "152.36.128.31",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931952
+    }
+]

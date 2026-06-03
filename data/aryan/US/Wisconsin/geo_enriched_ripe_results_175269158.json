@@ -1,0 +1,1249 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 28,
+        "endtime": 1779932229,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.22.64",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.22.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.799
+                    },
+                    {
+                        "from": "192.168.22.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.371
+                    },
+                    {
+                        "from": "192.168.22.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.336
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.84
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.842
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.798
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.193,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 1.039,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.959,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 29.881,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 50.903,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 37.725,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 52.057,
+                        "ittl": 0,
+                        "itos": 40,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 25.448,
+                        "ittl": 0,
+                        "itos": 40,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    },
+                    {
+                        "from": "192.0.0.1",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 31.736,
+                        "ittl": 0,
+                        "itos": 40,
+                        "country": "",
+                        "country_code": "",
+                        "city": "",
+                        "isp": ""
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "10.177.61.186",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 32.139,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.177.61.186",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 27.713,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.177.61.186",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 42.438,
+                        "itos": 40
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "10.180.24.148",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 37.575,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.180.24.148",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 37.031,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.180.24.148",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 43.178,
+                        "itos": 40
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "10.177.95.121",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 37.917,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.177.95.121",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 49.451,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.177.95.121",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 49.883,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "10.177.9.139",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 39.537,
+                        "ittl": 2,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.177.9.139",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 32.108,
+                        "ittl": 2,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.177.9.139",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 33.872,
+                        "ittl": 2,
+                        "itos": 40,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "10.164.177.107",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 38.627,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.164.177.107",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 40.866,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.164.177.107",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 34.138,
+                        "itos": 40
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "10.177.113.7",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 45.977,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.177.113.7",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 50.329,
+                        "itos": 40
+                    },
+                    {
+                        "from": "10.177.113.7",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 34.671,
+                        "itos": 40
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "141.101.73.100",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 38.673,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.100",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 34.954,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.100",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 35.07,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "141.101.73.157",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 32.411,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.157",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 35.587,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.157",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 36.005,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 49,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 33.073,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 49,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 41.442,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 49,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 37.612,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269158,
+        "prb_id": 16896,
+        "timestamp": 1779932203,
+        "msm_name": "Traceroute",
+        "from": "172.58.14.50",
+        "type": "traceroute",
+        "group_id": 175269158,
+        "stored_timestamp": 1779932258
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 68,
+        "endtime": 1779932212,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.0.61",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.782
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.444
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.453
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "66.170.64.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 1.987,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wisconsin Rapids",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    },
+                    {
+                        "from": "66.170.64.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.214,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wisconsin Rapids",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    },
+                    {
+                        "from": "66.170.64.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.689,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wisconsin Rapids",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "206.176.193.128",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.405,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Marshfield",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    },
+                    {
+                        "from": "206.176.193.128",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.713,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Marshfield",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    },
+                    {
+                        "from": "206.176.193.128",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.725,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Marshfield",
+                        "isp": "Solarus",
+                        "asn": "AS10352"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.91.91.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 8.859
+                    },
+                    {
+                        "from": "10.91.91.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 8.781
+                    },
+                    {
+                        "from": "10.91.91.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 8.72
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "184.105.55.250",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 8.702,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "208.115.137.77",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.772,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "208.115.137.77",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.662,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "208.115.137.77",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.234,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.73.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.4,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.27,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.175",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.649,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 9.12,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 9.194,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 9.312,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269158,
+        "prb_id": 19551,
+        "timestamp": 1779932203,
+        "msm_name": "Traceroute",
+        "from": "216.105.213.70",
+        "type": "traceroute",
+        "group_id": 175269158,
+        "stored_timestamp": 1779932224
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 26,
+        "endtime": 1779932204,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "216.56.3.74",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "216.56.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 11.957,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "216.56.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 9.483,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "216.56.3.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 9.644,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "140.189.9.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 7.325,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.9.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.366,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.9.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.392,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "140.189.9.21",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.38,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Menasha",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.9.21",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.467,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Menasha",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.9.21",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.379,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Menasha",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "140.189.8.134",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 6.223,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 149,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.8.134",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 7.64,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 149,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.8.134",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 6.32,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 149,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "140.189.8.130",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.659,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.8.130",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.548,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    },
+                    {
+                        "from": "140.189.8.130",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.543,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Milwaukee",
+                        "isp": "WiscNet",
+                        "asn": "AS2381"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "141.101.73.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 51.316,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.341,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.125,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.629,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.649,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 11.689,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.691,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.416,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.165",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.685,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 11.902,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 11.884,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 11.855,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269158,
+        "prb_id": 21791,
+        "timestamp": 1779932203,
+        "msm_name": "Traceroute",
+        "from": "216.56.3.74",
+        "type": "traceroute",
+        "group_id": 175269158,
+        "stored_timestamp": 1779932205
+    }
+]

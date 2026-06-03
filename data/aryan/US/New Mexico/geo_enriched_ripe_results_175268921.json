@@ -1,0 +1,866 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 47,
+        "endtime": 1779931968,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.12.105",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.233
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.473
+                    },
+                    {
+                        "from": "192.168.12.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.417
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.97
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.812
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.918
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 12.231,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority",
+                        "asn": "AS400371"
+                    },
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 10.78,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority",
+                        "asn": "AS400371"
+                    },
+                    {
+                        "from": "137.118.83.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 15.041,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New Laguna",
+                        "isp": "Pueblo of Laguna Utility Authority",
+                        "asn": "AS400371"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 19.493,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 15.222,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.4.224.85",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 19.349,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "El Paso",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 57.654,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 29.703,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 37.657,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 37.639,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 46.596,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 39.521,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 22803,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "137.118.82.45",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931969
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 42,
+        "endtime": 1779931956,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.88.7",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.387
+                    },
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.838
+                    },
+                    {
+                        "from": "192.168.88.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.033
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 10.634
+                    },
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.378
+                    },
+                    {
+                        "from": "10.0.7.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.539
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.0.50.122",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.089
+                    },
+                    {
+                        "from": "10.0.50.122",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.535
+                    },
+                    {
+                        "from": "10.0.50.122",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.227
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.495
+                    },
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.189
+                    },
+                    {
+                        "from": "10.0.50.253",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.6
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 9.416,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    },
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 12.16,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    },
+                    {
+                        "from": "104.255.19.245",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 12.0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 22.976,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    },
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 24.395,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    },
+                    {
+                        "from": "104.255.19.249",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 24.618,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Santa Fe",
+                        "isp": "NMSURF",
+                        "asn": "AS393460"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 81.042,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 46.893,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.105.81.145",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 29.179,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 32.688,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 81.767,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.104.197.38",
+                        "ttl": 56,
+                        "size": 76,
+                        "rtt": 42.912,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Las Vegas",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 126.294,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    },
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 64.724,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    },
+                    {
+                        "from": "206.71.8.11",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 29.464,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Phoenix-IX Corporation"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 39.59,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 39.17,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 84.316,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 55484,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "104.255.19.7",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931972
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 6,
+        "endtime": 1779931951,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.0.76",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.263
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.455
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.326
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.168,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    },
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.274,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    },
+                    {
+                        "from": "67.42.200.50",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 4.919,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.713,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    },
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.701,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    },
+                    {
+                        "from": "67.42.136.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.686,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Albuquerque",
+                        "isp": "CenturyLink Communications, LLC",
+                        "asn": "AS209"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.827,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 12.314,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.68.63.66",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.971,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "4.71.42.142",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 36.326,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.907,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.495,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.716,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.311,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.177,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 12.358,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 63081,
+        "timestamp": 1779931942,
+        "msm_name": "Traceroute",
+        "from": "67.0.252.55",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931951
+    }
+]

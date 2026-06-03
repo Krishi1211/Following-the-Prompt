@@ -1,0 +1,948 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 40,
+        "endtime": 1779931956,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "172.18.19.81",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.18.19.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.453
+                    },
+                    {
+                        "from": "172.18.19.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.274
+                    },
+                    {
+                        "from": "172.18.19.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.287
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.112.114.194",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 13.165,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.112.114.194",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 11.583,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.112.114.194",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.062,
+                        "itos": 32
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.217.54.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.193,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.54.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.604,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.54.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.357,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "162.151.95.77",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.58,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.95.77",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 7.616,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.95.77",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.974,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.151.116.86",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.706,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Doraville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.116.86",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 11.817,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Doraville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.116.86",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.21,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Doraville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.151.147.217",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 15.35,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.147.217",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 16.756,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.147.217",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 8.303,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Nashville",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 9.89,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 11.849,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 13.055,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 12180,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "68.52.61.228",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931956
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 59,
+        "endtime": 1779931965,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "172.16.100.102",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.100.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.812
+                    },
+                    {
+                        "from": "172.16.100.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.935
+                    },
+                    {
+                        "from": "172.16.100.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.747
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.34.68.132",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.527,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Jackson",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.68.132",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 13.391,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Jackson",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.68.132",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.061,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Jackson",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.34.69.228",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 15.372,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kingsport",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.34.69.230",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 13.177,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kingsport",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.69.230",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.567,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kingsport",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.69.230",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 12.142,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kingsport",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.34.15.22",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 24.83,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.15.22",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 25.393,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.15.22",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 25.133,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.34.15.19",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.841,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.15.19",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 26.841,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.15.19",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 28.841,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lawrenceville",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.0.37",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 50.651,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.37",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 50.985,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.37",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 49.815,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.34.3.7",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 52.464,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belleville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.7",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 50.742,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belleville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.7",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 50.554,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Belleville",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "172.68.36.2",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 48.75,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "St. Louis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.36.2",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 48.245,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "St. Louis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.36.2",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 49.16,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "St. Louis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 47.97,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 53.026,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 43.627,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 60886,
+        "timestamp": 1779931944,
+        "msm_name": "Traceroute",
+        "from": "71.87.185.77",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931966
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 42,
+        "endtime": 1779931955,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.10.50.126",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.10.50.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.46
+                    },
+                    {
+                        "from": "10.10.50.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.105
+                    },
+                    {
+                        "from": "10.10.50.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.846
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "168.245.170.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.444,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "168.245.170.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 1.236,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "168.245.170.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 1.682,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monterey",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "63.135.177.9",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 3.847,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.9",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 3.899,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.9",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 4.008,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "63.135.177.8",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 2.73,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.8",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 2.978,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.8",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.135,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "63.135.177.181",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.186,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.181",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.641,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    },
+                    {
+                        "from": "63.135.177.181",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.638,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cookeville",
+                        "isp": "Twin Lakes Telephone Cooperative Corporation",
+                        "asn": "AS19331"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.363,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.843,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.65",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.454,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 11.15,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 10.925,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 10.576,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 61246,
+        "timestamp": 1779931942,
+        "msm_name": "Traceroute",
+        "from": "150.252.164.169",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931961
+    }
+]

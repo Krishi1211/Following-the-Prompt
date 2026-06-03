@@ -1,0 +1,1092 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 21,
+        "endtime": 1779932215,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "89.7.1.130",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.422,
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U.",
+                        "asn": "AS12430"
+                    },
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.391,
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U.",
+                        "asn": "AS12430"
+                    },
+                    {
+                        "from": "89.7.1.30",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.309,
+                        "country": "Spain",
+                        "country_code": "ES",
+                        "city": "Palma",
+                        "isp": "Vodafone Espana S.A.U.",
+                        "asn": "AS12430"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.378
+                    },
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 14.12
+                    },
+                    {
+                        "from": "10.228.32.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.306
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.027
+                    },
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 10.793
+                    },
+                    {
+                        "from": "10.17.0.197",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.009
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 18.328
+                    },
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 18.813
+                    },
+                    {
+                        "from": "10.25.0.137",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 17.873
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 17.337,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 18.814,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 17.627,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 26.911,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.233,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 18.239,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.352,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 19.04,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.116",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.143,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 17.505,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 17.579,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 18.56,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 21087,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "204.111.31.118",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932224
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 61,
+        "endtime": 1779932214,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.11",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.548
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.405
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.378
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 19.009,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 14.531,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "50.110.64.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.406,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Wheeling",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.586,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.61,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "184.19.242.126",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.342,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 10.87,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 10.572,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.40.4.197",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 9.562,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 572,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.749,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.796,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.41.143.193",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 9.599,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 23.043,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 35.618,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.43.94.33",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 46.829,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Lake Tahoe",
+                        "isp": "Frontier Communications of America",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 9.574,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 9.562,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 9.628,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.634,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 10.837,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.112",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 10.868,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 9.602,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 9.633,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 10.598,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 24836,
+        "timestamp": 1779932213,
+        "msm_name": "Traceroute",
+        "from": "184.15.47.215",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932215
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 4,
+        "endtime": 1779932216,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.4.191",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.267
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.03
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.715
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.382,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.41,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.43.216.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.256,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Huntington",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.031,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.044,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "184.19.250.132",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.431,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Secaucus",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 16.206,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 16.14,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.40.1.49",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 15.782,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 12740,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palo Cedro",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.976,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.359,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    },
+                    {
+                        "from": "74.41.143.191",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.155,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "McCall",
+                        "isp": "Frontier Communications Solutions",
+                        "asn": "AS5650"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.809,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 16.287,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.46",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.964,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.114,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.87,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.535,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.804,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 16.303,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 15.659,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 14.883,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.821,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 15.074,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 51343,
+        "timestamp": 1779932215,
+        "msm_name": "Traceroute",
+        "from": "74.33.164.17",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932216
+    }
+]

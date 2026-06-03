@@ -1,0 +1,802 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 43,
+        "endtime": 1779932560,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.20",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 255,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": false,
+        "msm_id": 175269402,
+        "prb_id": 10443,
+        "timestamp": 1779932488,
+        "msm_name": "Traceroute",
+        "from": "70.20.54.168",
+        "type": "traceroute",
+        "group_id": 175269402,
+        "stored_timestamp": 1779932562
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 3,
+        "endtime": 1779932499,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.3.150",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.401
+                    },
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.029
+                    },
+                    {
+                        "from": "192.168.3.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.91
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 5.71,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.287,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "72.73.82.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.425,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bath",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 1.55,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 2.109,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "70.109.168.201",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 1.481,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.191,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "70.109.168.131",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.069,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merrimack",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.075,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.8,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.48",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 9.717,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.533,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.641,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.337,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.77,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.709,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.338,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.552,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269402,
+        "prb_id": 10473,
+        "timestamp": 1779932491,
+        "msm_name": "Traceroute",
+        "from": "163.252.145.227",
+        "type": "traceroute",
+        "group_id": 175269402,
+        "stored_timestamp": 1779932499
+    },
+    {
+        "fw": 4790,
+        "lts": 22,
+        "endtime": 1779932501,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.53",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.64
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.361
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.511
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 171.186
+                    },
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 41.709
+                    },
+                    {
+                        "from": "10.220.4.19",
+                        "ttl": 254,
+                        "size": 52,
+                        "rtt": 232.69
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 22.49
+                    },
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 22.224
+                    },
+                    {
+                        "from": "10.220.4.10",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 33.466
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 32.513,
+                        "ittl": 0
+                    },
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 32.201,
+                        "ittl": 0
+                    },
+                    {
+                        "from": "10.220.4.29",
+                        "ttl": 252,
+                        "size": 52,
+                        "rtt": 27.286,
+                        "ittl": 0
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 36.506
+                    },
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 33.667
+                    },
+                    {
+                        "from": "172.16.1.6",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 31.183
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 32.178,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 32.61,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "66.220.238.41",
+                        "ttl": 250,
+                        "size": 52,
+                        "rtt": 32.324,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 29.006,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 33.596,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "66.220.238.50",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 32.495,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Barre",
+                        "isp": "Vermont Telephone Company, Inc.",
+                        "asn": "AS17356"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 32.306,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 30.685,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "216.66.99.26",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 32.367,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 37.162,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 36.604,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    },
+                    {
+                        "from": "216.66.99.25",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 31.138,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Springfield",
+                        "isp": "Vermont Telephone Company",
+                        "asn": "AS17356"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 51.974,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 25.802,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 34.343,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 35.914,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 35.676,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 27.946,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 35.803,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269402,
+        "prb_id": 4405,
+        "timestamp": 1779932491,
+        "msm_name": "Traceroute",
+        "from": "216.66.102.83",
+        "type": "traceroute",
+        "group_id": 175269402,
+        "stored_timestamp": 1779932508
+    }
+]

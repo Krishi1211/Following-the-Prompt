@@ -1,0 +1,876 @@
+[
+    {
+        "fw": 4790,
+        "lts": 255,
+        "endtime": 1779930753,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.86.9",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.864
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 4.874
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 4.92
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 16.898
+                    },
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 22.003
+                    },
+                    {
+                        "from": "10.61.27.90",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 15.467
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 15.445,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 16.071,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.60.245",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 14.186,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 16.424,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Arvada",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 17.671,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Arvada",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.86.179.57",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 13.734,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Arvada",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.757,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.172,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.216.147.73",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 34.16,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "96.110.43.253",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.693,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.110.33.114",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 24.751,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.33.114",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 17.166,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.33.114",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 15.182,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Acton",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 17.626,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 16.592,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.12",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 22.708,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 16.922,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 14.99,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 16.582,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 202,
+        "timestamp": 1779930732,
+        "msm_name": "Traceroute",
+        "from": "24.128.98.241",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930760
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 55,
+        "endtime": 1779930775,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "173.248.145.27",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.23,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks, LLC",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.591,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks, LLC",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "from": "173.248.145.17",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.831,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks, LLC",
+                        "asn": "AS30475"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 8.325,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.296,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "from": "68.71.128.64",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.619,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "late": 10,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "late": 11,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "late": 9,
+                        "from": "68.71.128.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "late": 10,
+                        "from": "68.71.128.236",
+                        "ttl": 254,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "154.54.30.250",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 2.329,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "late": 10,
+                        "from": "68.71.128.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "late": 9,
+                        "from": "68.71.128.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Handy Networks",
+                        "asn": "AS30475"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.347,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.348,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.161.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.325,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "38.32.208.154",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.72,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "38.32.208.154",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.864,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "38.32.208.154",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.911,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 7.75,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.76,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.10",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 1.434,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.475,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.493,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.828,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 6835,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "173.248.145.27",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930778
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 64,
+        "endtime": 1779930743,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "199.192.70.17",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.88,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merino",
+                        "isp": "CCT LLC",
+                        "asn": "AS32281"
+                    },
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.142,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merino",
+                        "isp": "CCT LLC",
+                        "asn": "AS32281"
+                    },
+                    {
+                        "from": "199.192.70.16",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.332,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Merino",
+                        "isp": "CCT LLC",
+                        "asn": "AS32281"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.698,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.466,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.32.28",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.156,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.436,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.331,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.406,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 7523,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "199.192.70.17",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930755
+    }
+]
