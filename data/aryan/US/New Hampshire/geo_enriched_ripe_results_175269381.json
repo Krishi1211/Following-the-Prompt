@@ -1,0 +1,848 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 58,
+        "endtime": 1779932477,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "10.42.42.136",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.684
+                    },
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.299
+                    },
+                    {
+                        "from": "10.42.42.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.276
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.27.247.106",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.139,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.27.247.106",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 17.228,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.27.247.106",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 9.982,
+                        "itos": 32
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.217.74.25",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 17.462,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.74.25",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.333,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.217.74.25",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.473,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.204,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 9.565,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.22.29",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 10.375,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 13.762,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.429,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.150.125",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.014,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 27.888,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.651,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.484,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 12.968,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 13.695,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.399,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.561,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 10.727,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.617,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 13159,
+        "timestamp": 1779932477,
+        "msm_name": "Traceroute",
+        "from": "24.60.9.221",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932480
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 52,
+        "endtime": 1779932479,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "69.161.78.5",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.989
+                    },
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 7.213
+                    },
+                    {
+                        "from": "172.16.224.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.017
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.947,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.535,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "23.245.0.58",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.833,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 10.41,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 11.802,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "23.245.0.24",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 10.874,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sanford",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 10.625,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Londonderry",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 12.094,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Londonderry",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    },
+                    {
+                        "from": "209.196.169.93",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 13.381,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Londonderry",
+                        "isp": "Breezeline",
+                        "asn": "AS11776"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.683,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.086,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 10.893,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 12.176,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 11.265,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 11.953,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 13288,
+        "timestamp": 1779932478,
+        "msm_name": "Traceroute",
+        "from": "69.161.78.5",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932480
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 42,
+        "endtime": 1779932487,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "140.235.236.25",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.152,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newport",
+                        "isp": "DHI TECHNICAL SERVICES LLC",
+                        "asn": "AS400848"
+                    },
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.933,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newport",
+                        "isp": "DHI TECHNICAL SERVICES LLC",
+                        "asn": "AS400848"
+                    },
+                    {
+                        "from": "140.235.236.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.969,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newport",
+                        "isp": "DHI TECHNICAL SERVICES LLC",
+                        "asn": "AS400848"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.64
+                    },
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.725
+                    },
+                    {
+                        "from": "10.100.101.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.642
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.379,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.061,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.201.253",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 12.003,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Madison",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "64.222.213.155",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.964,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.155",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.803,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.155",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.747,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "64.222.213.46",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.092,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.46",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.21,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    },
+                    {
+                        "from": "64.222.213.46",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.058,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Portland",
+                        "isp": "Consolidated Communications, Inc.",
+                        "asn": "AS13977"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "206.108.236.61",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.904,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Markley Boston LLC"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 14.126,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 25.265,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.17",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 19.747,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.019,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 13.93,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 13.957,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 7672,
+        "timestamp": 1779932479,
+        "msm_name": "Traceroute",
+        "from": "140.235.236.25",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932499
+    }
+]

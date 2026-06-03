@@ -1,0 +1,2114 @@
+[
+    {
+        "fw": 4790,
+        "lts": 50,
+        "endtime": 1780001841,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.8.5.109",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.8.5.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.692
+                    },
+                    {
+                        "from": "10.8.5.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.857
+                    },
+                    {
+                        "from": "10.8.5.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 4.135
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.4.1.254",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.379
+                    },
+                    {
+                        "from": "10.4.1.254",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.393
+                    },
+                    {
+                        "from": "10.4.1.254",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.39
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.1.32.1",
+                        "ttl": 253,
+                        "size": 76,
+                        "rtt": 1.385
+                    },
+                    {
+                        "from": "10.1.32.1",
+                        "ttl": 253,
+                        "size": 76,
+                        "rtt": 1.382
+                    },
+                    {
+                        "from": "10.1.32.1",
+                        "ttl": 253,
+                        "size": 76,
+                        "rtt": 1.233
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "196.24.39.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.649,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Pretoria",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "196.24.39.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.402,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Pretoria",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "196.24.39.254",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.498,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Pretoria",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "155.232.65.104",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 1.766,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 468,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "155.232.65.104",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 4.176,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 468,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "155.232.65.104",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 4.332,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 468,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "155.232.64.91",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.668,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "155.232.64.91",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.571,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    },
+                    {
+                        "from": "155.232.64.91",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.935,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "TENET (The UNINET Project)",
+                        "asn": "AS2018"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 2.712,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 3.312,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 2.472,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.411,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.41,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.392,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 3454,
+        "timestamp": 1780001840,
+        "msm_name": "Traceroute",
+        "from": "196.24.39.242",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001841
+    },
+    {
+        "fw": 4790,
+        "lts": 125,
+        "endtime": 1780001842,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "172.31.10.3",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.31.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.799
+                    },
+                    {
+                        "from": "172.31.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.445
+                    },
+                    {
+                        "from": "172.31.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.243
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.22.248.97",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.421,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "196.22.248.97",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.858,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "196.22.248.97",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.271,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Cybersmart",
+                        "asn": "AS36874"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "105.233.8.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 3.532,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.8.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.59,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.8.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.464,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "105.233.8.38",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 6.191,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.8.38",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.428,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.8.38",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.997,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "105.233.31.149",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 5.868,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.31.149",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 3.993,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    },
+                    {
+                        "from": "105.233.31.149",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.937,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Lightspeed/Cybersmart",
+                        "asn": "AS36874"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 5.936,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 6.875,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 6.26,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 5.564,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 6.708,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 7.215,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 4153,
+        "timestamp": 1780001842,
+        "msm_name": "Traceroute",
+        "from": "41.177.109.245",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001855
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 464,
+        "endtime": 1780001840,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "188.172.217.86",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "188.172.217.85",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.807,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Anexia Cloud Solutions GmbH",
+                        "asn": "AS42473"
+                    },
+                    {
+                        "from": "188.172.217.85",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.478,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Anexia Cloud Solutions GmbH",
+                        "asn": "AS42473"
+                    },
+                    {
+                        "from": "188.172.217.85",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.39,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Anexia Cloud Solutions GmbH",
+                        "asn": "AS42473"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "41.66.181.78",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.671,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Centurion",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    },
+                    {
+                        "from": "41.66.181.78",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.759,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Centurion",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    },
+                    {
+                        "from": "41.66.181.78",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.679,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Centurion",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "41.84.13.0",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 1.462,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    },
+                    {
+                        "from": "41.84.13.0",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 1.415,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    },
+                    {
+                        "from": "41.84.13.0",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 1.381,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Africa Independent Network Exchange (Pty) LTD (AfricaINX)",
+                        "asn": "AS37179"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.137,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.316,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.123,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.048,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.952,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 6.266,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.861,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.948,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 0.937,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 6569,
+        "timestamp": 1780001840,
+        "msm_name": "Traceroute",
+        "from": "188.172.217.86",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001841
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 23,
+        "endtime": 1780001840,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "41.79.249.228",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "41.79.249.226",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 1.024,
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dodoma",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "41.79.249.226",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 1.549,
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dodoma",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "41.79.249.226",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 1.123,
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dodoma",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "63.223.48.158",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.652,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "63.223.48.158",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.568,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "63.223.48.158",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.506,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "63.218.151.170",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.862,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "63.218.151.170",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.812,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    },
+                    {
+                        "from": "63.218.151.170",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.899,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Gateway Communications",
+                        "asn": "AS31713"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 6.585,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.278,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.581,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.225,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.212,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.24,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 6779,
+        "timestamp": 1780001840,
+        "msm_name": "Traceroute",
+        "from": "41.79.249.228",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001841
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 112,
+        "endtime": 1780001847,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "102.130.49.144",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "102.130.49.21",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.12,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Misaka Network, Inc.",
+                        "asn": "AS35487"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "100.92.253.4",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.262
+                    },
+                    {
+                        "from": "100.92.253.4",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.233
+                    },
+                    {
+                        "from": "100.92.253.4",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.205
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.889,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.953,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.023,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.6,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.416,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.659,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 0.312,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 0.315,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 0.294,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 6935,
+        "timestamp": 1780001839,
+        "msm_name": "Traceroute",
+        "from": "102.130.49.144",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001848
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 41,
+        "endtime": 1780001840,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "156.154.135.254",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "156.154.135.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.391,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.135.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.76,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.135.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.357,
+                        "country": "United Kingdom",
+                        "country_code": "GB",
+                        "city": "London",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.148,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.0,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.719,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.785,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.848,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.37",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.861,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.371,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.377,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.386,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 6993,
+        "timestamp": 1780001840,
+        "msm_name": "Traceroute",
+        "from": "156.154.135.254",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001841
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 39,
+        "endtime": 1780001839,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "196.40.111.147",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "196.40.111.145",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 2.91,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Xneelo (Pty) Ltd",
+                        "asn": "AS37153"
+                    },
+                    {
+                        "from": "196.40.111.145",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 6.471,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Xneelo (Pty) Ltd",
+                        "asn": "AS37153"
+                    },
+                    {
+                        "from": "196.40.111.145",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 8.763,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "Xneelo (Pty) Ltd",
+                        "asn": "AS37153"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.40.102.67",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.443,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "xneelo-CPT",
+                        "asn": "AS37153"
+                    },
+                    {
+                        "from": "196.40.102.67",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.341,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "xneelo-CPT",
+                        "asn": "AS37153"
+                    },
+                    {
+                        "from": "196.40.102.67",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.459,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "xneelo-CPT",
+                        "asn": "AS37153"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.109,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.956,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.081,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 2.118,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 2.12,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 2.057,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 7062,
+        "timestamp": 1780001839,
+        "msm_name": "Traceroute",
+        "from": "196.40.111.147",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001842
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 719,
+        "endtime": 1780001839,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "102.130.68.151",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.130.68.146",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.338,
+                        "country": "Angola",
+                        "country_code": "AO",
+                        "city": "Luanda",
+                        "isp": "Angola Cables",
+                        "asn": "AS37468"
+                    },
+                    {
+                        "from": "102.130.68.146",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.382,
+                        "country": "Angola",
+                        "country_code": "AO",
+                        "city": "Luanda",
+                        "isp": "Angola Cables",
+                        "asn": "AS37468"
+                    },
+                    {
+                        "from": "102.130.68.146",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.448,
+                        "country": "Angola",
+                        "country_code": "AO",
+                        "city": "Luanda",
+                        "isp": "Angola Cables",
+                        "asn": "AS37468"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.453,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.167,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.55,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 5.434,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.894,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.439,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.434,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.429,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.465,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 7222,
+        "timestamp": 1780001839,
+        "msm_name": "Traceroute",
+        "from": "102.130.68.151",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001840
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 4,
+        "endtime": 1780001839,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "102.212.60.10",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.212.60.3",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.478,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    },
+                    {
+                        "from": "102.212.60.3",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.488,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    },
+                    {
+                        "from": "102.212.60.3",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.518,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "102.212.60.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.543,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    },
+                    {
+                        "from": "102.212.60.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.522,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    },
+                    {
+                        "from": "102.212.60.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.497,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "LNX Solutions (Pty) Ltd",
+                        "asn": "AS329276"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.696,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 5.414,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.70.198",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.63,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.652,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.719,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.579,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 7328,
+        "timestamp": 1780001839,
+        "msm_name": "Traceroute",
+        "from": "102.212.60.10",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001840
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 574,
+        "endtime": 1780001839,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "102.217.253.202",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.217.253.201",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.192,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Insight Actuarial Solutions (Pty) Ltd",
+                        "asn": "AS328964"
+                    },
+                    {
+                        "from": "102.217.253.201",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.191,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Insight Actuarial Solutions (Pty) Ltd",
+                        "asn": "AS328964"
+                    },
+                    {
+                        "from": "102.217.253.201",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.184,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Insight Actuarial Solutions (Pty) Ltd",
+                        "asn": "AS328964"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.225,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    },
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.026,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    },
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.9,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.058,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.034,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 6.937,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.155,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.064,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.07,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337620,
+        "prb_id": 7362,
+        "timestamp": 1780001839,
+        "msm_name": "Traceroute",
+        "from": "102.217.253.202",
+        "type": "traceroute",
+        "group_id": 175337620,
+        "stored_timestamp": 1780001841
+    }
+]

@@ -1,0 +1,1183 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 57,
+        "endtime": 1779932238,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "206.127.64.139",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.581,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.384,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    },
+                    {
+                        "from": "206.127.64.129",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.462,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.607,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    },
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.624,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    },
+                    {
+                        "from": "206.127.109.179",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.404,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Montana Internet Corporation",
+                        "asn": "AS4043"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.541,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.543,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "from": "64.125.78.237",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.237,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Helena",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.857,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.975,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "from": "64.125.28.176",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 21.923,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 278524,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "64.125.22.22",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 22.048,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 995160,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "208.184.88.166",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 23.113,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Fort Worth",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "from": "208.184.88.166",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 22.881,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Fort Worth",
+                        "isp": "Zayo Bandwidth",
+                        "asn": "AS6461"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 39.291,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 31.636,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 42.217,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 21.956,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 21.962,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 22.202,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 1008859,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "206.127.64.139",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932240
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 1,
+        "endtime": 1779932217,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.123.152",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.608
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.414
+                    },
+                    {
+                        "from": "192.168.123.11",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.378
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 21.651
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 15.368
+                    },
+                    {
+                        "from": "172.24.100.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 16.248
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.668,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.022,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.247.44",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 15.581,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.964,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.697,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.254.228",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 28.306,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 32.46,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 36.101,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.105.36",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 22.226,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 41.53,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 28.384,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.146.123.12",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 28.622,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 64.338,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 47.686,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 62.671,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 36.068,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 43.198,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 28.555,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "206.81.81.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 56.344,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.81.81.10",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 70.172,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 38.456,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 38.077,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.39",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 39.924,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 56.966,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 54.656,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 53,
+                        "size": 48,
+                        "rtt": 53.506,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 20756,
+        "timestamp": 1779932212,
+        "msm_name": "Traceroute",
+        "from": "47.5.21.128",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932220
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 23,
+        "endtime": 1779932223,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.86.49",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.21
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.508
+                    },
+                    {
+                        "from": "192.168.86.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.516
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.117
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 7.404
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 8.088
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.368,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.02,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.145.105.190",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.394,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Whitefish",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.18,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.341,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.72.48",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.099,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.326,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.832,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.192.208",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.019,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Missoula",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.927,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.181,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.146.123.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.406,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Billings",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 33.212,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 33.071,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    },
+                    {
+                        "from": "69.144.130.200",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 32.86,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sheridan",
+                        "isp": "Charter Communications LLC",
+                        "asn": "AS33588"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 28.071,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 24.329,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.39",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 28.712,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "206.81.81.10",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 33.107,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 45.794,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.352,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.33",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 24.035,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 26.896,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 28.672,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 25.411,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 21031,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "174.45.137.45",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932225
+    }
+]

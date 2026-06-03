@@ -1,0 +1,591 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 3,
+        "endtime": 1779932216,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.5.21",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.22
+                    },
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.679
+                    },
+                    {
+                        "from": "192.168.5.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.562
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 47.269
+                    },
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 67.329
+                    },
+                    {
+                        "from": "10.41.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 52.539
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 39.695,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    },
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 52.594,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    },
+                    {
+                        "from": "24.220.14.62",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 54.196,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 42.272,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 49.474,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    },
+                    {
+                        "from": "24.124.25.120",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 50.906,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Denver",
+                        "isp": "Midcontinent Communications",
+                        "asn": "AS11232"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 60.625,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 52.209,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.88.2",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 72.233,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 45.909,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 44.85,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 53.134,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 54286,
+        "timestamp": 1779932215,
+        "msm_name": "Traceroute",
+        "from": "184.83.41.193",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932216
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 12,
+        "endtime": 1779932215,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.251.29",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 1.348
+                    },
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 1.035
+                    },
+                    {
+                        "from": "192.168.251.254",
+                        "ttl": 255,
+                        "size": 76,
+                        "rtt": 0.749
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.524,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.927,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.190.126",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.949,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 1.622,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 1.498,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "from": "10.200.99.82",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 1.728,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900011,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 132770,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 1.269,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 1.647,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.176.232",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 1.914,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.472,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.881,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    },
+                    {
+                        "from": "96.63.176.224",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 1.664,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Sioux City",
+                        "isp": "FiberComm LC",
+                        "asn": "AS54578"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 15.588,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 19.443,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.753,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.942,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.527,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 9.648,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 9.177,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 8.644,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 8.371,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 62023,
+        "timestamp": 1779932215,
+        "msm_name": "Traceroute",
+        "from": "96.63.190.66",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932219
+    }
+]

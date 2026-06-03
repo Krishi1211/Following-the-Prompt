@@ -1,0 +1,1061 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 23,
+        "endtime": 1779930751,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "172.31.254.195",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.31.254.193",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.491
+                    },
+                    {
+                        "from": "172.31.254.193",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.553
+                    },
+                    {
+                        "from": "172.31.254.193",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.428
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.128.160.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 10.16
+                    },
+                    {
+                        "from": "10.128.160.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 10.06
+                    },
+                    {
+                        "from": "10.128.160.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 9.628
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "100.127.75.78",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.985
+                    },
+                    {
+                        "from": "100.127.75.78",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.586
+                    },
+                    {
+                        "from": "100.127.75.78",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.863
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "100.120.100.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.626
+                    },
+                    {
+                        "from": "100.120.100.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.694
+                    },
+                    {
+                        "from": "100.120.100.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.579
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.215.224.171",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 26.477,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Warwick",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.72.81",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 25.008,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.81",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 24.875,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.81",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 23.889,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 252,
+                        "size": 48,
+                        "rtt": 21.759,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 252,
+                        "size": 48,
+                        "rtt": 21.797,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 252,
+                        "size": 48,
+                        "rtt": 21.857,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 10456,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "72.212.119.82",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930764
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 9,
+        "endtime": 1779930775,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "104.225.102.122",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "104.225.102.121",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.159,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "NetActuate, Inc",
+                        "asn": "AS36236"
+                    },
+                    {
+                        "from": "104.225.102.121",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.802,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "NetActuate, Inc",
+                        "asn": "AS36236"
+                    },
+                    {
+                        "from": "104.225.102.121",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.693,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "NetActuate, Inc",
+                        "asn": "AS36236"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "154.54.28.145",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.478,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.28.145",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.376,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.28.145",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.358,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "154.54.45.162",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 11.484,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.45.162",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 11.609,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.45.162",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 11.712,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "154.54.3.70",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 11.387,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.3.70",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 12.467,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "154.54.3.70",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 11.248,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "38.104.84.254",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 11.68,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 58.58,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 12.097,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 246,
+                        "size": 28,
+                        "rtt": 30.675,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 11.444,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 11.515,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 55,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 11.57,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 6408,
+        "timestamp": 1779930730,
+        "msm_name": "Traceroute",
+        "from": "104.225.102.122",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930778
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 66,
+        "endtime": 1779930740,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.33.139.235",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.33.139.81",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 55.28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    },
+                    {
+                        "from": "192.33.139.81",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 11.898,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    },
+                    {
+                        "from": "192.33.139.81",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 11.739,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.33.139.40",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.971,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    },
+                    {
+                        "from": "192.33.139.40",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.635,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    },
+                    {
+                        "from": "192.33.139.40",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.807,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "Ninja-IX Corporation",
+                        "asn": "AS53698"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "162.251.161.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.754,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "iCastCenter",
+                        "asn": "AS53767"
+                    },
+                    {
+                        "from": "162.251.161.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.713,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "iCastCenter",
+                        "asn": "AS53767"
+                    },
+                    {
+                        "from": "162.251.161.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.73,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "iCastCenter",
+                        "asn": "AS53767"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "104.251.123.43",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.743,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "104.251.123.43",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.728,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "104.251.123.43",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 0.786,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "136.175.9.105",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.726,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "136.175.9.105",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.84,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "136.175.9.105",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 3.999,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "207.32.217.119",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 0.878,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "207.32.217.119",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 0.87,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    },
+                    {
+                        "from": "207.32.217.119",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 0.733,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "1GSERVERS, LLC",
+                        "asn": "AS14315"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.110.80.60",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.202,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    },
+                    {
+                        "from": "66.110.80.60",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.865,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    },
+                    {
+                        "from": "66.110.80.60",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 1.124,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "66.110.80.74",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 23.185,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 276,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    },
+                    {
+                        "from": "66.110.80.74",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 23.7,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 276,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    },
+                    {
+                        "from": "66.110.80.74",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 23.115,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 276,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Phoenix",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "66.110.80.77",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 23.339,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 1309,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "TATA COMMUNICATIONS (AMERICA) INC",
+                        "asn": "AS6453"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 23.341,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 24.011,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.74.205",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 28.403,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Dallas",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 22.905,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 22.909,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 50,
+                        "size": 48,
+                        "tos": 40,
+                        "rtt": 22.954,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 7159,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "192.33.139.235",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930741
+    }
+]

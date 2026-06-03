@@ -1,0 +1,998 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 10,
+        "endtime": 1779932479,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "192.168.1.123",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.769
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.492
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.385
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.138.242.131",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 13.266,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.138.242.131",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 15.794,
+                        "itos": 32
+                    },
+                    {
+                        "from": "10.138.242.131",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 12.803,
+                        "itos": 32
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "68.87.156.217",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 16.296,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.87.156.217",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.236,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.87.156.217",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 13.442,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.110.119.41",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.187,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.119.41",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 16.378,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "96.110.119.41",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 12.169,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 12.749,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 16.6,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "68.87.182.9",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 16.207,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Woburn",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 16.418,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Yarmouth",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.312,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Yarmouth",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "162.151.151.41",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.453,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Yarmouth",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.571,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 18.0,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    },
+                    {
+                        "from": "50.170.111.230",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.441,
+                        "itos": 32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Comcast Cable Communications, LLC",
+                        "asn": "AS7922"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 27.003,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 18.418,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.52.15",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 29.788,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Boston",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 16.28,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 16.955,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 16.726,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 10146,
+        "timestamp": 1779932478,
+        "msm_name": "Traceroute",
+        "from": "73.218.113.55",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932519
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 39,
+        "endtime": 1779932479,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "192.1.110.32",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.28,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cambridge",
+                        "isp": "RTX BBN Technologies"
+                    },
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.247,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cambridge",
+                        "isp": "RTX BBN Technologies"
+                    },
+                    {
+                        "from": "192.1.104.73",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.292,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cambridge",
+                        "isp": "RTX BBN Technologies"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.939,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.951,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "12.50.241.121",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.873,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "32.122.43.112",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 5.808,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 130569,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.122.43.112",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 5.819,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 130569,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.122.43.112",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 5.839,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 130569,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "32.130.21.83",
+                        "ttl": 247,
+                        "size": 144,
+                        "rtt": 5.845,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 7775,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.21.83",
+                        "ttl": 247,
+                        "size": 144,
+                        "rtt": 5.808,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 7775,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.21.83",
+                        "ttl": 247,
+                        "size": 144,
+                        "rtt": 5.77,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 7775,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "32.130.20.162",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.786,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.20.162",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.75,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.20.162",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.829,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 244903,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "32.130.21.35",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.713,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 134469,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.21.35",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.81,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 134469,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.130.21.35",
+                        "ttl": 249,
+                        "size": 144,
+                        "rtt": 5.78,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 0,
+                                            "exp": 1,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 134469,
+                                            "exp": 1,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "32.122.32.247",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 6.125,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.122.32.247",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 6.031,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    },
+                    {
+                        "from": "32.122.32.247",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 6.018,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "AT&T Enterprises, LLC",
+                        "asn": "AS7018"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.158.61.101",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 6.912,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.101",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 7.269,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.101",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 6.868,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 6.483,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 6.425,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 55,
+                        "size": 48,
+                        "rtt": 6.532,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 6875,
+        "timestamp": 1779932479,
+        "msm_name": "Traceroute",
+        "from": "192.1.110.32",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932480
+    }
+]

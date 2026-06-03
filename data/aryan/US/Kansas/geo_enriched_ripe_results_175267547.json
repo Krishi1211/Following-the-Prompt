@@ -1,0 +1,740 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 59,
+        "endtime": 1779930732,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "63.130.83.29",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "63.130.83.25",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.443,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Vodafone Americas",
+                        "asn": "AS1273"
+                    },
+                    {
+                        "from": "63.130.83.25",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.399,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Vodafone Americas",
+                        "asn": "AS1273"
+                    },
+                    {
+                        "from": "63.130.83.25",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.364,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Vodafone Americas",
+                        "asn": "AS1273"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "195.2.10.85",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 58.822,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cable & Wireless Austria Netblock",
+                        "asn": "AS1273"
+                    },
+                    {
+                        "from": "195.2.10.85",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 58.905,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cable & Wireless Austria Netblock",
+                        "asn": "AS1273"
+                    },
+                    {
+                        "from": "195.2.10.85",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 58.785,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cable & Wireless Austria Netblock",
+                        "asn": "AS1273"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "173.245.63.78",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 59.491,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.78",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 60.328,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.78",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 73.244,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 58.695,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 58.655,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.109",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 58.675,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 67.927,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 60.969,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.179",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 59.501,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 58.87,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 58.856,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 58.812,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 10507,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "63.130.83.29",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930733
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 30,
+        "endtime": 1779930754,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.11.11",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.45
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.252
+                    },
+                    {
+                        "from": "192.168.11.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.212
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.26.0.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.247
+                    },
+                    {
+                        "from": "10.26.0.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.043
+                    },
+                    {
+                        "from": "10.26.0.2",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.007
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 1.987,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    },
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 1.94,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    },
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.157,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 2.462,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 19.69,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 41.531,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.254,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 19.545,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 2.624,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.236,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 1.988,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 2.13,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 25206,
+        "timestamp": 1779930729,
+        "msm_name": "Traceroute",
+        "from": "136.35.11.191",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930776
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 54,
+        "endtime": 1779930745,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.10.102",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.111
+                    },
+                    {
+                        "from": "192.168.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.544
+                    },
+                    {
+                        "from": "192.168.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.513
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.26.0.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.376
+                    },
+                    {
+                        "from": "10.26.0.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.303
+                    },
+                    {
+                        "from": "10.26.0.19",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.331
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.873,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    },
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.821,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    },
+                    {
+                        "from": "23.255.224.203",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.924,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Google Fiber Inc.",
+                        "asn": "AS16591"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.503,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 2.214,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.8",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 45.48,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 2.576,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 2.627,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.14",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 2.466,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.975,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.916,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.984,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 52650,
+        "timestamp": 1779930733,
+        "msm_name": "Traceroute",
+        "from": "136.34.251.158",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930748
+    }
+]

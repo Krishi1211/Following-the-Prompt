@@ -1,0 +1,846 @@
+[
+    {
+        "fw": 4790,
+        "lts": 26,
+        "endtime": 1779930747,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.137",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.771
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 7.116
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 6.116
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 18.456,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 12.798,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.185.93",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 17.02,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 30.803,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 37.481,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "76.167.26.173",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 57.518,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 18.647,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 28.335,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "24.24.194.24",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 18.946,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "South Pasadena",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 17.5,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.693,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.21.20",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 22.606,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 15.85,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 21.41,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.1.2",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 24.763,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "66.109.10.10",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 23.292,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tustin",
+                        "isp": "Spectrum",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "66.109.10.10",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 25.859,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Tustin",
+                        "isp": "Spectrum",
+                        "asn": "AS7843"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 20.889,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.846,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "66.109.3.19",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.817,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Spectrum",
+                        "asn": "AS7843"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 41.924,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 22.171,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 21.394,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 37.585,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 26.247,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.98",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 25.938,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 21.498,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 19.236,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 22.275,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267593,
+        "prb_id": 125,
+        "timestamp": 1779930741,
+        "msm_name": "Traceroute",
+        "from": "70.95.176.45",
+        "type": "traceroute",
+        "group_id": 175267593,
+        "stored_timestamp": 1779930753
+    },
+    {
+        "fw": 4790,
+        "lts": 585,
+        "endtime": 1779930743,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.182",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 11.221
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.024
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.711
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 16.797,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 11.621,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "142.254.184.109",
+                        "ttl": 63,
+                        "size": 28,
+                        "rtt": 11.464,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood Village",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 31.411,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 25.271,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "76.167.27.205",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 30.612,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 19.208,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 16.434,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "24.30.169.202",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 17.072,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "La Quinta",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 15.375,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 20.165,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.15.180",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 19.304,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.862,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.395,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    },
+                    {
+                        "from": "72.129.1.0",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.418,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Diego",
+                        "isp": "Spectrum",
+                        "asn": "AS20001"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 16.332,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 37.295,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "209.18.43.62",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 18.211,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 27.078,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.093,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    },
+                    {
+                        "from": "107.14.19.41",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 17.417,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Charter Communications Inc",
+                        "asn": "AS7843"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.509,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.31,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.52",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 18.434,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 15.129,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 17.08,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.72.32",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 17.625,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Los Angeles",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 18.613,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 18.525,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 21.32,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267593,
+        "prb_id": 32,
+        "timestamp": 1779930742,
+        "msm_name": "Traceroute",
+        "from": "76.82.155.9",
+        "type": "traceroute",
+        "group_id": 175267593,
+        "stored_timestamp": 1779930754
+    }
+]

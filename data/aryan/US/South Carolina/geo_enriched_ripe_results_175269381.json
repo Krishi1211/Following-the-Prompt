@@ -1,0 +1,907 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 3,
+        "endtime": 1779932487,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "192.168.68.52",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.228
+                    },
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.584
+                    },
+                    {
+                        "from": "192.168.68.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.687
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.471,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bluffton",
+                        "isp": "Hargray Communications Group, Inc.",
+                        "asn": "AS22646"
+                    },
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.736,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bluffton",
+                        "isp": "Hargray Communications Group, Inc.",
+                        "asn": "AS22646"
+                    },
+                    {
+                        "from": "64.20.145.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.676,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Bluffton",
+                        "isp": "Hargray Communications Group, Inc.",
+                        "asn": "AS22646"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 14.169
+                    },
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.874
+                    },
+                    {
+                        "from": "172.31.251.111",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 13.628
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "206.126.110.136",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 18.592,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Telx"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "108.162.235.59",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 22.405,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.59",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 24.923,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.59",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.809,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 16.424,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 13.772,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 13.785,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 23714,
+        "timestamp": 1779932478,
+        "msm_name": "Traceroute",
+        "from": "207.182.67.5",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932503
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 2,
+        "endtime": 1779932494,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "172.16.100.70",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.59
+                    },
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.754
+                    },
+                    {
+                        "from": "172.16.100.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.659
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.357,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    },
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.31,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    },
+                    {
+                        "from": "24.159.139.225",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.376,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.686,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    },
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 12.944,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    },
+                    {
+                        "from": "96.34.67.234",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 14.187,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Charter Communications",
+                        "asn": "AS20115"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 5.508,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Suffolk",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.323,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Suffolk",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.77.5",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 10.215,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Suffolk",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 21.464,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 19.749,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.2.50",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 20.084,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spartanburg",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 22.287,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 17.493,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenville",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.134",
+                        "ttl": 247,
+                        "size": 68,
+                        "rtt": 17.731,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenville",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 27.691,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Reno",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 30.91,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Reno",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.0.161",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 27.894,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Reno",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 28.028,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 29.678,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.51",
+                        "ttl": 245,
+                        "size": 68,
+                        "rtt": 31.103,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 29.785,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 36.398,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "206.126.237.30",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 29.236,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 32.893,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 33.97,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.145",
+                        "ttl": 243,
+                        "size": 28,
+                        "rtt": 29.893,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "173.245.63.203",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 30.677,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.203",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 32.063,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "173.245.63.203",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 33.87,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ashburn",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 31.914,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 34.257,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 50,
+                        "size": 48,
+                        "rtt": 28.791,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 51354,
+        "timestamp": 1779932481,
+        "msm_name": "Traceroute",
+        "from": "24.159.139.235",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932500
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 7,
+        "endtime": 1779932491,
+        "dst_name": "172.66.0.243",
+        "dst_addr": "172.66.0.243",
+        "src_addr": "10.0.1.129",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.154
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.766
+                    },
+                    {
+                        "from": "10.0.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.711
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.151,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood",
+                        "isp": "West Carolina Communications, LLC",
+                        "asn": "AS10279"
+                    },
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.466,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood",
+                        "isp": "West Carolina Communications, LLC",
+                        "asn": "AS10279"
+                    },
+                    {
+                        "from": "198.13.84.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.531,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Greenwood",
+                        "isp": "West Carolina Communications, LLC",
+                        "asn": "AS10279"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 6.554
+                    },
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 6.325
+                    },
+                    {
+                        "from": "172.24.40.30",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 6.198
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 12.882,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 8.915,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    },
+                    {
+                        "from": "38.122.46.217",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 9.781,
+                        "itos": 40,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cogent Communications",
+                        "asn": "AS174"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 16.125,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 8.619,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.235.35",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 12.568,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Atlanta",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 8.256,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 8.373,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.66.0.243",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 9.161,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269381,
+        "prb_id": 51440,
+        "timestamp": 1779932479,
+        "msm_name": "Traceroute",
+        "from": "152.44.28.27",
+        "type": "traceroute",
+        "group_id": 175269381,
+        "stored_timestamp": 1779932520
+    }
+]

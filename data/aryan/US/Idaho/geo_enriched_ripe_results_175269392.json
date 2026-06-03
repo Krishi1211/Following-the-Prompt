@@ -1,0 +1,1670 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 7,
+        "endtime": 1779932487,
+        "dst_name": "142.251.209.234",
+        "dst_addr": "142.251.209.234",
+        "src_addr": "96.19.243.32",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 8.366,
+                        "ittl": 0
+                    },
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 8.653,
+                        "ittl": 0
+                    },
+                    {
+                        "from": "10.116.215.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 9.534,
+                        "ittl": 0
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 8.728
+                    },
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 9.965
+                    },
+                    {
+                        "from": "10.224.69.81",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 8.636
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 19.708
+                    },
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 17.66
+                    },
+                    {
+                        "from": "10.224.253.117",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 17.797
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "74.125.32.162",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 18.631,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "74.125.32.162",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 18.677,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "74.125.32.162",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 18.845,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "142.251.70.101",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 17.918,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.70.101",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 19.774,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.70.101",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 18.159,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 19.407,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 18.141,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "192.178.105.64",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 18.082,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.251.224.40",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 24.777,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 165507,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.224.40",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 24.912,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 165507,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.224.40",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 24.716,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 165507,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 67.364,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 712016,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 66.147,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 712016,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.250.213.63",
+                        "ttl": 249,
+                        "size": 140,
+                        "rtt": 64.942,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 712016,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 80.203,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 73138,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 81.828,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 73138,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.70",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 80.06,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 73138,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 148.758,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71666,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 154.304,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71666,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.73",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 152.429,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 71666,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 160.61,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 102459,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 156.146,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 102459,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.233.60",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 155.272,
+                        "itos": 96,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 102459,
+                                            "exp": 3,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "142.251.236.84",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 154.345,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.236.84",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 154.584,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.236.84",
+                        "ttl": 246,
+                        "size": 68,
+                        "rtt": 154.077,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 159.233,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 156.073,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "74.125.242.189",
+                        "ttl": 54,
+                        "size": 76,
+                        "rtt": 159.399,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 155.811,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 159.051,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 53,
+                        "size": 76,
+                        "rtt": 153.396,
+                        "itos": 96,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 115,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 159.576,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 115,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 153.056,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 115,
+                        "size": 48,
+                        "tos": 96,
+                        "rtt": 153.837,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269392,
+        "prb_id": 15979,
+        "timestamp": 1779932483,
+        "msm_name": "Traceroute",
+        "from": "96.19.243.32",
+        "type": "traceroute",
+        "group_id": 175269392,
+        "stored_timestamp": 1779932489
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 16,
+        "endtime": 1779932492,
+        "dst_name": "142.251.209.234",
+        "dst_addr": "142.251.209.234",
+        "src_addr": "23.176.224.18",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.233,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palouse",
+                        "isp": "IFN",
+                        "asn": "AS397376"
+                    },
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.229,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palouse",
+                        "isp": "IFN",
+                        "asn": "AS397376"
+                    },
+                    {
+                        "from": "23.176.224.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.358,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Palouse",
+                        "isp": "IFN",
+                        "asn": "AS397376"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.032,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.002,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "64.62.151.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.438,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "184.104.196.89",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.348,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spokane",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.104.196.89",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 9.234,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Spokane",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 11.155,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 10.75,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    },
+                    {
+                        "from": "184.104.199.69",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 12.169,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Hurricane Electric LLC",
+                        "asn": "AS6939"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.81.80.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.047,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "from": "206.81.80.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.393,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "from": "206.81.80.69",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 9.025,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "192.178.84.161",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 9.216,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "192.178.84.161",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 9.171,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "192.178.84.161",
+                        "ttl": 58,
+                        "size": 76,
+                        "rtt": 9.282,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "142.251.250.52",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 9.841,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.250.52",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 9.587,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.250.52",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 9.628,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "216.239.57.194",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 17.617,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "216.239.57.194",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 18.076,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "216.239.57.194",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 17.943,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "142.251.226.159",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 53.894,
+                        "ittl": 2,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.226.159",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 53.814,
+                        "ittl": 2,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.226.159",
+                        "ttl": 244,
+                        "size": 140,
+                        "rtt": 53.557,
+                        "ittl": 2,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "142.251.69.8",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 70.109,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.8",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 70.836,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.8",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 70.97,
+                        "ittl": 3,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "142.251.69.53",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 137.352,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.53",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 136.502,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.69.53",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 137.363,
+                        "ittl": 4,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "216.239.43.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 140.136,
+                        "ittl": 5,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "216.239.43.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 140.375,
+                        "ittl": 5,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "216.239.43.96",
+                        "ttl": 242,
+                        "size": 140,
+                        "rtt": 141.084,
+                        "ittl": 5,
+                        "itos": 128,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Austell",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "108.170.238.128",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 140.318,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "108.170.238.128",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 140.641,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "108.170.238.128",
+                        "ttl": 241,
+                        "size": 28,
+                        "rtt": 140.329,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "172.253.177.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 139.497,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "172.253.177.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 140.529,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "172.253.177.203",
+                        "ttl": 51,
+                        "size": 76,
+                        "rtt": 139.313,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 142.933,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 139.264,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.48.179",
+                        "ttl": 50,
+                        "size": 76,
+                        "rtt": 139.285,
+                        "itos": 128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 139.511,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 139.245,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    },
+                    {
+                        "from": "142.251.209.234",
+                        "ttl": 111,
+                        "size": 48,
+                        "rtt": 139.263,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mountain View",
+                        "isp": "Google LLC",
+                        "asn": "AS15169"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269392,
+        "prb_id": 7643,
+        "timestamp": 1779932484,
+        "msm_name": "Traceroute",
+        "from": "23.176.224.18",
+        "type": "traceroute",
+        "group_id": 175269392,
+        "stored_timestamp": 1779932499
+    }
+]

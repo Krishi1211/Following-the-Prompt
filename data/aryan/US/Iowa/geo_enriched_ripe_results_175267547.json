@@ -1,0 +1,1152 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 11,
+        "endtime": 1779930733,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.4.70",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.142
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.494
+                    },
+                    {
+                        "from": "192.168.4.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.784
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "69.5.143.29",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 5.815,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "ICS Advanced Technologies",
+                        "asn": "AS26793"
+                    },
+                    {
+                        "from": "69.5.143.29",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 3.915,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "ICS Advanced Technologies",
+                        "asn": "AS26793"
+                    },
+                    {
+                        "from": "69.5.143.29",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 4.342,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "ICS Advanced Technologies",
+                        "asn": "AS26793"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.31.31.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.986
+                    },
+                    {
+                        "from": "10.31.31.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.728
+                    },
+                    {
+                        "from": "10.31.31.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 4.613
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.55.2.33",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.954
+                    },
+                    {
+                        "from": "10.55.2.33",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.702
+                    },
+                    {
+                        "from": "10.55.2.33",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 3.564
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "167.142.64.245",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 3.879,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.64.245",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 4.708,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.64.245",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 5.41,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "167.142.66.207",
+                        "ttl": 232,
+                        "size": 140,
+                        "rtt": 10.056,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.207",
+                        "ttl": 232,
+                        "size": 140,
+                        "rtt": 9.657,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.207",
+                        "ttl": 232,
+                        "size": 140,
+                        "rtt": 9.918,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "167.142.66.204",
+                        "ttl": 233,
+                        "size": 140,
+                        "rtt": 10.176,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.204",
+                        "ttl": 233,
+                        "size": 140,
+                        "rtt": 8.687,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.204",
+                        "ttl": 233,
+                        "size": 140,
+                        "rtt": 9.352,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "167.142.66.205",
+                        "ttl": 234,
+                        "size": 140,
+                        "rtt": 9.775,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.205",
+                        "ttl": 234,
+                        "size": 140,
+                        "rtt": 10.668,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.205",
+                        "ttl": 234,
+                        "size": 140,
+                        "rtt": 9.588,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "167.142.66.202",
+                        "ttl": 235,
+                        "size": 140,
+                        "rtt": 9.149,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.202",
+                        "ttl": 235,
+                        "size": 140,
+                        "rtt": 9.596,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.202",
+                        "ttl": 235,
+                        "size": 140,
+                        "rtt": 9.335,
+                        "ittl": 4,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "167.142.66.203",
+                        "ttl": 236,
+                        "size": 140,
+                        "rtt": 11.029,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.203",
+                        "ttl": 236,
+                        "size": 140,
+                        "rtt": 10.621,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.203",
+                        "ttl": 236,
+                        "size": 140,
+                        "rtt": 9.607,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "167.142.66.198",
+                        "ttl": 237,
+                        "size": 140,
+                        "rtt": 8.954,
+                        "ittl": 6,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.198",
+                        "ttl": 237,
+                        "size": 140,
+                        "rtt": 10.003,
+                        "ittl": 6,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.198",
+                        "ttl": 237,
+                        "size": 140,
+                        "rtt": 9.302,
+                        "ittl": 6,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "167.142.66.199",
+                        "ttl": 238,
+                        "size": 140,
+                        "rtt": 8.622,
+                        "ittl": 7,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.199",
+                        "ttl": 238,
+                        "size": 140,
+                        "rtt": 8.901,
+                        "ittl": 7,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.199",
+                        "ttl": 238,
+                        "size": 140,
+                        "rtt": 9.537,
+                        "ittl": 7,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "from": "167.142.66.75",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 10.392,
+                        "ittl": 8,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.75",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 10.277,
+                        "ittl": 8,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.75",
+                        "ttl": 239,
+                        "size": 140,
+                        "rtt": 9.811,
+                        "ittl": 8,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "167.142.66.76",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 10.095,
+                        "ittl": 9,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.76",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 9.397,
+                        "ittl": 9,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.76",
+                        "ttl": 240,
+                        "size": 140,
+                        "rtt": 9.273,
+                        "ittl": 9,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "167.142.66.64",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 8.964,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.64",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 24.398,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    },
+                    {
+                        "from": "167.142.66.64",
+                        "ttl": 241,
+                        "size": 68,
+                        "rtt": 10.128,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ankeny",
+                        "isp": "Aureon Network Services",
+                        "asn": "AS5056"
+                    }
+                ]
+            },
+            {
+                "hop": 16,
+                "result": [
+                    {
+                        "from": "206.126.235.18",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 10.453,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mankato",
+                        "isp": "Mankato Networks LLC"
+                    },
+                    {
+                        "from": "206.126.235.18",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 9.094,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mankato",
+                        "isp": "Mankato Networks LLC"
+                    },
+                    {
+                        "from": "206.126.235.18",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 34.678,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Mankato",
+                        "isp": "Mankato Networks LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 17,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 48,
+                        "size": 48,
+                        "rtt": 9.626,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 48,
+                        "size": 48,
+                        "rtt": 7.689,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 48,
+                        "size": 48,
+                        "rtt": 7.491,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 55078,
+        "timestamp": 1779930732,
+        "msm_name": "Traceroute",
+        "from": "69.5.143.30",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930733
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 45,
+        "endtime": 1779930732,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.0.121",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.549
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.539
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.418
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.111.20.129",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 2.817,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    },
+                    {
+                        "from": "192.111.20.129",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.652,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    },
+                    {
+                        "from": "192.111.20.129",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 3.589,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "24.149.31.227",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 9.026,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    },
+                    {
+                        "from": "24.149.31.227",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 8.691,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    },
+                    {
+                        "from": "24.149.31.227",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 8.733,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Cedar Falls",
+                        "isp": "The Municipal Communications Utility of the City of Cedar Falls, Iowa",
+                        "asn": "AS13855"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.281,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.665,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    },
+                    {
+                        "from": "208.115.136.180",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.87,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Equinix"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.97,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 8.497,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 12.308,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 9.11,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 8.745,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 8.474,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267547,
+        "prb_id": 61588,
+        "timestamp": 1779930731,
+        "msm_name": "Traceroute",
+        "from": "24.149.20.134",
+        "type": "traceroute",
+        "group_id": 175267547,
+        "stored_timestamp": 1779930733
+    }
+]

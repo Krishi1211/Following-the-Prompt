@@ -1,0 +1,4928 @@
+[
+    {
+        "fw": 5020,
+        "mver": "2.2.1",
+        "lts": 15,
+        "endtime": 1780001868,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "196.192.124.150",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "196.192.124.130",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.188,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    },
+                    {
+                        "from": "196.192.124.130",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.492,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    },
+                    {
+                        "from": "196.192.124.130",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.459,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.192.124.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.184,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    },
+                    {
+                        "from": "196.192.124.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.197,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    },
+                    {
+                        "from": "196.192.124.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.181,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Mombasa",
+                        "isp": "African Network Information Center - ( AfriNIC Ltd. )",
+                        "asn": "AS37301"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.156.140.74",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.805,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Kiambu",
+                        "isp": "Jambonet Autonomous System",
+                        "asn": "AS12455"
+                    },
+                    {
+                        "from": "197.156.140.74",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.85,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Kiambu",
+                        "isp": "Jambonet Autonomous System",
+                        "asn": "AS12455"
+                    },
+                    {
+                        "from": "197.156.140.74",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.857,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Kiambu",
+                        "isp": "Jambonet Autonomous System",
+                        "asn": "AS12455"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "10.10.240.33",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 6.963
+                    },
+                    {
+                        "from": "10.10.240.33",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 6.998
+                    },
+                    {
+                        "from": "10.10.240.33",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.252
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "105.21.32.97",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 73.653,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.21.32.97",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 87.413,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.21.32.97",
+                        "ttl": 240,
+                        "size": 28,
+                        "rtt": 73.938,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 255,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 62.875,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 62.734,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 62.736,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 1005929,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "196.192.124.150",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001875
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 106,
+        "endtime": 1780001808,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "102.217.156.80",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.217.156.65",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.304,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.65",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.309,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.65",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.381,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "102.217.156.181",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.363,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.181",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.376,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.181",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.316,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "102.217.156.230",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.477,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.230",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.429,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.230",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.565,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.413,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.364,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.409,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "102.217.156.21",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.364,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.21",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.338,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.21",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.325,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 1.815,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 1.51,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 1.46,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.0,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.069,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 1.051,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.231,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    },
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.272,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    },
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 1.169,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.627,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.655,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.749,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 1008539,
+        "timestamp": 1780001808,
+        "msm_name": "Traceroute",
+        "from": "102.217.156.80",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001809
+    },
+    {
+        "fw": 5120,
+        "mver": "2.6.4",
+        "lts": 6,
+        "endtime": 1780001816,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "172.16.3.222",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "172.16.3.253",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.18
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "102.208.180.74",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.084,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Rain Communications Limited",
+                        "asn": "AS329451"
+                    },
+                    {
+                        "from": "102.208.180.74",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.963,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Rain Communications Limited",
+                        "asn": "AS329451"
+                    },
+                    {
+                        "from": "102.208.180.74",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.115,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Rain Communications Limited",
+                        "asn": "AS329451"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "102.221.177.70",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 52.177,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    },
+                    {
+                        "from": "102.221.177.70",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 52.029,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    },
+                    {
+                        "from": "102.221.177.70",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 52.089,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "102.221.176.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 51.848,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    },
+                    {
+                        "from": "102.221.176.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 51.896,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    },
+                    {
+                        "from": "102.221.176.80",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 51.779,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "Agile Solutions Provider (PTY) LTD",
+                        "asn": "AS328748"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 52.08,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 52.11,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    },
+                    {
+                        "from": "196.60.8.198",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 52.128,
+                        "country": "France",
+                        "country_code": "FR",
+                        "city": "Paris",
+                        "isp": "NAPAfrica"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 51.689,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 52.156,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.21",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 52.783,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 51.473,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 51.495,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 51.926,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 1015858,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "102.212.230.253",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001827
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 19,
+        "endtime": 1780001815,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "41.89.1.251",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "41.89.1.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.46,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.89.1.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.477,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.89.1.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.382,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "197.136.168.22",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.888,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.168.22",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.788,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.168.22",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.892,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 183.14,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 183.191,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 183.098,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 184.648,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 185.089,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 184.888,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 191.935,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 183.619,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 190.655,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "141.101.65.1",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 182.859,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.1",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 183.314,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.65.149",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 190.332,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.149",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 184.259,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.149",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 193.674,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 185.566,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 185.461,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 54,
+                        "size": 48,
+                        "tos": 32,
+                        "rtt": 185.478,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 13114,
+        "timestamp": 1780001808,
+        "msm_name": "Traceroute",
+        "from": "41.89.1.251",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001822
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 33,
+        "endtime": 1780001810,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "41.204.160.27",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "41.204.160.30",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.594,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.204.160.30",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.327,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.204.160.30",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.386,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "197.136.168.18",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.547,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.168.18",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.552,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.168.18",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.544,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 135.732,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 135.735,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 135.71,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 135.926,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 139.483,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 135.953,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 137.69,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 143.887,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 137.01,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 137.008,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 145.923,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 147.72,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.65.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 137.527,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 136.965,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.105",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 201.062,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 136.617,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 136.67,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 136.669,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 13218,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "41.204.160.27",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001812
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 18,
+        "endtime": 1780001809,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "212.22.174.222",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "212.22.174.221",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.447,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Internet Solutions Kenya",
+                        "asn": "AS12556"
+                    },
+                    {
+                        "from": "212.22.174.221",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.315,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Internet Solutions Kenya",
+                        "asn": "AS12556"
+                    },
+                    {
+                        "from": "212.22.174.221",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.278,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Internet Solutions Kenya",
+                        "asn": "AS12556"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.33.248.162",
+                        "ttl": 254,
+                        "size": 140,
+                        "rtt": 6.77,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 13458,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 255
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "196.33.248.162",
+                        "ttl": 254,
+                        "size": 140,
+                        "rtt": 6.767,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 13458,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 255
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "196.33.248.162",
+                        "ttl": 254,
+                        "size": 140,
+                        "rtt": 6.716,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 13458,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 255
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "196.33.248.161",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.501,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "196.33.248.161",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.351,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "196.33.248.161",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 7.347,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "168.209.160.226",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.697,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.160.226",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.715,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.160.226",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.432,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "168.209.163.96",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.134,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.163.96",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.182,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.163.96",
+                        "ttl": 250,
+                        "size": 144,
+                        "rtt": 53.229,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "168.209.165.166",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 53.27,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.165.166",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 53.243,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.165.166",
+                        "ttl": 250,
+                        "size": 140,
+                        "rtt": 53.303,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "168.209.129.145",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 53.601,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.129.145",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 55.124,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "168.209.129.145",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 54.09,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "197.96.55.83",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 53.428,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "197.96.55.83",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 53.419,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    },
+                    {
+                        "from": "197.96.55.83",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 53.296,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Dimension Data",
+                        "asn": "AS3741"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 52.814,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 52.981,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 52.741,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 13771,
+        "timestamp": 1780001808,
+        "msm_name": "Traceroute",
+        "from": "212.22.174.222",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001809
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 38,
+        "endtime": 1780001808,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.0.105",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.469
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.315
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 28,
+                        "rtt": 0.292
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "196.207.142.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 13.722,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "196.207.142.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.202,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "196.207.142.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.308,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "41.212.7.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.175,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "41.212.7.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 10.745,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "41.212.7.89",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 13.045,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "41.212.7.82",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.215,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "41.212.7.82",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.492,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "41.212.7.82",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.784,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "62.8.79.21",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 14.273,
+                        "country": "Uganda",
+                        "country_code": "UG",
+                        "city": "Kampala",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "62.8.79.21",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.733,
+                        "country": "Uganda",
+                        "country_code": "UG",
+                        "city": "Kampala",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    },
+                    {
+                        "from": "62.8.79.21",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 13.8,
+                        "country": "Uganda",
+                        "country_code": "UG",
+                        "city": "Kampala",
+                        "isp": "Wananchi Group (K) LTD",
+                        "asn": "AS15399"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 9.473,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 14.95,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 59,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 18.386,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 22218,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "196.207.142.95",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001808
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 7,
+        "endtime": 1780001810,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "41.204.180.14",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "41.204.180.13",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.451,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.204.180.13",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.423,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "41.204.180.13",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.39,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "197.136.169.209",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.961,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.169.209",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.918,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.169.209",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 7.209,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.136.173.25",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 8.097,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.173.25",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 7.182,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.173.25",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 7.14,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 142.343,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 142.76,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    },
+                    {
+                        "from": "197.136.176.57",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 142.558,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "KENET",
+                        "asn": "AS36914"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 142.579,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 142.619,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    },
+                    {
+                        "from": "196.32.210.75",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 142.561,
+                        "country": "Malawi",
+                        "country_code": "MW",
+                        "city": "Lilongwe",
+                        "isp": "Ubuntunet Alliance For Research and Education Networking",
+                        "asn": "AS36944"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 152.881,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 142.9,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 154.512,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 156.092,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 167.284,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.28",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 142.647,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.65.139",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 144.869,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.139",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 143.127,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.139",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 143.647,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 143.261,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 143.123,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 143.03,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 33751,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "41.204.180.14",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001814
+    },
+    {
+        "fw": 4790,
+        "lts": 53,
+        "endtime": 1780001811,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "192.168.1.77",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 19.288
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.057
+                    },
+                    {
+                        "from": "192.168.1.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 2.06
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "100.80.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.748
+                    },
+                    {
+                        "from": "100.80.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 6.497
+                    },
+                    {
+                        "from": "100.80.0.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 11.134
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "192.168.60.209",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 29.153
+                    },
+                    {
+                        "from": "192.168.60.209",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.983
+                    },
+                    {
+                        "from": "192.168.60.209",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 6.57
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "192.168.196.217",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 13.008
+                    },
+                    {
+                        "from": "192.168.202.25",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 7.708
+                    },
+                    {
+                        "from": "192.168.196.217",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 12.263
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "192.168.202.26",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 6.427
+                    },
+                    {
+                        "from": "192.168.202.26",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 6.376
+                    },
+                    {
+                        "from": "192.168.202.26",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 6.284
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "196.201.222.113",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.631,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    },
+                    {
+                        "from": "196.201.222.113",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 11.104,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    },
+                    {
+                        "from": "196.201.222.113",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 22.685,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "41.90.74.79",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 16.153,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    },
+                    {
+                        "from": "41.90.74.79",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 17.894,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    },
+                    {
+                        "from": "41.90.74.79",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 34.685,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Safaricom Limited",
+                        "asn": "AS33771"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 17.758,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 18.049,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 16.12,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 4078,
+        "timestamp": 1780001810,
+        "msm_name": "Traceroute",
+        "from": "41.90.140.216",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001811
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 15,
+        "endtime": 1780001808,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "10.10.10.20",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.10.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.678
+                    },
+                    {
+                        "from": "10.10.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.134
+                    },
+                    {
+                        "from": "10.10.10.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.698
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "197.155.94.153",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 4.904,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.153",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 4.405,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.153",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 6.529,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "197.155.94.94",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 8.127,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.94",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 4.055,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.94",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 4.166,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "197.155.94.154",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 4.507,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 1531,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.154",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 3.995,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 1531,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.94.154",
+                        "ttl": 252,
+                        "size": 140,
+                        "rtt": 4.889,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 1531,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "41.60.255.93",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.079,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "41.60.255.93",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.322,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "41.60.255.93",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 4.325,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Maintainer Liquid Telecommunications Operations Limited",
+                        "asn": "AS30844"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "197.155.93.42",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 6.091,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Liquid Telecommunications Ltd",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.93.42",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 4.91,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Liquid Telecommunications Ltd",
+                        "asn": "AS30844"
+                    },
+                    {
+                        "from": "197.155.93.42",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 4.655,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Liquid Telecommunications Ltd",
+                        "asn": "AS30844"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 104,
+                        "rtt": 4.129,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 104,
+                        "rtt": 4.073,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 104,
+                        "rtt": 4.345,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 50022,
+        "timestamp": 1780001808,
+        "msm_name": "Traceroute",
+        "from": "217.21.120.62",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001808
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 120,
+        "endtime": 1780001810,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "196.6.220.42",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "196.6.220.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.76,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Telecommunication Sevice Providers Association of Kenya - TESPOK",
+                        "asn": "AS37578"
+                    },
+                    {
+                        "from": "196.6.220.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.462,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Telecommunication Sevice Providers Association of Kenya - TESPOK",
+                        "asn": "AS37578"
+                    },
+                    {
+                        "from": "196.6.220.1",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 1.266,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Telecommunication Sevice Providers Association of Kenya - TESPOK",
+                        "asn": "AS37578"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "41.217.222.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.647,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    },
+                    {
+                        "from": "41.217.222.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.763,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    },
+                    {
+                        "from": "41.217.222.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.73,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "41.217.220.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.523,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    },
+                    {
+                        "from": "41.217.220.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.816,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    },
+                    {
+                        "from": "41.217.220.1",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.579,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MyISP Ltd",
+                        "asn": "AS37109"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "105.21.33.145",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.848,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.21.33.145",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 1.031,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.21.33.145",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.836,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "105.16.18.2",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 51.792,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 148496,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.18.2",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 52.204,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 148496,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.18.2",
+                        "ttl": 243,
+                        "size": 140,
+                        "rtt": 51.653,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 148496,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "105.25.162.82",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 52.543,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 17341,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.25.162.82",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 52.493,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 17341,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.25.162.82",
+                        "ttl": 245,
+                        "size": 140,
+                        "rtt": 51.287,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 17341,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "105.16.11.149",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 55.967,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 697664,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dar es Salaam",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.11.149",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 53.108,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 697664,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dar es Salaam",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.11.149",
+                        "ttl": 245,
+                        "size": 144,
+                        "rtt": 51.161,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 697664,
+                                            "exp": 0,
+                                            "s": 0,
+                                            "ttl": 1
+                                        },
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Tanzania",
+                        "country_code": "TZ",
+                        "city": "Dar es Salaam",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "105.25.160.85",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 51.273,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.25.160.85",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 51.238,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.25.160.85",
+                        "ttl": 247,
+                        "size": 140,
+                        "rtt": 51.141,
+                        "itos": 252,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 23216,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "105.16.29.8",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 51.143,
+                        "itos": 252,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.29.8",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 51.525,
+                        "itos": 252,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    },
+                    {
+                        "from": "105.16.29.8",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 50.923,
+                        "itos": 252,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "SEACOM Limited Networks",
+                        "asn": "AS37100"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 78.811,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    },
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 59.697,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    },
+                    {
+                        "from": "196.60.96.109",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 56.801,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Midrand",
+                        "isp": "ISPA SA"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 54.996,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 53.723,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "197.234.240.23",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 52.924,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 51.584,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 51.926,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 52.275,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 6882,
+        "timestamp": 1780001808,
+        "msm_name": "Traceroute",
+        "from": "196.6.220.42",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001810
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 114,
+        "endtime": 1780001807,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "102.217.156.154",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.217.156.153",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.229,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.153",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.25,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.153",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.213,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.178,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.176,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.156.45",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.234,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "102.217.159.78",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.282,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nakuru",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.159.78",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.31,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nakuru",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    },
+                    {
+                        "from": "102.217.159.78",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.315,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nakuru",
+                        "isp": "Wavex Internet Service Provider LTD",
+                        "asn": "AS328977"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 1.1,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 1.027,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "105.177.13.13",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 0.996,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Cape Town",
+                        "isp": "MTN-DOT",
+                        "asn": "AS16637"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 0.78,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 0.641,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    },
+                    {
+                        "from": "41.181.105.187",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 0.681,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Germiston",
+                        "isp": "MTNBS",
+                        "asn": "AS16637"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.891,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    },
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.893,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    },
+                    {
+                        "from": "41.209.26.2",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 0.956,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "MTN Business Kenya",
+                        "asn": "AS9129"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.405,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.465,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 58,
+                        "size": 48,
+                        "tos": 136,
+                        "rtt": 0.448,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 7369,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "102.217.156.154",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001808
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 23,
+        "endtime": 1780001860,
+        "dst_name": "162.159.140.245",
+        "dst_addr": "162.159.140.245",
+        "src_addr": "102.206.164.247",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "102.206.164.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.504,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    },
+                    {
+                        "from": "102.206.164.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.562,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    },
+                    {
+                        "from": "102.206.164.254",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.559,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "102.206.164.14",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.582,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    },
+                    {
+                        "from": "102.206.164.14",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.499,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    },
+                    {
+                        "from": "102.206.164.14",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 0.548,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Chuka",
+                        "isp": "Wofbit Networks",
+                        "asn": "AS207113"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "102.69.228.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.566,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    },
+                    {
+                        "from": "102.69.228.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.547,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    },
+                    {
+                        "from": "102.69.228.73",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 0.549,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "102.69.224.82",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 0.797,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    },
+                    {
+                        "from": "102.69.224.82",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 0.691,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    },
+                    {
+                        "from": "102.69.224.82",
+                        "ttl": 61,
+                        "size": 76,
+                        "rtt": 0.684,
+                        "country": "Kenya",
+                        "country_code": "KE",
+                        "city": "Nairobi",
+                        "isp": "AfriQ Network Solutions Ltd",
+                        "asn": "AS328475"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "197.157.66.185",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 0.78,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "197.157.66.185",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 0.93,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "197.157.66.185",
+                        "ttl": 60,
+                        "size": 76,
+                        "rtt": 0.765,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Johannesburg",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "41.78.188.177",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 162.552,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116424,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.177",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 162.538,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116424,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.177",
+                        "ttl": 241,
+                        "size": 140,
+                        "rtt": 162.712,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116424,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "41.78.188.148",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 1861.712,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116443,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.148",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 1797.819,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116443,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.148",
+                        "ttl": 246,
+                        "size": 140,
+                        "rtt": 1949.603,
+                        "ittl": 5,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 116443,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "41.78.188.153",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 162.919,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.153",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 162.764,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    },
+                    {
+                        "from": "41.78.188.153",
+                        "ttl": 57,
+                        "size": 76,
+                        "rtt": 162.837,
+                        "country": "South Africa",
+                        "country_code": "ZA",
+                        "city": "Sandton",
+                        "isp": "Workonline Communications(Pty) Ltd",
+                        "asn": "AS37271"
+                    }
+                ]
+            },
+            {
+                "hop": 12,
+                "result": [
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 173.926,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 163.836,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    },
+                    {
+                        "from": "80.249.210.118",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 181.042,
+                        "country": "The Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "AMS-IX Amsterdam Peering (ISP) LAN"
+                    }
+                ]
+            },
+            {
+                "hop": 13,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "141.101.65.1",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 157.496,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 14,
+                "result": [
+                    {
+                        "from": "141.101.65.2",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 148.55,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.2",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 149.243,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.65.2",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 148.371,
+                        "country": "Netherlands",
+                        "country_code": "NL",
+                        "city": "Amsterdam",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 15,
+                "result": [
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 51,
+                        "size": 48,
+                        "rtt": 149.2,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 51,
+                        "size": 48,
+                        "rtt": 148.74,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.159.140.245",
+                        "ttl": 51,
+                        "size": 48,
+                        "rtt": 148.804,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175337592,
+        "prb_id": 7634,
+        "timestamp": 1780001807,
+        "msm_name": "Traceroute",
+        "from": "102.206.164.247",
+        "type": "traceroute",
+        "group_id": 175337592,
+        "stored_timestamp": 1780001860
+    }
+]

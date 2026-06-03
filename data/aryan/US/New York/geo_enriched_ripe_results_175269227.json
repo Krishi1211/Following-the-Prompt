@@ -1,0 +1,666 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 47,
+        "endtime": 1779932214,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "109.230.208.226",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "45.159.5.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.237,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Clifton",
+                        "isp": "marbis GmbH",
+                        "asn": "AS199610"
+                    },
+                    {
+                        "from": "45.159.5.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.245,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Clifton",
+                        "isp": "marbis GmbH",
+                        "asn": "AS199610"
+                    },
+                    {
+                        "from": "45.159.5.225",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.246,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Clifton",
+                        "isp": "marbis GmbH",
+                        "asn": "AS199610"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.82.104.68",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 5.768,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "DE-CIX North America Inc."
+                    },
+                    {
+                        "from": "206.82.104.68",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.049,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "DE-CIX North America Inc."
+                    },
+                    {
+                        "from": "206.82.104.68",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.67,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "DE-CIX North America Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "162.158.61.139",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.138,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.139",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.735,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.139",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 1.851,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.521,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.515,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 1.503,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 6783,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "109.230.208.226",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932215
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 19,
+        "endtime": 1779932218,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "156.154.35.254",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "156.154.35.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.451,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.35.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.423,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    },
+                    {
+                        "from": "156.154.35.253",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 0.22,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Tiggee LLC",
+                        "asn": "AS16552"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.82.104.31",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 3.935,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "DE-CIX North America Inc."
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "206.82.104.31",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.298,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "DE-CIX North America Inc."
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "162.158.61.221",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.42,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.221",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 69.339,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.221",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 2.613,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.842,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.895,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 61,
+                        "size": 48,
+                        "rtt": 0.875,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 6946,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "156.154.35.254",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932226
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 45,
+        "endtime": 1779932218,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "104.131.160.184",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "162.243.189.146",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.361,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    },
+                    {
+                        "from": "162.243.189.146",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.382,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    },
+                    {
+                        "from": "162.243.189.146",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.485,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "DigitalOcean, LLC",
+                        "asn": "AS14061"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "143.244.192.162",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.406,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.192.162",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.511,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.192.162",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.261,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "143.244.225.214",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 0.863,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20068,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.225.214",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 1.052,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20068,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.225.214",
+                        "ttl": 251,
+                        "size": 140,
+                        "rtt": 0.948,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 0,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 20068,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "143.244.225.141",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.608,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.225.141",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.731,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "143.244.225.141",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 0.742,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "146.190.180.9",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 1.851,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "from": "146.190.180.9",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 1.491,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Montreal",
+                        "isp": "DigitalOcean"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.158.61.123",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 3.365,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.123",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 3.219,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.61.123",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 2.49,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Newark",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.313,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.013,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 1.07,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 6972,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "104.131.160.184",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932220
+    }
+]

@@ -1,0 +1,1172 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 49,
+        "endtime": 1779932239,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "206.144.240.4",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "206.144.240.5",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.882,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.144.240.5",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.931,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.144.240.5",
+                        "ttl": 255,
+                        "size": 68,
+                        "rtt": 0.842,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "206.9.2.214",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.944,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.9.2.214",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 1.016,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.9.2.214",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 0.854,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.9.1.105",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 1.646,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.9.1.105",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 1.669,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    },
+                    {
+                        "from": "206.9.1.105",
+                        "ttl": 248,
+                        "size": 140,
+                        "rtt": 1.78,
+                        "ittl": 3,
+                        "icmpext": {
+                            "version": 0,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 0,
+                                    "type": 0
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Prior Lake",
+                        "isp": "Inteliquent, inc.",
+                        "asn": "AS5006"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "4.14.213.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 1.112,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.14.213.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 1.101,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.14.213.113",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 1.124,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "4.69.217.110",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 1.286,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.69.217.110",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 1.279,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.69.217.110",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 2.127,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Monroe",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "4.1.86.34",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 2.689,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.1.86.34",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 1.978,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.1.86.34",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 1.638,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 3.746,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 1.934,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 2.226,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 1.414,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 1.518,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 1.483,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 6634,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "206.144.240.4",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932244
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 175,
+        "endtime": 1779932214,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "69.89.207.87",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "69.89.207.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.353,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.207.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.534,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.207.2",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.351,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "69.89.205.242",
+                        "ttl": 255,
+                        "size": 140,
+                        "rtt": 1.799,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.242",
+                        "ttl": 255,
+                        "size": 140,
+                        "rtt": 1.91,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.242",
+                        "ttl": 255,
+                        "size": 140,
+                        "rtt": 1.753,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "69.89.205.20",
+                        "ttl": 253,
+                        "size": 140,
+                        "rtt": 2.305,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.20",
+                        "ttl": 253,
+                        "size": 140,
+                        "rtt": 2.038,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.20",
+                        "ttl": 253,
+                        "size": 140,
+                        "rtt": 2.234,
+                        "ittl": 2,
+                        "icmpext": {
+                            "version": 2,
+                            "rfc4884": 1,
+                            "obj": [
+                                {
+                                    "class": 1,
+                                    "type": 1,
+                                    "mpls": [
+                                        {
+                                            "label": 900202,
+                                            "exp": 0,
+                                            "s": 1,
+                                            "ttl": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "69.89.205.240",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 11.042,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.240",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.519,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    },
+                    {
+                        "from": "69.89.205.240",
+                        "ttl": 62,
+                        "size": 76,
+                        "rtt": 10.728,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Roseau",
+                        "isp": "Wikstrom Telephone Company, Incorporated",
+                        "asn": "AS33362"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 11.933,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 30.399,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 24.447,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 12.01,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 11.785,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 250,
+                        "size": 28,
+                        "rtt": 10.906,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 11.024,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 10.997,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 59,
+                        "size": 48,
+                        "rtt": 10.927,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 7374,
+        "timestamp": 1779932214,
+        "msm_name": "Traceroute",
+        "from": "69.89.207.87",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932225
+    },
+    {
+        "fw": 4790,
+        "lts": 514,
+        "endtime": 1779932221,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.69.180",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 8.8
+                    },
+                    {
+                        "from": "192.168.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.336
+                    },
+                    {
+                        "from": "192.168.69.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 3.273
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 10.069
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 10.343
+                    },
+                    {
+                        "from": "172.29.152.1",
+                        "ttl": 254,
+                        "size": 68,
+                        "rtt": 10.735
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "96.34.31.122",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.975,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.31.122",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 20.025,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.31.122",
+                        "ttl": 253,
+                        "size": 68,
+                        "rtt": 11.388,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "96.34.31.16",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 10.287,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.31.16",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 19.477,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.31.16",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 14.374,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Eau Claire",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "96.34.19.68",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 12.129,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.19.68",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 11.33,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.19.68",
+                        "ttl": 251,
+                        "size": 68,
+                        "rtt": 11.97,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "New York",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "96.34.27.166",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 20.175,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.27.166",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.704,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.27.166",
+                        "ttl": 250,
+                        "size": 68,
+                        "rtt": 14.954,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "96.34.1.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 18.118,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "96.34.1.22",
+                        "ttl": 249,
+                        "size": 68,
+                        "rtt": 16.686,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "96.34.3.31",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 17.196,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.31",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 17.738,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    },
+                    {
+                        "from": "96.34.3.31",
+                        "ttl": 248,
+                        "size": 68,
+                        "rtt": 15.431,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saint Cloud",
+                        "isp": "Spectrum"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 15.458,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 26.289,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    },
+                    {
+                        "from": "206.108.255.45",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 26.523,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Midwest Internet Cooperative Exchange LLC"
+                    }
+                ]
+            },
+            {
+                "hop": 10,
+                "result": [
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 52.373,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 17.45,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "162.158.212.21",
+                        "ttl": 245,
+                        "size": 28,
+                        "rtt": 18.559,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Minneapolis",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 11,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 23.485,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 18.434,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 54,
+                        "size": 48,
+                        "rtt": 12.712,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175269227,
+        "prb_id": 801,
+        "timestamp": 1779932216,
+        "msm_name": "Traceroute",
+        "from": "96.42.94.91",
+        "type": "traceroute",
+        "group_id": 175269227,
+        "stored_timestamp": 1779932221
+    }
+]

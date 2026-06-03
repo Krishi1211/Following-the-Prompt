@@ -1,0 +1,797 @@
+[
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 47,
+        "endtime": 1779930743,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.1.182",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.431
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.389
+                    },
+                    {
+                        "from": "192.168.1.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.356
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 2.215
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.917
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 1.865
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "10.97.192.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 10.319
+                    },
+                    {
+                        "from": "10.97.192.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.779
+                    },
+                    {
+                        "from": "10.97.192.1",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 9.764
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "172.27.29.124",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 9.781
+                    },
+                    {
+                        "from": "172.27.29.124",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 10.729
+                    },
+                    {
+                        "from": "172.27.29.124",
+                        "ttl": 252,
+                        "size": 68,
+                        "rtt": 8.78
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "172.27.13.34",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 15.828
+                    },
+                    {
+                        "from": "172.27.13.34",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 10.678
+                    },
+                    {
+                        "from": "172.27.13.34",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 9.929
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "68.1.1.83",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 12.66,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Niceville",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    },
+                    {
+                        "from": "68.1.1.83",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.815,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Niceville",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    },
+                    {
+                        "from": "68.1.1.83",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.068,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Niceville",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "98.171.221.235",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 15.972,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Marcos",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    },
+                    {
+                        "from": "98.171.221.235",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 15.316,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Marcos",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    },
+                    {
+                        "from": "98.171.221.235",
+                        "ttl": 248,
+                        "size": 28,
+                        "rtt": 15.905,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Marcos",
+                        "isp": "Cox Communications Inc.",
+                        "asn": "AS22773"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "172.68.148.6",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.642,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.6",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 13.791,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "172.68.148.6",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 14.741,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Kansas City",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 14.89,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 13.05,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 57,
+                        "size": 48,
+                        "rtt": 12.799,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267593,
+        "prb_id": 15038,
+        "timestamp": 1779930743,
+        "msm_name": "Traceroute",
+        "from": "174.74.55.20",
+        "type": "traceroute",
+        "group_id": 175267593,
+        "stored_timestamp": 1779930744
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 6,
+        "endtime": 1779930742,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "192.168.0.15",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.426
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.299
+                    },
+                    {
+                        "from": "192.168.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.262
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "72.8.120.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.903,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Papillion",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "72.8.120.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.101,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Papillion",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "72.8.120.2",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.994,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Papillion",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "104.192.105.216",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 2.314,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "104.192.105.216",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.149,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "104.192.105.216",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 3.177,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "104.192.105.8",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.784,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "104.192.105.8",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.039,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "104.192.105.8",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.504,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Omaha",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "209.50.27.135",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 4.602,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "209.50.27.135",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.983,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    },
+                    {
+                        "from": "209.50.27.135",
+                        "ttl": 252,
+                        "size": 28,
+                        "rtt": 3.674,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Allo Communications LLC",
+                        "asn": "AS15108"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 2.996,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 1.801,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 60,
+                        "size": 48,
+                        "rtt": 3.026,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267593,
+        "prb_id": 27310,
+        "timestamp": 1779930742,
+        "msm_name": "Traceroute",
+        "from": "72.8.122.229",
+        "type": "traceroute",
+        "group_id": 175267593,
+        "stored_timestamp": 1779930742
+    },
+    {
+        "fw": 5080,
+        "mver": "2.6.2",
+        "lts": 29,
+        "endtime": 1779930748,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "10.10.0.230",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.10.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.567
+                    },
+                    {
+                        "from": "10.10.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.676
+                    },
+                    {
+                        "from": "10.10.0.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.618
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "104.151.178.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.517,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    },
+                    {
+                        "from": "104.151.178.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 14.805,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    },
+                    {
+                        "from": "104.151.178.129",
+                        "ttl": 63,
+                        "size": 76,
+                        "rtt": 19.543,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Casper",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "66.119.48.128",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 14.598,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saratoga",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    },
+                    {
+                        "from": "66.119.48.128",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 19.861,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saratoga",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    },
+                    {
+                        "from": "66.119.48.128",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 14.045,
+                        "ittl": 0,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saratoga",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "66.119.48.128",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 13.649,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saratoga",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    },
+                    {
+                        "from": "66.119.48.128",
+                        "ttl": 59,
+                        "size": 76,
+                        "rtt": 13.507,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Saratoga",
+                        "isp": "Mountain West Technologies Corporation",
+                        "asn": "AS10947"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "from": "206.81.81.58",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 44.636,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "from": "206.81.81.58",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 45.469,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    },
+                    {
+                        "from": "206.81.81.58",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 53.51,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Seattle Internet Exchange"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 45.936,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 54.345,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "108.162.243.47",
+                        "ttl": 247,
+                        "size": 28,
+                        "rtt": 49.459,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Seattle",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 48.362,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 49.561,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 56,
+                        "size": 48,
+                        "rtt": 49.589,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175267593,
+        "prb_id": 55734,
+        "timestamp": 1779930744,
+        "msm_name": "Traceroute",
+        "from": "104.151.178.143",
+        "type": "traceroute",
+        "group_id": 175267593,
+        "stored_timestamp": 1779930758
+    }
+]

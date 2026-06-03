@@ -1,0 +1,604 @@
+[
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 3,
+        "endtime": 1779931955,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "208.86.250.253",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "208.86.250.252",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 45.277,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lansing",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "208.86.250.252",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 5.673,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lansing",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "208.86.250.252",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 13.097,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Lansing",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "192.240.191.186",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 2.039,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "192.240.191.186",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.522,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "192.240.191.186",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 0.248,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "192.240.191.164",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.408,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "192.240.191.164",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.332,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    },
+                    {
+                        "from": "192.240.191.164",
+                        "ttl": 253,
+                        "size": 28,
+                        "rtt": 0.408,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Liquid Web, L.L.C",
+                        "asn": "AS36444"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "from": "4.15.104.5",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 15.43,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.15.104.5",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 15.51,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.15.104.5",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 15.387,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 6,
+                "result": [
+                    {
+                        "from": "4.26.120.122",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 44.569,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.26.120.122",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 32.495,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    },
+                    {
+                        "from": "4.26.120.122",
+                        "ttl": 244,
+                        "size": 28,
+                        "rtt": 28.826,
+                        "country": "Canada",
+                        "country_code": "CA",
+                        "city": "Toronto",
+                        "isp": "Level 3 Communications, Inc.",
+                        "asn": "AS3356"
+                    }
+                ]
+            },
+            {
+                "hop": 7,
+                "result": [
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.606,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.683,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.110",
+                        "ttl": 251,
+                        "size": 28,
+                        "rtt": 7.681,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 8,
+                "result": [
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 8.846,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 9.653,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    },
+                    {
+                        "from": "141.101.73.125",
+                        "ttl": 249,
+                        "size": 28,
+                        "rtt": 8.736,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Chicago",
+                        "isp": "Cloudflare, Inc.",
+                        "asn": "AS13335"
+                    }
+                ]
+            },
+            {
+                "hop": 9,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 8.58,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 8.713,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 58,
+                        "size": 48,
+                        "rtt": 8.61,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 6389,
+        "timestamp": 1779931942,
+        "msm_name": "Traceroute",
+        "from": "208.86.250.253",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931955
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 7,
+        "endtime": 1779931947,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "23.138.112.22",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "23.138.112.21",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 14.195,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ann Arbor",
+                        "isp": "Nether.Net",
+                        "asn": "AS267"
+                    },
+                    {
+                        "from": "23.138.112.21",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 96.468,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ann Arbor",
+                        "isp": "Nether.Net",
+                        "asn": "AS267"
+                    },
+                    {
+                        "from": "23.138.112.21",
+                        "ttl": 255,
+                        "size": 28,
+                        "rtt": 5.327,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Ann Arbor",
+                        "isp": "Nether.Net",
+                        "asn": "AS267"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "209.124.52.26",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.371,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "West Bloomfield",
+                        "isp": "123.Net",
+                        "asn": "AS12129"
+                    },
+                    {
+                        "from": "209.124.52.26",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.095,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "West Bloomfield",
+                        "isp": "123.Net",
+                        "asn": "AS12129"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.445,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.496,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.457,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 7105,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "23.138.112.22",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931947
+    },
+    {
+        "fw": 5090,
+        "mver": "2.6.4",
+        "lts": 12,
+        "endtime": 1779931947,
+        "dst_name": "160.79.104.10",
+        "dst_addr": "160.79.104.10",
+        "src_addr": "23.135.52.20",
+        "proto": "ICMP",
+        "af": 4,
+        "size": 48,
+        "paris_id": 1,
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "23.135.52.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 1.114,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Detroit",
+                        "isp": "Wodarek Productions LLC",
+                        "asn": "AS215129"
+                    },
+                    {
+                        "from": "23.135.52.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.308,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Detroit",
+                        "isp": "Wodarek Productions LLC",
+                        "asn": "AS215129"
+                    },
+                    {
+                        "from": "23.135.52.1",
+                        "ttl": 64,
+                        "size": 76,
+                        "rtt": 0.328,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "Detroit",
+                        "isp": "Wodarek Productions LLC",
+                        "asn": "AS215129"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "209.124.52.26",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.07,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "West Bloomfield",
+                        "isp": "123.Net",
+                        "asn": "AS12129"
+                    },
+                    {
+                        "from": "209.124.52.26",
+                        "ttl": 254,
+                        "size": 28,
+                        "rtt": 1.118,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "West Bloomfield",
+                        "isp": "123.Net",
+                        "asn": "AS12129"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.61,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.747,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    },
+                    {
+                        "from": "160.79.104.10",
+                        "ttl": 62,
+                        "size": 48,
+                        "rtt": 0.493,
+                        "country": "United States",
+                        "country_code": "US",
+                        "city": "San Francisco",
+                        "isp": "Anthropic, PBC",
+                        "asn": "AS399358"
+                    }
+                ]
+            }
+        ],
+        "destination_ip_responded": true,
+        "msm_id": 175268921,
+        "prb_id": 7691,
+        "timestamp": 1779931943,
+        "msm_name": "Traceroute",
+        "from": "23.135.52.20",
+        "type": "traceroute",
+        "group_id": 175268921,
+        "stored_timestamp": 1779931948
+    }
+]
