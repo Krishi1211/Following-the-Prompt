@@ -77,8 +77,8 @@ def plot_hops_per_isp(df, output_dir):
             llm_raw = data[data["llm"] == llm]
             
             fig.add_trace(go.Box(
-                x=llm_raw["starting_isp"],
-                y=llm_raw["hop_count"],
+                x=llm_raw["starting_isp"].tolist(),
+                y=llm_raw["hop_count"].tolist(),
                 name=llm,
                 marker_color=color,
                 boxmean="sd",

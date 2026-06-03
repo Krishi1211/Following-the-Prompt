@@ -42,7 +42,7 @@ def plot_common_as(df, output_dir):
         
         fig.add_trace(go.Bar(
             y=y_labels,
-            x=sub_df["total_appearances"],
+            x=sub_df["total_appearances"].tolist(),
             orientation="h",
             name=classification,
             marker_color=color,
@@ -72,7 +72,7 @@ def plot_common_as(df, output_dir):
         
         fig.add_trace(go.Bar(
             y=y_labels,
-            x=sub_df["total_appearances"],
+            x=sub_df["total_appearances"].tolist(),
             orientation="h",
             name=classification,
             marker_color=color,
@@ -99,6 +99,10 @@ def plot_common_as(df, output_dir):
             mask[idx] = True
         return mask
 
+    # Compute custom sort arrays for the Y-axis (reversed because Plotly renders bottom-to-top)
+    y_labels_app = [f"{row['asn']} ({row['org_name']})" for _, row in df_sorted_appearances.iterrows()][::-1]
+    y_labels_com = [f"{row['asn']} ({row['org_name']})" for _, row in df_sorted_commonality.iterrows()][::-1]
+
     fig.update_layout(
         title=dict(
             text="Common ASes Shared Across LLMs",
@@ -115,7 +119,8 @@ def plot_common_as(df, output_dir):
             title=dict(text="Autonomous System (ASN)", font=dict(color="white")),
             tickfont=dict(color="white"),
             gridcolor="rgba(255, 255, 255, 0.05)",
-            categoryorder="total ascending"
+            categoryorder="array",
+            categoryarray=y_labels_app
         ),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
@@ -141,12 +146,12 @@ def plot_common_as(df, output_dir):
                 yanchor="top",
                 buttons=[
                     dict(
-                        args=[{"visible": get_visibility_mask("app")}, {"yaxis.categoryorder": "total ascending"}],
+                        args=[{"visible": get_visibility_mask("app")}, {"yaxis.categoryarray": y_labels_app}],
                         label="Sort by Total Appearances",
                         method="update"
                     ),
                     dict(
-                        args=[{"visible": get_visibility_mask("com")}, {"yaxis.categoryorder": "trace"}],
+                        args=[{"visible": get_visibility_mask("com")}, {"yaxis.categoryarray": y_labels_com}],
                         label="Sort by Shared Commonality",
                         method="update"
                     )
