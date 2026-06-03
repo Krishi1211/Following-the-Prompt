@@ -129,7 +129,8 @@ def enrichFile(filePath, ipCache):
                 if ip and ip in ipCache:
                     packet["asn"]      = ipCache[ip]["asn"]
                     packet["org_name"] = ipCache[ip]["org_name"]
-    enrichedPath = filePath.replace("ripe_results_", "enriched_ripe_results_")
+    enrichedName = os.path.basename(filePath).replace("ripe_results_", "enriched_ripe_results_")
+    enrichedPath = os.path.join(os.path.dirname(filePath), enrichedName)
     with open(enrichedPath, "w") as f:
         json.dump(data, f, indent=4)
     print(f"  Saved → {enrichedPath}")
@@ -147,9 +148,9 @@ def main():
     orgIdToName, asnToOrgId = loadCaidaDataset(CAIDA_FILE)
 
     print("2. Collecting unique IPs from result files...")
-    jsonFiles = glob.glob(f"{DATA_DIR}/**/ripe_results_*.json", recursive=True)
+    jsonFiles = glob.glob(os.path.join(DATA_DIR, "**", "ripe_results_*.json"), recursive=True)
     if not jsonFiles:
-        print(f"[!] No raw RIPE result files found in {DATA_DIR}/")
+        print(f"[!] No raw RIPE result files found in {DATA_DIR}")
         return
 
     uniqueIps = collectUniqueIps(jsonFiles)
