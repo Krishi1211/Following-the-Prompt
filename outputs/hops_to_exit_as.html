@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIPE Atlas Traceroute Intelligence - First-Mile AS Exit Count</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #08080c;
+            --card-bg: rgba(21, 21, 30, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-glow: rgba(59, 130, 246, 0.15);
+            --accent-color: #3b82f6;
+            --font-display: 'Outfit', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        /* Dashboard Header */
+        header {
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .brand-icon {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            width: 2.2rem;
+            height: 2.2rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-family: var(--font-display);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .brand-name {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: -0.025em;
+            background: linear-gradient(to right, #ffffff, #9ca3af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-item {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.875rem;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+
+        .nav-item:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .nav-item.active {
+            color: #ffffff;
+            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.25);
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.05);
+        }
+
+        /* Dashboard Content Layout */
+        .dashboard-container {
+            max-width: 1600px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .dashboard-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Sidebar Info Panel */
+        .info-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .sidebar-title {
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #ffffff;
+            letter-spacing: -0.015em;
+        }
+
+        .sidebar-desc {
+            font-size: 0.925rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .info-heading {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 0.25rem;
+        }
+
+        .info-list {
+            list-style: none;
+            padding-left: 0;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .info-list li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.25rem;
+        }
+
+        .info-list li::before {
+            content: "•";
+            color: var(--accent-color);
+            position: absolute;
+            left: 0.25rem;
+            font-weight: bold;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-value {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            background: linear-gradient(135deg, #ffffff, #d1d5db);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Plot Container */
+        .plot-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+            min-height: 650px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+        /* Keep plotly sizing clean */
+        .plotly-graph-div {
+            min-height: 600px;
+        }
+
+        /* Tabs Styling */
+        .tabs-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .tab-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding-bottom: 0.75rem;
+        }
+        .tab-btn {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-secondary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: var(--font-body);
+        }
+        .tab-btn:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.06);
+        }
+        .tab-btn.active {
+            color: #ffffff;
+            background: rgba(59, 130, 246, 0.15);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand-container">
+            <div class="brand-icon">R</div>
+            <div class="brand-name">RIPE Route Intelligence Suite</div>
+        </div>
+        <nav>
+            <a class="nav-item " href="world_map.html">🌐 Route Map</a>
+<a class="nav-item " href="hops_per_isp.html">📊 Hop Counts</a>
+<a class="nav-item " href="rtt_per_isp_region.html">⚡ Latency Suite</a>
+<a class="nav-item " href="common_as.html">🤝 Shared Backbones</a>
+<a class="nav-item active" href="hops_to_exit_as.html">🚪 First-Mile AS Exit</a>
+
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <section class="info-sidebar">
+            <div class="sidebar-card">
+                <h1 class="sidebar-title">First-Mile AS Exit Count</h1>
+                <p class="sidebar-desc">Measures the average number of network hops required to leave the source ISP's autonomous system (ASN) toward each LLM service. Higher values indicate deeper routing paths inside the originator's internal backbone before handoff. Anomalies show traces that never exited the source ASN.</p>
+                
+                <h2 class="info-heading">Interactive Controls</h2>
+                <ul class="info-list">
+                    <li>Use the controls inside the plot frame to filter, sort, or zoom.</li>
+                    <li>Click items in the Plotly legend to hide/show specific trace categories.</li>
+                    <li>Double-click the plot to reset the view.</li>
+                </ul>
+            </div>
+            <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">US Probes Analyzed</div>
+                <div class="stat-value">126</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Avg Hops to Exit</div>
+                <div class="stat-value">2.74</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">AS Anomalies</div>
+                <div class="stat-value">0</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">Unique US ISPs</div>
+                <div class="stat-value">41</div>
+            </div>
+            </div>
+        </section>
+
+        <section class="plot-container">
+            <div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.5.0.min.js" integrity="sha256-fHbNLP+GlIXN+efbQec78UkemUz3NJp7UmfGxC1tNxs=" crossorigin="anonymous"></script>                <div id="7788aa6e-231e-4aa5-a52e-fbd6dc4392a8" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("7788aa6e-231e-4aa5-a52e-fbd6dc4392a8")) {                    Plotly.newPlot(                        "7788aa6e-231e-4aa5-a52e-fbd6dc4392a8",                        [{"error_y":{"array":[1.4142135623730951,2.1213203435596424,0,0,0,0,0,0,0.7071067811865476,0,0,0,0,0,0],"type":"data","visible":true},"marker":{"color":"#D97706"},"name":"Claude","x":["Cloudflare, Inc.","The Constant Company, LLC","Google LLC","LXXIX Project Lab LLC","CyberCloud Professionals LLC","Prall, Inc., David C","University of Alabama in Huntsville","Handy Networks, LLC","Inteliquent, inc.","WholeSale Internet, Inc.","Misaka Network, Inc.","CCT LLC","Hoopeston Area Schools","RGnet OU","WASHINGTON ELECTRIC COOPERATIVE, INC."],"y":[5.0,5.5,0,4.0,4.0,3.0,3.0,3.0,2.5,3.0,2.0,2.0,1.0,1.0,1.0],"type":"bar"},{"error_y":{"array":[0,2.1213203435596424,1.7320508075688772,0,0,0,0,0,0.7071067811865476,0,0,0,0,0,0],"type":"data","visible":true},"marker":{"color":"#2563EB"},"name":"Gemini","x":["Cloudflare, Inc.","The Constant Company, LLC","Google LLC","LXXIX Project Lab LLC","CyberCloud Professionals LLC","Prall, Inc., David C","University of Alabama in Huntsville","Handy Networks, LLC","Inteliquent, inc.","WholeSale Internet, Inc.","Misaka Network, Inc.","CCT LLC","Hoopeston Area Schools","RGnet OU","WASHINGTON ELECTRIC COOPERATIVE, INC."],"y":[0,5.5,4.0,3.0,3.0,3.0,3.0,3.0,2.5,3.0,2.0,1.0,1.0,1.0,1.0],"type":"bar"},{"error_y":{"array":[0.0,0.7071067811865476,0,0,0,0,0,0,0.7071067811865476,0,0,0,0,0,0],"type":"data","visible":true},"marker":{"color":"#16A34A"},"name":"ChatGPT","x":["Cloudflare, Inc.","The Constant Company, LLC","Google LLC","LXXIX Project Lab LLC","CyberCloud Professionals LLC","Prall, Inc., David C","University of Alabama in Huntsville","Handy Networks, LLC","Inteliquent, inc.","WholeSale Internet, Inc.","Misaka Network, Inc.","CCT LLC","Hoopeston Area Schools","RGnet OU","WASHINGTON ELECTRIC COOPERATIVE, INC."],"y":[6.0,4.5,0,4.0,3.0,3.0,3.0,2.0,2.5,1.0,2.0,2.0,1.0,1.0,1.0],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"title":{"font":{"size":20,"color":"white"},"text":"US Network Hops to Exit Source ISP AS","x":0.5,"y":0.95},"xaxis":{"title":{"font":{"color":"white"},"text":"Source ISP Name"},"tickfont":{"color":"white"},"tickangle":35,"gridcolor":"rgba(255, 255, 255, 0.05)"},"yaxis":{"title":{"font":{"color":"white"},"text":"Average Hops to Exit Source ASN"},"tickfont":{"color":"white"},"gridcolor":"rgba(255, 255, 255, 0.05)"},"font":{"color":"white"},"legend":{"font":{"color":"white"},"bgcolor":"rgba(10, 10, 15, 0.6)","bordercolor":"rgba(255, 255, 255, 0.2)"},"margin":{"l":60,"r":40,"t":100,"b":120},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","barmode":"group"},                        {"responsive": true}                    )                };            </script>        </div>
+        </section>
+    </main>
+
+    <script>
+        function switchView(viewId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active-content'));
+            
+            if (viewId === 'bar') {
+                const btn = document.querySelector('.tab-btn[data-view="bar"]');
+                if (btn) btn.classList.add('active');
+                const content = document.getElementById('view-bar');
+                if (content) content.classList.add('active-content');
+            } else if (viewId === 'heatmap') {
+                const btn = document.querySelector('.tab-btn[data-view="heatmap"]');
+                if (btn) btn.classList.add('active');
+                const content = document.getElementById('view-heatmap');
+                if (content) content.classList.add('active-content');
+            }
+            window.dispatchEvent(new Event('resize'));
+        }
+    </script>
+</body>
+</html>
