@@ -194,25 +194,83 @@ def compute_hops_to_exit_as(records, geo_cache):
         
     return pd.DataFrame(data)
 
+# Maps folder-derived country codes to ip-api.com country names for comparison
+_COUNTRY_NAME_MAP = {
+    "US": "United States",
+    "UK": "United Kingdom",
+    "France": "France",
+    "India": "India",
+    "Kenya": "Kenya",
+    "Pakistan": "Pakistan",
+    "South Africa": "South Africa",
+}
+
+def compute_country_exit(records, geo_cache):
+    """
+    Metric (e): For each traceroute, find the hop number where traffic first
+    leaves the source country. Records the exit hop, whether it ever exited,
+    and which foreign countries were transited.
+    """
+    data = []
+    for r in records:
+        source_country_code = r.get("country", "")
+        if not source_country_code or source_country_code == "unknown":
+            continue
+
+        source_country_geo = _COUNTRY_NAME_MAP.get(source_country_code, source_country_code)
+
+        exit_hop = None
+        transit_countries = []
+
+        for hop in r.get("hops", []):
+            for ip in hop.get("ips", []):
+                if is_private(ip):
+                    continue
+                geo = geo_cache.get(ip, {})
+                hop_country = geo.get("country")
+                if (hop_country and hop_country not in ("Unknown", "Private")
+                        and hop_country != source_country_geo):
+                    if exit_hop is None:
+                        exit_hop = hop["hop"]
+                    if hop_country not in transit_countries:
+                        transit_countries.append(hop_country)
+                    break
+
+        total_hops = sum(1 for h in r["hops"] if h.get("ips"))
+        never_exited = exit_hop is None
+
+        data.append({
+            "source_country": source_country_code,
+            "llm": r["llm"],
+            "exit_hop": exit_hop if exit_hop is not None else total_hops,
+            "never_exited": never_exited,
+            "transit_countries": "|".join(transit_countries),
+            "total_hops": total_hops,
+        })
+
+    return pd.DataFrame(data)
+
+
 def compute_all_metrics(records, geo_cache):
-    """
-    Computes all four metrics and returns a dictionary of DataFrames.
-    """
     print("Computing Metric (a): Hops per starting ISP...")
     df_a = compute_hops_per_isp(records, geo_cache)
-    
+
     print("Computing Metric (b): Total RTT per ISP per Region...")
     df_b = compute_rtt_per_isp(records, geo_cache)
-    
+
     print("Computing Metric (c): Common ASes across LLMs...")
     df_c = compute_common_as(records, geo_cache)
-    
-    print("Computing Metric (d): Hops to exit source ISP...")
+
+    print("Computing Metric (d): Hops to exit source ISP's AS...")
     df_d = compute_hops_to_exit_as(records, geo_cache)
-    
+
+    print("Computing Metric (e): Country boundary exit hops...")
+    df_e = compute_country_exit(records, geo_cache)
+
     return {
         "hops_per_isp": df_a,
         "rtt_per_isp": df_b,
         "common_as": df_c,
-        "hops_to_exit_as": df_d
+        "hops_to_exit_as": df_d,
+        "country_exit": df_e,
     }

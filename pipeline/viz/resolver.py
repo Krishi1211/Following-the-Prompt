@@ -5,11 +5,7 @@ import requests
 import subprocess
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.normpath(os.path.join(_HERE, "..", "..", ".."))
-# resolver.py lives at scripts/viz/resolver.py → root is three levels up
-# But VisualizeWorldMap.py sets sys.path to scripts/, so ROOT should be project root
-_SCRIPTS = os.path.normpath(os.path.join(_HERE, ".."))
-_PROJECT = os.path.normpath(os.path.join(_SCRIPTS, ".."))
+_PROJECT = os.path.normpath(os.path.join(_HERE, "..", ".."))
 CACHE_PATH = os.path.join(_PROJECT, "outputs", "geo_cache.json")
 CAIDA_FILE = os.path.join(_PROJECT, "latest.as-org2info.txt")
 
