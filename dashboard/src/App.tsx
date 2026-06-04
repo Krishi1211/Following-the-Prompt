@@ -7,16 +7,18 @@ import { HopsPerISP } from './components/HopsPerISP'
 import { RTTHeatmap } from './components/RTTHeatmap'
 import { CommonAS } from './components/CommonAS'
 import { HopsToExitAS } from './components/HopsToExitAS'
+import { CountryExit } from './components/CountryExit'
 import { LoadingState, ErrorState } from './components/LoadingState'
 
-type Tab = 'map' | 'hops' | 'rtt' | 'as' | 'exit'
+type Tab = 'map' | 'hops' | 'rtt' | 'as' | 'exit' | 'border'
 
 const TABS: { id: Tab; label: string; icon: string; desc: string }[] = [
-  { id: 'map',  label: 'Route Map',         icon: '🌐', desc: 'Interactive world map of traceroute paths' },
-  { id: 'hops', label: 'Hops per ISP',      icon: '📊', desc: 'Hop count by starting ISP per LLM' },
-  { id: 'rtt',  label: 'Latency / RTT',     icon: '⚡', desc: 'End-to-end RTT by ISP and region' },
-  { id: 'as',   label: 'Shared Backbone',   icon: '🔗', desc: 'Autonomous systems shared across LLMs' },
-  { id: 'exit', label: 'ISP Boundary',      icon: '🚪', desc: 'Hops to leave source ISP\'s network' },
+  { id: 'map',    label: 'Route Map',         icon: '🌐', desc: 'Traceroute paths by country / state' },
+  { id: 'hops',   label: 'Hops per ISP',      icon: '📊', desc: 'Hop count by starting ISP per LLM' },
+  { id: 'rtt',    label: 'Latency / RTT',     icon: '⚡', desc: 'End-to-end RTT by ISP and region' },
+  { id: 'as',     label: 'Shared Backbone',   icon: '🔗', desc: 'Autonomous systems shared across LLMs' },
+  { id: 'exit',   label: 'ISP Boundary',      icon: '🚪', desc: 'Hops to leave source ISP\'s network' },
+  { id: 'border', label: 'Country Boundary',  icon: '🗺️', desc: 'When and where traffic crosses country borders' },
 ]
 
 export default function App() {
@@ -148,11 +150,12 @@ export default function App() {
                   </div>
                 </div>
 
-                {activeTab === 'map'  && <WorldMap data={data.worldMap} />}
-                {activeTab === 'hops' && <HopsPerISP data={data.hopsPerISP} />}
-                {activeTab === 'rtt'  && <RTTHeatmap data={data.rttPerISP} />}
-                {activeTab === 'as'   && <CommonAS data={data.commonAS} />}
-                {activeTab === 'exit' && <HopsToExitAS data={data.hopsToExitAS} />}
+                {activeTab === 'map'    && <WorldMap data={data.worldMap} />}
+                {activeTab === 'hops'  && <HopsPerISP data={data.hopsPerISP} />}
+                {activeTab === 'rtt'   && <RTTHeatmap data={data.rttPerISP} />}
+                {activeTab === 'as'    && <CommonAS data={data.commonAS} />}
+                {activeTab === 'exit'  && <HopsToExitAS data={data.hopsToExitAS} />}
+                {activeTab === 'border' && <CountryExit data={data.countryExit} />}
               </div>
 
               {/* Quick nav cards at bottom */}

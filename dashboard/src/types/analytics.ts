@@ -16,7 +16,28 @@ export interface WorldMapTrace {
   texts: (string | null)[]
 }
 
-export type WorldMapData = Record<LLM, WorldMapTrace>
+/**
+ * Structure: { Claude: { US: { California: trace, Texas: trace, ... }, France: trace, ... } }
+ * US paths are nested one level deeper (by state).
+ * International paths sit directly under the country key.
+ */
+export type WorldMapData = Record<
+  LLM,
+  {
+    US?: Record<string, WorldMapTrace>
+    [country: string]: WorldMapTrace | Record<string, WorldMapTrace> | undefined
+  }
+>
+
+export interface CountryExitRow {
+  source_country: string
+  llm: LLM
+  mean_exit_hop: number
+  std_exit_hop: number
+  count: number
+  never_exited_count: number
+  top_transit_countries: string[]
+}
 
 export interface HopsPerISPRow {
   starting_isp: string
@@ -66,4 +87,5 @@ export interface AnalyticsData {
   rttPerISP: RTTPerISPRow[]
   commonAS: CommonASRow[]
   hopsToExitAS: HopsToExitASRow[]
+  countryExit: CountryExitRow[]
 }

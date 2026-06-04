@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import type { AnalyticsData, Summary, WorldMapData, HopsPerISPRow, RTTPerISPRow, CommonASRow, HopsToExitASRow } from '../types/analytics'
+import type { AnalyticsData, Summary, WorldMapData, HopsPerISPRow, RTTPerISPRow, CommonASRow, HopsToExitASRow, CountryExitRow } from '../types/analytics'
 
 async function fetchJSON<T>(path: string): Promise<T> {
   const res = await fetch(path)
@@ -15,7 +15,7 @@ export function useAnalyticsData() {
   useEffect(() => {
     const load = async () => {
       try {
-        const [summary, worldMap, hopsPerISP, rttPerISP, commonAS, hopsToExitAS] =
+        const [summary, worldMap, hopsPerISP, rttPerISP, commonAS, hopsToExitAS, countryExit] =
           await Promise.all([
             fetchJSON<Summary>('/data/summary.json'),
             fetchJSON<WorldMapData>('/data/world_map.json'),
@@ -23,8 +23,9 @@ export function useAnalyticsData() {
             fetchJSON<RTTPerISPRow[]>('/data/rtt_per_isp.json'),
             fetchJSON<CommonASRow[]>('/data/common_as.json'),
             fetchJSON<HopsToExitASRow[]>('/data/hops_to_exit_as.json'),
+            fetchJSON<CountryExitRow[]>('/data/country_exit.json'),
           ])
-        setData({ summary, worldMap, hopsPerISP, rttPerISP, commonAS, hopsToExitAS })
+        setData({ summary, worldMap, hopsPerISP, rttPerISP, commonAS, hopsToExitAS, countryExit })
       } catch (e) {
         setError(e instanceof Error ? e.message : 'Unknown error loading data')
       } finally {

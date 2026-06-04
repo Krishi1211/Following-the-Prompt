@@ -22,7 +22,7 @@ export function ErrorState({ message }: { message: string }) {
         <p className="text-red-400 font-medium">Failed to load data</p>
         <p className="text-gray-500 text-sm mt-1 max-w-md font-mono">{message}</p>
         <p className="text-gray-600 text-xs mt-3">
-          Run <code className="text-amber-500">python scripts/VisualizeWorldMap.py</code> first to generate data files.
+          Run <code className="text-amber-500">python3 pipeline/run.py</code> first to generate data files.
         </p>
       </div>
     </div>
