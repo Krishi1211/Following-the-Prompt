@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f14;
+    color: #e5e7eb;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card border border-border rounded-xl;
+    background: rgba(22, 22, 29, 0.85);
+    backdrop-filter: blur(12px);
+  }
+
+  .glow-claude {
+    box-shadow: 0 0 20px rgba(217, 119, 6, 0.15);
+  }
+  .glow-gemini {
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.15);
+  }
+  .glow-chatgpt {
+    box-shadow: 0 0 20px rgba(22, 163, 74, 0.15);
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 cursor-pointer;
+    @apply text-gray-400 hover:text-white hover:bg-white/5;
+  }
+  .nav-item.active {
+    @apply text-white bg-white/10;
+  }
+
+  .stat-number {
+    @apply text-3xl font-bold tracking-tight;
+  }
+
+  .chart-container {
+    @apply glass-card p-6;
+  }
+}
+
+/* Plotly overrides for dark theme */
+.js-plotly-plot .plotly .modebar {
+  background: transparent !important;
+}
+.js-plotly-plot .plotly .modebar-btn path {
+  fill: rgba(156, 163, 175, 0.6) !important;
+}
+.js-plotly-plot .plotly .modebar-btn:hover path {
+  fill: white !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a45;
+}
+
+/* Animated gradient header */
+.header-gradient {
+  background: linear-gradient(135deg, #0f0f14 0%, #12121a 50%, #0f0f14 100%);
+  border-bottom: 1px solid #2a2a35;
+}
+
+/* LLM accent lines */
+.llm-bar-claude { background: #D97706; }
+.llm-bar-gemini { background: #2563EB; }
+.llm-bar-chatgpt { background: #16A34A; }
+
+/* Pulse animation for loading */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
